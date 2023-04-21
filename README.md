@@ -1,2 +1,2 @@
 # python-datascience-course
-Bui Duc Manh 22022602
+Bui Duc Manh  22022602
