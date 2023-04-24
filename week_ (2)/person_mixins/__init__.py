@@ -1,0 +1,3 @@
+from person_mixins.person import Person
+from person_mixins.student_mixin import StudentMixin
+from person_mixins.teacher_mixin import TeacherMixin
