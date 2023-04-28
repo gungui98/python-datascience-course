@@ -18,7 +18,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install jupyter nbconvert requests numpy pandas matplotlib
+          pip install jupyter nbconvert requests numpy pandas matplotlib scipy seaborn scikit-learn
 
       - name: Check if work is done correctly in Week 1
         run: |
