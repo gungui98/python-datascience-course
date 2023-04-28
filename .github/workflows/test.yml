@@ -1,0 +1,40 @@
+name: Comment on PR when work is done
+on:
+  pull_request
+
+jobs:
+  comment-on-pr:
+    name: Comment on PR
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install dependencies
+        run: |
+          pip install jupyter nbconvert requests numpy pandas matplotlib scipy seaborn scikit-learn
+
+      - name: Check if work is done correctly in Week 1
+        run: |
+          python .github/workflows/test_notebook.py --week 1
+
+      - name: Check if work is done correctly in Week 2
+        run: |
+          python .github/workflows/test_notebook.py --week 2
+
+      - name: Check if work is done correctly in Week 3
+        run: |
+          python .github/workflows/test_notebook.py --week 3
+
+      # - name: PR comment with reactions
+      #   uses: thollander/actions-comment-pull-request@v2
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     message: |
+      #       Great job! All tests passed! :tada:
