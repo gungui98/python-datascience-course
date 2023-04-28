@@ -20,33 +20,18 @@ jobs:
         run: |
           pip install jupyter nbconvert requests numpy pandas matplotlib
 
-      - name: Check if work is done correctly
-        env:
-          PR_NUMBER: ${{ github.event.pull_request.number }}
-          GITHUB_REPOSITORY: ${{ github.repository }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Check if work is done correctly in Week 1
         run: |
-          python - <<EOF
-          import os
-          import glob
-          import subprocess
-          import requests
-          import json
+          python .github/workflows/test_notebook.py --week 1
 
-          notebook_files = glob.glob("**/*exercises*.ipynb") + glob.glob("**/*Exercises*.ipynb")
-          all_notebooks_passed = True
+      - name: Check if work is done correctly in Week 2
+        run: |
+          python .github/workflows/test_notebook.py --week 2
 
-          for notebook_file in notebook_files:
-              # Check if the notebook passes the tests
-              output = subprocess.run(["jupyter", "nbconvert", "--to", "html", "--execute", notebook_file], capture_output=True)
-              if output.returncode != 0:
-                  all_notebooks_passed = False
-                  print(f"The notebook {notebook_file} failed the tests.")
-                  print(output.stderr.decode("utf-8"))
-                  exit(1)
-          
-          EOF
-      
+      - name: Check if work is done correctly in Week 3
+        run: |
+          python .github/workflows/test_notebook.py --week 3
+
       - name: PR comment with reactions
         uses: thollander/actions-comment-pull-request@v2
         with:
