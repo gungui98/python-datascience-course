@@ -1,0 +1,54 @@
+name: Comment on PR when work is done
+on:
+  pull_request
+
+jobs:
+  comment-on-pr:
+    name: Comment on PR
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      - name: Install dependencies
+        run: |
+          pip install jupyter nbconvert requests
+
+      - name: Check if work is done correctly
+        env:
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<EOF
+          import os
+          import glob
+          import subprocess
+          import requests
+          import json
+
+          notebook_files = glob.glob("**/*exercises*.ipynb") + glob.glob("**/*Exercises*.ipynb")
+          all_notebooks_passed = True
+
+          for notebook_file in notebook_files:
+              # Check if the notebook passes the tests
+              output = subprocess.run(["jupyter", "nbconvert", "--to", "html", "--execute", notebook_file], capture_output=True)
+              if output.returncode != 0:
+                  all_notebooks_passed = False
+                  print(f"The notebook {notebook_file} failed the tests.")
+                  print(output.stderr.decode("utf-8"))
+                  exit(1)
+          
+          EOF
+      
+      - name: PR comment with reactions
+        uses: thollander/actions-comment-pull-request@v2
+        with:
+          message: |
+            Great job! All tests passed! :tada:
