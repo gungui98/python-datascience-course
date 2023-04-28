@@ -10,7 +10,8 @@ def get_args():
 if __name__ == "__main__":
     args = get_args()
     test_folder = f"week_ ({args.week})"
-    notebook_files = glob.glob(f"{test_folder}/*exercise*.ipynb")
+    notebook_files = glob.glob(f"{test_folder}/*exercise*.ipynb") + glob.glob(f"{test_folder}/*Exercise*.ipynb")
+    notebook_files = list(set(notebook_files))
     all_notebooks_passed = True
     print(f"Testing {len(notebook_files)} notebooks.")
     for notebook_file in notebook_files:
