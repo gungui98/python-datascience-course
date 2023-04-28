@@ -3,5 +3,5 @@ class Person:
         self.name = name
         self.age = age 
 
-    def  introduce(self):
+    def introduce(self):
         print(f"My name is {self.name} and I am {self.age} years old")
