@@ -6,7 +6,6 @@ jobs:
   comment-on-pr:
     name: Comment on PR
     runs-on: ubuntu-latest
-    permissions: write-all
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -32,8 +31,14 @@ jobs:
         run: |
           python .github/workflows/test_notebook.py --week 3
 
-      - name: PR comment with reactions
-        uses: thollander/actions-comment-pull-request@v2
-        with:
-          message: |
-            Great job! All tests passed! :tada:
+      - name: Check if work is done correctly in Week 4
+        run: |
+          python .github/workflows/test_notebook.py --week 4
+
+      # - name: PR comment with reactions
+      #   uses: thollander/actions-comment-pull-request@v2
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      #   with:
+      #     message: |
+      #       Great job! All tests passed! :tada:
