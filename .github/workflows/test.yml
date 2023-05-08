@@ -17,7 +17,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install jupyter nbconvert requests numpy pandas matplotlib scipy seaborn scikit-learn
+          pip install jupyter nbconvert requests numpy pandas matplotlib scipy seaborn scikit-learn pytest
 
       - name: Check if work is done correctly in Week 1
         run: |
@@ -34,6 +34,15 @@ jobs:
       - name: Check if work is done correctly in Week 4
         run: |
           python .github/workflows/test_notebook.py --week 4
+
+      - name: Check if work is done correctly in Week 5 (Part 1)
+        # for this week, we would use pytest to check if the work is done correctly
+        run: |
+          pytest "week_ (5)/boilerplate-mean-variance-standard-deviation-calculator-main"
+
+      - name: Check if work is done correctly in Week 5 (Part 2)
+        run: |
+          pytest "week_ (5)/boilerplate-demographic-data-analyzer-main"
 
       # - name: PR comment with reactions
       #   uses: thollander/actions-comment-pull-request@v2
