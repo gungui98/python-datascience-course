@@ -1,6 +1,6 @@
 import numpy as np
 
-def calculate(list):
+def calculate(L):
     if(len(L) != 9 ):
         raise ValueError("List must contain nine numbers.")
     L = np.array(L).reshape((3,3))
