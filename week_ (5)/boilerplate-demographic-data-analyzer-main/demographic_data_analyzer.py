@@ -6,10 +6,10 @@ def calculate_demographic_data(print_data=True):
     df = pd.read_csv('adult.data.csv')
 
     # How many of each race are represented in this dataset? This should be a Pandas series with race names as the index labels.
-    race_count = df.race.value_counts()
+    race_count = df['race'].value_counts()
 
     # What is the average age of men?
-    average_age_men = df.loc[(df['sex'] == 'Male'), 'age'].mean()
+    average_age_men = round(df.loc[(df['sex'] == 'Male'), 'age'].mean(), 1)
 
     # What is the percentage of people who have a Bachelor's degree?
     percentage_bachelors = round(df.loc[df['education'] == 'Bachelors'].shape[0]/df.shape[0]*100, 1) 
@@ -35,7 +35,7 @@ def calculate_demographic_data(print_data=True):
 
     # What country has the highest percentage of people that earn >50K?
     highest_earning_country = (df[df['salary'] == '>50K']['native-country'].value_counts() / df['native-country'].value_counts() * 100).fillna(0).sort_values(ascending = False).index[0]
-    highest_earning_country_percentage = round(df[(df['salary'] == '>50K') & (df['native-country'] == highest_earning_country)].count() / df[df['native-country'] == highest_earning_country]['salary'].count() * 100, 1)
+    highest_earning_country_percentage = round(df[(df['salary'] == '>50K') & (df['native-country'] == highest_earning_country)]['salary'].count() / df[df['native-country'] == highest_earning_country]['salary'].count() * 100, 1)
 
     # Identify the most popular occupation for those who earn >50K in India.
     top_IN_occupation = df[(df['native-country'] == 'India') & (df['salary'] == '>50K')]['occupation'].value_counts().index[0]
