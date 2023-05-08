@@ -11,9 +11,9 @@ def calculate(list):
          np.array(list[6:9])])
   
 
-          meanAx1 = mat.mean(axis=0).tolist()
-          meanAx2 = mat.mean(axis=1).tolist()
-          meanOva = mat.mean().tolist()
+        meanAx1 = mat.mean(axis=0).tolist()
+        meanAx2 = mat.mean(axis=1).tolist()
+        meanOva = mat.mean().tolist()
 
         varAx1 = mat.var(axis=0).tolist()
         varAx2 = mat.var(axis=1).tolist()
