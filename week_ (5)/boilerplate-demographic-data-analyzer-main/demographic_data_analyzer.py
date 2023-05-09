@@ -37,8 +37,7 @@ def calculate_demographic_data(print_data=True):
 
     # What country has the highest percentage of people that earn >50K?
     lmao = df[df['salary'] == '>50K']['native-country'].value_counts() / df['native-country'].value_counts() * 100
-lmao = lmao.sort_values(ascending=False)
-lmao
+    lmao = lmao.sort_values(ascending=False)
     highest_earning_country = lmao.index[0]
     highest_earning_country_percentage = round(lmao[0], 1)
 
