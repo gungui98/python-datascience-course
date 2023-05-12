@@ -18,33 +18,6 @@ def calculate_demographic_data(print_data=True):
     # What percentage of people without advanced education make more than 50K?
 
     # with and without `Bachelors`, `Masters`, or `Doctorate`
-<<<<<<< HEAD
-    higher_education = df["education"].isin(["Bachelors", "Masters", "Doctorate"])
-    lower_education = df["education"].isin(["Bachelors", "Masters", "Doctorate"]) == False
-
-    # percentage with salary >50K
-    higher_education_rich = round(len(df.loc[(higher_education) & (df["salary"] == '>50K')]) / len(df.loc[higher_education]) * 100, 1)
-    lower_education_rich = round(len(df.loc[(lower_education) & (df["salary"] == '>50K')]) / len(df.loc[lower_education]) * 100, 1)
-
-    # What is the minimum number of hours a person works per week (hours-per-week feature)?
-    min_work_hours = df["hours-per-week"].min()
-
-    # What percentage of the people who work the minimum number of hours per week have a salary of >50K?
-    condition = df["hours-per-week"] == min_work_hours
-    num_min_workers = len(df.loc[condition])
-    
-    rich_percentage = round(len(df.loc[(condition) & (df["salary"] == ">50K")]) / num_min_workers * 100, 1)
-    
-    # What country has the highest percentage of people that earn >50K?
-    riches = df.loc[df["salary"] == ">50K", "native-country"].value_counts() 
-    riches_percentage = (round(riches / df["native-country"].value_counts() * 100, 1)).sort_values(ascending=False)
-    highest_earning_country = riches_percentage.head(1).keys()[0]
-    highest_earning_country_percentage = riches_percentage.head(1)[0]
-
-    # Identify the most popular occupation for those who earn >50K in India.
-    condition = (df["native-country"] == "India") & (df["salary"] == ">50K")
-    top_IN_occupation = df.loc[condition, "occupation"].value_counts().sort_values(ascending=False).head(1).keys()[0]
-=======
     higher_education = None
     lower_education = None
 
@@ -66,7 +39,6 @@ def calculate_demographic_data(print_data=True):
 
     # Identify the most popular occupation for those who earn >50K in India.
     top_IN_occupation = None
->>>>>>> 525d56702a5550e7e07345bed05263e073c0727f
 
     # DO NOT MODIFY BELOW THIS LINE
 
