@@ -28,7 +28,9 @@ def draw_cat_plot():
 
 
     # Get the figure for the output
-    fig = sns.catplot(data=df_cat, x="variable", y="total", col="cardio", hue="value", kind="bar", height=8, aspect=1.2, errorbar=None)
+    g = sns.catplot(data=df_cat, x="variable", y="total", col="cardio", hue="value", kind="bar", height=8, aspect=1.2, errorbar=None)
+    g.set(xlabel = 'variable', ylabel = 'total')
+    fig = g.fig
 
     # Do not modify the next two lines
     fig.savefig('catplot.png')
