@@ -56,7 +56,7 @@ def draw_heat_map():
 
 
     # Set up the matplotlib figure
-    fig, ax = plt.subplots(figsize = (22, 10))
+    fig, ax = plt.subplots(figsize = (22, 20), dpi = 100)
 
     # Draw the heatmap with 'sns.heatmap()'
 	sns.heatmap(corr, mask = mask, annot = True, fmt = '.1f')
