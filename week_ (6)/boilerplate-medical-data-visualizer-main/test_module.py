@@ -36,7 +36,7 @@ class HeatMapTestCase(unittest.TestCase):
     def test_heat_map_labels(self):
         actual = []
         for label in self.ax.get_xticklabels():
-       		actual.append(label.get_text())
+        	actual.append(label.get_text())
         expected = ['id', 'age', 'sex', 'height', 'weight', 'ap_hi', 'ap_lo', 'cholesterol', 'gluc', 'smoke', 'alco', 'active', 'cardio', 'overweight']
         self.assertEqual(actual, expected, "Expected heat map labels to be 'id', 'age', 'sex', 'height', 'weight', 'ap_hi', 'ap_lo', 'cholesterol', 'gluc', 'smoke', 'alco', 'active', 'cardio', 'overweight'.")
     
