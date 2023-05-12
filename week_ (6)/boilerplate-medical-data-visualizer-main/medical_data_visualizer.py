@@ -26,11 +26,10 @@ def draw_cat_plot():
     
 
     # Draw the catplot with 'sns.catplot()'
-	plot = sns.catplot(data = df_cat, x = 'variable', y = 'total', hue = 'value', col = 'cardio', kind = 'bar')
+	fig = sns.catplot(data = df_cat, x = 'variable', y = 'total', hue = 'value', col = 'cardio', kind = 'bar').fig
 
 
-    # Get the figure for the output
-    fig = plot.fig
+    
 
 
     # Do not modify the next two lines
@@ -60,8 +59,8 @@ def draw_heat_map():
     fig, ax = plt.subplots(figsize = (22, 10))
 
     # Draw the heatmap with 'sns.heatmap()'
-	ax = sns.heatmap(corr, mask = mask, annot = True, fmt = '.1f')
-	fig = ax.get_figure()
+	sns.heatmap(corr, mask = mask, annot = True, fmt = '.1f')
+	
 
     # Do not modify the next two lines
     fig.savefig('heatmap.png')
