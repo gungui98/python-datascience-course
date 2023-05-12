@@ -21,13 +21,12 @@ def draw_cat_plot():
     vars = sorted(["cholesterol", "gluc", "smoke", "alco", "active", "overweight"])
     df_cat = pd.melt(df, id_vars=["cardio"], value_vars=vars,)
 
-    # Group and reformat the data to split it by 'cardio'. Show the counts of
-    # each feature. You will have to rename one of the columns for the catplot
+    # Group and reformat the data to split it by 'cardio'. Show the counts of each feature. You will have to rename one of the columns for the catplot
     # to work correctly.
     df_cat = df_cat.value_counts().reset_index(name="total")
 
     # Draw the catplot with 'sns.catplot()'
-    fig,ax = sns.catplot(data=df_cat, x="variable", y="total", hue="value", col="cardio", kind="bar", order= vars)
+    fig,ax = sns.catplot(data=df_cat, x="variable", y="total", hue="value", col="cardio", kind="bar")
     ax.set_ylabels("total")
     ax.set_xlabels("variable")
 
