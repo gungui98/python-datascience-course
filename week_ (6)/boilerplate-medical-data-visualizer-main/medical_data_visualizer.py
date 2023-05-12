@@ -4,7 +4,7 @@ import pandas as pd
 import seaborn as sns
 
 # Import data
-df = pd.read_csv('medical_examination.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/fuzzyray/medical-data-visualizer/main/medical_examination.csv')
 
 # Add 'overweight' column
 # Add 'overweight' column
