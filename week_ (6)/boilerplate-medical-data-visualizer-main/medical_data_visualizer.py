@@ -37,9 +37,11 @@ def draw_cat_plot():
 # Draw Heat Map
 def draw_heat_map():
     # Clean the data
-    df_heat = df[(df['height'] >= df['height'].quantile(0.025)) & (df['height'] <= df['height'].quantile(0.975))]
-    df_heat = df[(df['weight'] >= df['weight'].quantile(0.025)) & (df['weight'] <= df['weight'].quantile(0.975))]
-    df_heat = df[df['ap_lo'] <= df['ap_hi']]
+    df_heat = df[(df['ap_lo'] <= df['ap_hi'] )
+                 & (df['height'] >= df['height'].quantile(0.025)) 
+                 & (df['height'] <= df['height'].quantile(0.975)) 
+                 & (df['weight'] >= df['weight'].quantile(0.025)) 
+                 & (df['weight'] <= df['weight'].quantile(0.975))]
 
     # Calculate the correlation matrix
     corr = df_heat.corr()
@@ -53,10 +55,8 @@ def draw_heat_map():
     fig, ax = plt.subplots(figsize=(11, 9))
 
     # Draw the heatmap with 'sns.heatmap()'
-    fig = sns.heatmap(corr, mask=mask, cmap='coolwarm', center=0,
-            square=True, annot=True, fmt='.1f', annot_kws={"color": "black"})
-
-    # Do not modify the next two lines
+    ax = sns.heatmap(corr, mask=mask, annot=True, fmt='.1f')
     fig = fig.get_figure()
+    # Do not modify the next two lines
     fig.savefig('heatmap.png')
     return fig
