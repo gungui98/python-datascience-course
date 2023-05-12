@@ -11,6 +11,9 @@ df['BMI'] = df['weight']/((df['height']**2)/10000)
 df['overweight'] = 0
 df.loc[df['BMI'] > 25,'overweight'] = 1
 
+
+
+
 # Normalize data by making 0 always good and 1 always bad. If the value of 'cholesterol' or 'gluc' is 1, make the value 0. If the value is more than 1, make the value 1.
 df.loc[df['cholesterol'] == 1,'cholesterol'] = 0
 df.loc[df['cholesterol'] > 1,'cholesterol'] = 1
