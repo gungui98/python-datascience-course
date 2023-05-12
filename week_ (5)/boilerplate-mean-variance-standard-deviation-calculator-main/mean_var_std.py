@@ -1,6 +1,7 @@
 import numpy as np
 
 def calculate(list):
+<<<<<<< HEAD
     list = list [ : 9]
     if len(list) != 9: 
       raise ValueError("List must contain nine numbers.")
@@ -41,3 +42,6 @@ def calculate(list):
       }
       
       return calculations
+=======
+    return calculations
+>>>>>>> 5d6a076483c1944b3a098e2c5e8539249fc82459
