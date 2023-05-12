@@ -26,12 +26,11 @@ def draw_cat_plot():
     df_cat = df_cat.value_counts().reset_index(name="total")
 
     # Draw the catplot with 'sns.catplot()'
-    fig,ax = sns.catplot(data=df_cat, x="variable", y="total", hue="value", col="cardio", kind="bar")
-    ax.set_ylabels("total")
-    ax.set_xlabels("variable")
+    fig = sns.catplot(data=df_cat, kind="bar", x="variable", y="total", hue="value", col="cardio")
+    fig = fig.fig
 
     # Do not modify the next two lines
-    fig.savefig("catplot.png")
+    fig.savefig('catplot.png')
     return fig
 
 # Draw Heat Map
