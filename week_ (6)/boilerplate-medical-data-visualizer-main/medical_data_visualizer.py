@@ -24,8 +24,8 @@ def draw_cat_plot():
     df_cat = df_cat.rename(columns={'size': 'total'})
     
     # Draw the catplot with 'sns.catplot()'
-    fig = sns.catplot(data=df_cat, x='variable', y='total', hue='value', kind='bar', col='cardio')
-    
+    g = sns.catplot(data=df_cat, x='variable', y='total', hue='value', kind='bar', col='cardio')
+    fig = g.fig
     
     # Get the figure for the output
 
