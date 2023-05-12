@@ -7,8 +7,8 @@ import numpy as np
 df = pd.read_csv('medical_examination.csv')
 
 # Add 'overweight' column
-bmi = df['weight'] / ((df['height'] / 100)**2)
-df['overweight'] = bmi.apply(lambda x: 1 if x > 25 else 0)
+
+df['overweight'] = (df['weight'] / ((df['height'] / 100)**2) > 25).astype(int)
 
 # Normalize data by making 0 always good and 1 always bad. If the value of 'cholesterol' or 'gluc' is 1, make the value 0. If the value is more than 1, make the value 1.
 df['cholesterol'] = (df['cholesterol'] > 1).astype(int)
@@ -57,11 +57,11 @@ def draw_heat_map():
 
 
     # Set up the matplotlib figure
-    fig, ax = plt.subplots(figsize = (22, 10), dpi = 100)
+    fig, ax = plt.subplots(figsize = (22, 10))
 
     # Draw the heatmap with 'sns.heatmap()'
-	sns.heatmap(corr, mask = mask, annot = True, fmt = '.1f')
-
+	ax = sns.heatmap(corr, mask = mask, annot = True, fmt = '.1f')
+	fig = ax.get_figure()
 
     # Do not modify the next two lines
     fig.savefig('heatmap.png')
