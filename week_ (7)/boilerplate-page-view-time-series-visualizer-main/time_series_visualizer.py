@@ -29,15 +29,18 @@ def draw_line_plot():
 def draw_bar_plot():
   # Copy and modify data for monthly bar plot
   df_bar = df.copy()
-  df_bar['Years'] = df_bar.index.year
+  df_bar['year'] = df_bar.index.year
   df_bar['month'] = df_bar.index.month
-  df_bar = df_bar.groupby(['Years', 'month']).mean().reset_index()
+  df_bar = df_bar.groupby(['year', 'month']).mean().reset_index()
 
   # Draw bar plot
-  fig = sns.barplot(data=df_bar, x='Years', y='value', hue='month')
-  fig.set_xlabel("Con Cac")
+  fig = sns.barplot(data=df_bar, x='year', y='value', hue='month')
+  fig.set_xlabel("Years")
   fig.set_ylabel("Average Page Views")
   fig.set_title("Months")
+  legend_labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+  handles, labels = fig.get_legend_handles_labels()
+  fig.legend(handles, legend_labels, title="Months")
   # Save image and return fig (don't change this part)
   fig = fig.get_figure()
   fig.savefig('bar_plot.png')
@@ -60,7 +63,8 @@ def draw_box_plot():
   axes[1].set_xlabel("Month")
   axes[1].set_ylabel("Page Views")
   axes[1].set_title("Month-wise Box Plot (Seasonality)")
-
+  month_labels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+  axes[1].set_xticklabels(month_labels)
   # Save image and return fig (don't change this part)
   fig.savefig('box_plot.png')
   return fig
