@@ -18,6 +18,9 @@ def draw_line_plot():
     # Draw line plot
     fig, ax = plt.subplots(figsize= (10,5))
     sns.lineplot(data=df, c = 'r')
+    ax.set_title("Daily freeCodeCamp Forum Page Views 5/2016-12/2019")
+    ax.set_xlabel("Date")
+    ax.set_ylabel("Page Views")
 
 
     # Save image and return fig (don't change this part)
@@ -37,7 +40,9 @@ def draw_bar_plot():
 
 
     # Draw bar plot
-    fig, ax = plt.subplots(figsize=(19.2, 10.8), dpi=100)
+    fig, ax = plt.subplots(figsize=(19, 10))
+    ax.set_xlabel("Years")
+    ax.set_ylabel("Average Page Views")
     sns.barplot(df_bar, x= 'year', hue='month', y='value', palette='tab10')
 
 
@@ -62,8 +67,13 @@ def draw_box_plot():
     fig, axes = plt.subplots(1, 2, figsize=(32, 10))
     
     sns.boxplot(df_box, x='month', y='value', ax = axes[1])
+    axes[1].set_xlabel("Month")
+    axes[1].set_ylabel("Page Views")
 
     sns.boxplot(df_box, x='year', y='value', ax = axes[0])
+    axes[0].set_xlabel("Year")
+    axes[0].set_ylabel("Page Views")
+    
 
 
 
