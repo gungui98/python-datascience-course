@@ -34,15 +34,15 @@ def draw_bar_plot():
   df_bar = df_bar.groupby(['year', 'month']).mean().reset_index()
 
   # Draw bar plot
-  fig = sns.barplot(data=df_bar, x='year', y='value', hue='month')
-  fig.set_xlabel("Years")
-  fig.set_ylabel("Average Page Views")
-  fig.set_title("Months")
+  ax = sns.barplot(data=df_bar, x='year', y='value', hue='month')
+  ax.set_xlabel("Years")
+  ax.set_ylabel("Average Page Views")
+  ax.set_title("Months")
   legend_labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
-  handles, labels = fig.get_legend_handles_labels()
-  fig.legend(handles, legend_labels, title="Months")
+  handles, labels = ax.get_legend_handles_labels()
+  ax.legend(handles, legend_labels, title="Months")
   # Save image and return fig (don't change this part)
-  fig = fig.get_figure()
+  fig = ax.get_figure()
   fig.savefig('bar_plot.png')
   return fig
 
