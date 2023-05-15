@@ -13,11 +13,11 @@ df = df.loc[(df['value'] >= df['value'].quantile(0.025)) & (df['value'] <= df['v
 
 def draw_line_plot():
     # Draw line plot
-    fig, ax = plt.subplots(figsize=(24, 10))
-    ax.set_title('Daily freeCodeCamp Forum Page Views 5/2016-12/2019')
+    fig, ax = plt.subplots(figsize=(32, 10), dpi=100)
+    ax.set_title("Daily freeCodeCamp Forum Page Views 5/2016-12/2019")
     ax.set_xlabel("Date")
     ax.set_ylabel("Page Views")
-    sns.lineplot(data=df.value, c='r')
+    sns.lineplot(data=df, legend=False)
     
 
 
@@ -30,25 +30,26 @@ def draw_line_plot():
 def draw_bar_plot():
     # Copy and modify data for monthly bar plot
     
-    df_bar=df.copy()
-    df_bar['Year']=df_bar.index.year
-    df_bar['Month']=df_bar.index.month_name()
-    df_bar['month_number']=df_bar.index.month
-    df_bar=df_bar.groupby(['Year','Month'], sort=False).mean().reset_index().sort_values(['month_number'])
+    df_bar = df.copy()
+    df_bar["Years"] = df_bar.index.year
+    df_bar["Months"] = df_bar.index.month_name()
+    df_bar = pd.DataFrame(df_bar.groupby(["Years", "Months"], sort=False)["value"].mean().round().astype(int))
+    df_bar = df_bar.rename(columns={"value": "Average Page Views"})
+    df_bar = df_bar.reset_index()
+    missing_data = {
+        "Years": [2016, 2016, 2016, 2016],
+        "Months": ['January', 'February', 'March', 'April'],
+        "Average Page Views": [0, 0, 0, 0]
+    }
 
-    fig=plt.figure(figsize=(20,10))
-    sns.barplot(data=df_bar, x='Year', hue = 'Month', y='value', ci = None)
-    plt.xlabel('Years')
-    plt.ylabel('Average Page View')
+    df_bar = pd.concat([pd.DataFrame(missing_data), df_bar])
 
     # Draw bar plot
+    fig, ax = plt.subplots(figsize=(19.2, 10.8), dpi=100)
+    ax.set_title("Daily freeCodeCamp Forum Average Page Views per Month")
 
-
-
-
-
-    # Save image and return fig (don't change this part)
-    fig.savefig('bar_plot.png')
+    chart = sns.barplot(data=df_bar, x="Years", y="Average Page Views", hue="Months", palette="tab10")
+    chart.set_xticklabels(chart.get_xticklabels(), rotation=90, horizontalalignment='center')
     return fig
 
 def draw_box_plot():
@@ -73,7 +74,9 @@ def draw_box_plot():
     axes[1].set_xlabel("Month")
     axes[1].set_ylabel("Page Views")
 
+
     # Draw box plots (using Seaborn)
+    
 
 
 
