@@ -44,7 +44,7 @@ def draw_bar_plot():
   # Save image and return fig (don't change this part)
   fig = ax.get_figure()
   fig.savefig('bar_plot.png')
-  return fig
+  return ax
 
 
 def draw_box_plot():
