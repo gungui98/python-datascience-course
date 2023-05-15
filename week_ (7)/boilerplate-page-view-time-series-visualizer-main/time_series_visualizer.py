@@ -45,6 +45,7 @@ def draw_bar_plot():
     sns.barplot(df_bar, x= 'year', hue='month', y='value', palette='tab10')
     ax.set_xlabel("Years")
     ax.set_ylabel("Average Page Views")
+    ax.set_title("Daily freeCodeCamp Forum Average Page Views per Month")
 
 
 
@@ -70,10 +71,12 @@ def draw_box_plot():
     sns.boxplot(df_box, x='month', y='value', ax = axes[1])
     axes[1].set_xlabel("Month")
     axes[1].set_ylabel("Page Views")
+    axes[1].set_title("Month-wise Box Plot (Seasonality)")
 
     sns.boxplot(df_box, x='year', y='value', ax = axes[0])
     axes[0].set_xlabel("Year")
     axes[0].set_ylabel("Page Views")
+    axes[0].set_title("Year-wise Box Plot (Trend)")
     
 
 
