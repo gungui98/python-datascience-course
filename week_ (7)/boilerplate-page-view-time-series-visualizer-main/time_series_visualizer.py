@@ -34,6 +34,7 @@ def draw_bar_plot():
   df_bar = df_bar.groupby(['year', 'month']).mean().reset_index()
 
   # Draw bar plot
+  fig, ax = plt.subplots(figsize = (10, 6))
   ax = sns.barplot(data=df_bar, x='year', y='value', hue='month')
   ax.set_xlabel("Years")
   ax.set_ylabel("Average Page Views")
@@ -42,9 +43,8 @@ def draw_bar_plot():
   handles, labels = ax.get_legend_handles_labels()
   ax.legend(handles, legend_labels, title="Months")
   # Save image and return fig (don't change this part)
-  fig = ax.get_figure()
   fig.savefig('bar_plot.png')
-  return ax
+  return fig
 
 
 def draw_box_plot():
