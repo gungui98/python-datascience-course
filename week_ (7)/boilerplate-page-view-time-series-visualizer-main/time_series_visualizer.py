@@ -5,7 +5,7 @@ from pandas.plotting import register_matplotlib_converters
 register_matplotlib_converters()
 
 # Import data (Make sure to parse dates. Consider setting index column to 'date'.)
-df = pd.read_csv('fcc-forum-pageviews.csv')
+df = pd.read_csv('fcc-forum-pageviews.csv', index_col='date', parse_dates=True)
 
 # Clean data
 df = df[(df['value'] >= df['value'].quantile(0.025)) & (df['value'] <= df['value'].quantile(0.975))]
@@ -35,7 +35,7 @@ def draw_bar_plot():
     # Draw bar plot
     fig = plt.figure(figsize=(10,15))
     barplot = sns.barplot(data=df_bar, x = 'Years', hue = 'Month', y = 'Average Page Views')
-    plt.title('Month')
+    plt.title('Months')
 
     # Save image and return fig (don't change this part)
     fig.savefig('bar_plot.png')
@@ -56,8 +56,7 @@ def draw_box_plot():
     axes[0].set_ylabel('Page Views')
     axes[0].set_title('Year-wise Box Plot (Trend)')
 
-    months_order = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 
-                    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+    months_order = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
     sns.boxplot(x='month', y='value', data=df_box, order=months_order, ax=axes[1])
     axes[1].set_xlabel('Month')
     axes[1].set_ylabel('Page Views')
