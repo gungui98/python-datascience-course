@@ -28,7 +28,7 @@ def draw_line_plot():
 def draw_bar_plot():
     # Copy and modify data for monthly bar plot
     tmp = pd.DataFrame()
-    tmp = pd.DataFrame(df_bar.groupby(["Years", "Months"]).mean().round())
+    tmp = pd.DataFrame(df_bar.groupby(["Years", "Months"],sort=False).mean().round())
     tmp = tmp.reset_index()
 
     missing_data = {
