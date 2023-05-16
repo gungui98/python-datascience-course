@@ -41,16 +41,12 @@ def draw_bar_plot():
     df_bar = pd.concat([pd.DataFrame(missing_data), df_bar])
 
     # Draw bar plot
-    g = sns.catplot(
-        data=df_bar, kind="bar",
-        x="year", y="value", hue="month",
-        errorbar=None, palette="dark", alpha=.6, height=6, legend="Months"
-    )
-    g.set_xlabels('Years') # not set_label
-    g.set_ylabels('Average Page Views')
-    g._legend.set_title("Months")
-
-    fig = g.fig
+    fig, ax = plt.subplots(figsize=(32, 16))
+    g = sns.barplot(
+        data=df_bar, x="year", y="value", hue="month",
+        ci=None)
+    ax.set(xlabel='Years', ylabel='Average Page Views')
+    ax.legend(title = "Months")
 
 
     # Save image and return fig (don't change this part)
