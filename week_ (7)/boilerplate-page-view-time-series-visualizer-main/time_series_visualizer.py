@@ -44,7 +44,7 @@ def draw_bar_plot():
     g = sns.catplot(
         data=df_bar, kind="bar",
         x="year", y="value", hue="month",
-        ci=None, palette="dark", alpha=.6, height=6, legend="Months"
+        errorbar=None, palette="dark", alpha=.6, height=6, legend="Months"
     )
     g.set_xlabels('Years') # not set_label
     g.set_ylabels('Average Page Views')
