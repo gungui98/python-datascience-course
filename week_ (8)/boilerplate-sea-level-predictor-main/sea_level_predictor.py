@@ -20,7 +20,8 @@ def draw_plot():
 
     # Add labels and title
     plt.xlabel('Year')
-    plt.ylabel('Sea Level')
+    plt.ylabel('Sea Level (inches)')
+    plt.ylabel('Rise in Sea Level')
     
     # Save plot and return data for testing (DO NOT MODIFY)
     plt.savefig('sea_level_plot.png')
