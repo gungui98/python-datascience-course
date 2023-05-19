@@ -20,7 +20,7 @@ def draw_plot():
     #get the x value
     x = df['Year']
     #get the x for the linear plot
-    futX = x.concat(extra_years)
+    futX= x.append(extra_years, ignore_index= True)
     
     #plot the linear plot of futX and y given mx + b
     plt.plot(futX, slope*futX + y_int)
@@ -38,7 +38,7 @@ def draw_plot():
     #get the x for the second scatter plot
     x2 = modern['Year']
     #get the futX based on the additional years needed
-    futX2 = x2.concat(extra_years)
+    futX2 = x2.append(extra_years,ignore_index= True)
 
     #plot the line of best fit
     plt.plot(futX2, modSlope * futX2 + mody_int)
