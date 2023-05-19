@@ -4,42 +4,27 @@ from scipy.stats import linregress
 
 def draw_plot():
     # Read data from file
-    df = pd.read_csv("https://raw.githubusercontent.com/fuzzyray/sea-level-predictor/main/epa-sea-level.csv")
+    df = pd.read_csv('https://raw.githubusercontent.com/Binhdn04/python-datascience-course/master/week_%20(8)/boilerplate-sea-level-predictor-main/epa-sea-level.csv')
 
     # Create scatter plot
-    fig, ax = plt.subplots(figsize=(16, 9))
-    plt.scatter(df["Year"], df["CSIRO Adjusted Sea Level"])
+    plt.scatter(df['Year'], df['CSIRO Adjusted Sea Level'])
 
     # Create first line of best fit
-    result = linregress(df["Year"], df["CSIRO Adjusted Sea Level"])
-    start_year = df["Year"].min()
-    end_year = 2050
-    best_fit_data = {
-        "Year": [],
-        "y_value": []
-    }
-    for year in range(start_year, end_year):
-        best_fit_data["Year"] = [year for year in range(start_year, end_year)]
-        best_fit_data["y_value"] = [result.slope * year + result.intercept for year in range(start_year, end_year)]
-    
-    plt.plot(best_fit_data["Year"], best_fit_data["y_value"], 'r')
+    lr_1880_2012 = linregress(df['Year'],https://raw.githubusercontent.com/Binhdn04/python-datascience-course/master/week_%20(8)/boilerplate-sea-level-predictor-main/epa-sea-level.csv df['CSIRO Adjusted Sea Level'])
+    plt.plot(range(1880, 2051, 1), lr_1880_2012.slope * range(1880, 2051, 1) + lr_1880_2012.intercept)
 
     # Create second line of best fit
-    start_year = 2000
-    end_year = 2050
-    result = linregress(df.loc[df["Year"] >= start_year]["Year"], df.loc[df["Year"] >= start_year]["CSIRO Adjusted Sea Level"])
-    for year in range(start_year, end_year):
-        best_fit_data["Year"] = [year for year in range(start_year, end_year)]
-        best_fit_data["y_value"] = [result.slope * year + result.intercept for year in range(start_year, end_year)]
-    
-    plt.plot(best_fit_data["Year"], best_fit_data["y_value"], 'g')
-    
+    lr_2000_2012 = linregress(df.query('Year >= 2000')['Year'], 
+                              df.query('Year >= 2000')['CSIRO Adjusted Sea Level'])
+    plt.plot(range(2000, 2051, 1), lr_2000_2012.slope * range(2000, 2051, 1) + lr_2000_2012.intercept)
 
     # Add labels and title
-    ax.set_title("Rise in Sea Level")
-    ax.set_xlabel("Year")
-    ax.set_ylabel("Sea Level (inches)")
+    plt.title('Rise in Sea Level')
+    plt.ylabel('Sea Level (inches)')
+    plt.xlabel('Year')
     
     # Save plot and return data for testing (DO NOT MODIFY)
     plt.savefig('sea_level_plot.png')
     return plt.gca()
+
+draw_plot();
