@@ -20,7 +20,6 @@ def draw_line_plot():
     ax.set_xlabel("Date")    
     ax.set_ylabel("Page Views")
     sns.lineplot(df,x = 'date',y = 'value',color = 'r')
-
     # Save image and return fig (don't change this part)
     fig.savefig('line_plot.png')
     return fig
