@@ -54,7 +54,12 @@ jobs:
       - name: Check if work is done correctly in Week 7
         working-directory: week_ (7)/boilerplate-page-view-time-series-visualizer-main
         run: |
-          pytest 
+          pytest
+      
+      - name: Check if work is done correctly in Week 8
+        working-directory: week_ (8)/boilerplate-sea-level-predictor-main
+        run: |
+          pytest
 
       # - name: PR comment with reactions
       #   uses: thollander/actions-comment-pull-request@v2
