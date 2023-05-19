@@ -11,18 +11,18 @@ def draw_plot():
     plt.scatter(df['Year'], df['CSIRO Adjusted Sea Level'])
 
     # Create first line of best fit
-    model = linregress(df['Year'], df['CSIRO Adjusted Sea Level'])
+    lineA = linregress(df['Year'], df['CSIRO Adjusted Sea Level'])
     xA = np.arange(df['Year'].min(),2050,1)
-    yA = xA*model.slope + model.intercept
+    yA = xA*lineA.slope + lineA.intercept
 
     plt.plot(xA,yA)
 
     # Create second line of best fit
     df_2000 = df[df['Year'] >= 2000]
 
-    model2 = linregress(df_2000['Year'], df_2000['CSIRO Adjusted Sea Level'])
+    lineB = linregress(df_2000['Year'], df_2000['CSIRO Adjusted Sea Level'])
     xB = np.arange(2000,2050,1)
-    yB = xB*model2.slope + model2.intercept
+    yB = xB*lineB.slope + lineB.intercept
 
     plt.plot(xB,yB)
 
