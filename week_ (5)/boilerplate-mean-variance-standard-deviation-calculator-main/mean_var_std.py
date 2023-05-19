@@ -1,5 +1,4 @@
 import numpy as np
-<<<<<<< HEAD
  
 def calculate(list):
     list = list [ : 9]
@@ -42,8 +41,3 @@ def calculate(list):
       }
  
       return calculations
-=======
-
-def calculate(list):
-    return calculations
->>>>>>> 525d56702a5550e7e07345bed05263e073c0727f
