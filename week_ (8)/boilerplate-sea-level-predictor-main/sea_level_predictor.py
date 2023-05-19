@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import linregress
 
 def draw_plot():
-    df = pd.read_csv("/home/quydang/my_project/da-python/python-datascience-course/week_ (8)/boilerplate-sea-level-predictor-main/epa-sea-level.csv", float_precision="legacy")
+    df = pd.read_csv("epa-sea-level.csv", float_precision="legacy")
 
     # Create scatter plot
     plt.figure(1, figsize=(16, 9))
