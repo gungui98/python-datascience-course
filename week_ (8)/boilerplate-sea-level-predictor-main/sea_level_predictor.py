@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from scipy.stats import linregress
 
 def draw_plot():
-    df = pd.read_csv("epa-sea-level.csv", float_precision="legacy")
+    df = pd.read_csv("/home/quydang/my_project/da-python/python-datascience-course/week_ (8)/boilerplate-sea-level-predictor-main/epa-sea-level.csv", float_precision="legacy")
 
     # Create scatter plot
     plt.figure(1, figsize=(16, 9))
@@ -13,7 +13,7 @@ def draw_plot():
     line = linregress(df["Year"], df["CSIRO Adjusted Sea Level"])
     last_year = df["Year"].max()+1
     value = df['Year'] 
-    value = value.append(pd.Series([y for y in range(last_year, 2051)]))
+    value = pd.concat([value, pd.Series([y for y in range(last_year, 2051)])], axis=0)
     plt.plot(value,line.intercept + line.slope *value)
 
     # Create second line of best fit
