@@ -4,13 +4,13 @@ from scipy.stats import linregress
 
 def draw_plot():
     # Read data from file
-    df = pd.read_csv('https://raw.githubusercontent.com/Binhdn04/python-datascience-course/master/week_%20(8)/boilerplate-sea-level-predictor-main/epa-sea-level.csv')
+    df = pd.read_csv('/work/epa-sea-level.csv')
 
     # Create scatter plot
     plt.scatter(df['Year'], df['CSIRO Adjusted Sea Level'])
 
     # Create first line of best fit
-    lr_1880_2012 = linregress(df['Year'],https://raw.githubusercontent.com/Binhdn04/python-datascience-course/master/week_%20(8)/boilerplate-sea-level-predictor-main/epa-sea-level.csv df['CSIRO Adjusted Sea Level'])
+    lr_1880_2012 = linregress(df['Year'], df['CSIRO Adjusted Sea Level'])
     plt.plot(range(1880, 2051, 1), lr_1880_2012.slope * range(1880, 2051, 1) + lr_1880_2012.intercept)
 
     # Create second line of best fit
