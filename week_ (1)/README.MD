@@ -16,6 +16,6 @@ This course is about the basics of programming. We will be using the Python prog
 
 ### Exercise 
 
-- Basic: [Exercies Basic](Exercises.ipynb)
-- Exercise 2: [Exercise 2](Exercises_1.ipynb)
-- Exercise 3: [Exercise 3](Exercises_2.ipynb)
+- Basic: [Exercies 1](Exercise.ipynb)
+- Exercise 2: [Exercise 2](Exercise_2.ipynb)
+- Exercise 3: [Exercise 3](Exercise_3.ipynb)

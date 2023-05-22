@@ -4,7 +4,7 @@ class Person:
         self.last_name = last_name
         self.age = age 
 
-    def  get_full_name(self):
+    def get_full_name(self):
         return f"{self.first_name} {self.last_name}"
     
     def __str__(self):
@@ -23,4 +23,3 @@ class Student(Person):
     
     def print_student_id(self):
         print(self.student_id)
-    
