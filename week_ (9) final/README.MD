@@ -1,11 +1,11 @@
-# Assignment Title: GitHub Commit Analysis
+# Assignment Title: GitHub Pull Request Commit Analysis
 
 Submission page: [Notion](https://www.notion.so/Report-submission-711dd299e701456dac8e100c1b9b4959?pvs=4)
 Deadline: 11:59 PM on June 5, 2023.
 # Objective:
 The aim of this assignment is to make students proficient in working with the GitHub API, extracting data, and performing data analysis. By the end of this assignment, students should be able to:
 
-Use the GitHub API to extract commit data from a repository.
+Use the GitHub API to extract PR commit data from a repository.
 Analyze and visualize the data using suitable tools and techniques.
 Interpret the results and draw conclusions from their analysis.
 Assignment Brief:
