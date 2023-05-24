@@ -4,31 +4,38 @@ from scipy.stats import linregress
 
 def draw_plot():
     # Read data from file
-    df = pd.read_csv('/work/epa-sea-level.csv')
-    x = df['CSIRO Adjusted Sea Level']
-    y = df["Year"]
+    df = pd.read_csv('epa-sea-level.csv')
+
     # Create scatter plot
-    fig, ax = plt.subplots()
-    plt.scatter(x, y)
+    x = df['Year']
+    y = df['CSIRO Adjusted Sea Level']
+    fig, ax = plt.subplots(figsize=(6,6))
+    ax = plt.scatter(x, y)
+
 
     # Create first line of best fit
-    res = linregress(x, y)
-    x_prediction = pd.Series([i for i in range (1880, 2051)])
-    y_prediction = res.slope*x_prediction + res.intercept
-    plt.plot(x_prediction, y_prediction, "r")
-    # Create second line of best fit
-    new_df = df.loc[df['Year'] >= 2000]
-    new_x = new_df['Year']
-    new_y = new_df["CSIRO Adjusted Sea Level"]
-    n_res = linregress(new_x, new_y)
-    x_pred2 = pd.Series([i for i in range (2000,2051)])
-    y_pred2 = n_res.slope*x_pred2 + n_res.intercept
-    plt.plot(x_pred2, y_pred2, 'green')
-    # Add labels and title
-    ax.set_xlabel('Year')
-    ax.set_ylabel('Sea Level (inches)')
-    ax.set_title('Rise in Sea Level')
+    slope, intercept, r_value, p_value, stderr = linregress(x, y)
+    x_pred = pd.Series([i for i in range(1880, 2051)])
+    y_pred = slope*x_pred + intercept
+    plt.plot(x_pred, y_pred, 'r')
 
+  
+    # Create second line of best fit
+    df_forecast = df.loc[df['Year'] >= 2000]
+    x_forecast = df_forecast['Year']
+    y_forecast = df_forecast['CSIRO Adjusted Sea Level']
+
+    # get new slope + intercept
+    slope, intercept, r_value, p_value, stderr = linregress(x_forecast, y_forecast)
+    x_pred2 = pd.Series([i for i in range(2000, 2051)])
+    y_pred2 = slope*x_pred2 + intercept
+    plt.plot(x_pred2, y_pred2, 'green')
+
+    # Add labels and title
+    plt.title('Rise in Sea Level')
+    plt.xlabel('Year', fontsize = 12)
+    plt.ylabel('Sea Level (inches)', fontsize = 12)
+    
     # Save plot and return data for testing (DO NOT MODIFY)
     plt.savefig('sea_level_plot.png')
     return plt.gca()
