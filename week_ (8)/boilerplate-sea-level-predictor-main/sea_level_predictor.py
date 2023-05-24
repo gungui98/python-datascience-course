@@ -22,7 +22,7 @@ def draw_plot():
     new_y = new_df["CSIRO Adjusted Sea Level"]
     n_res = linregress(new_x, new_y)
     x_pred2 = pd.Series([i for i in range (2000,2051)])
-    y_pred2 = n_res.slope*x_pred2 + n_res*intercept
+    y_pred2 = n_res.slope*x_pred2 + n_res.intercept
     plt.plot(x_pred2, y_pred2, 'green')
     # Add labels and title
     ax.set_xlabel('Year')
