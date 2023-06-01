@@ -1,0 +1,1378 @@
+Title,Author Name,Author Email,State,Created At,Closed At,Number of Commits
+Prefer named colors,Chris Thrasher,,closed,2023-05-24 18:54:20,2023-05-25 23:08:42,1
+Annotate PRs with clang-tidy errors,Chris Thrasher,,open,2023-05-23 20:54:57,,2
+Remove workaround for support old versions of Visual Studio,Chris Thrasher,,closed,2023-05-21 21:41:01,2023-05-22 14:50:28,1
+Test for correct network ordering of packets,Chris Thrasher,,closed,2023-05-21 21:28:28,2023-05-22 14:51:38,1
+Fix misspellings,Chris Thrasher,,closed,2023-05-21 18:54:43,2023-05-21 20:37:46,1
+Fix typo in log message,Chris Thrasher,,closed,2023-05-20 23:28:50,2023-05-21 00:32:15,1
+Fix clang-tidy-16 failures,Chris Thrasher,,closed,2023-05-20 04:32:17,2023-05-21 17:59:52,1
+Fix spacing of comment,Shane Tran Whitmire,,closed,2023-05-19 02:24:40,2023-05-19 02:30:59,1
+Fix how we specify `CATCH_CONFIG_FAST_COMPILE`,Chris Thrasher,,closed,2023-05-17 21:44:38,2023-05-18 16:43:58,1
+Use .hpp for Objective-C++ headers,Chris Thrasher,,closed,2023-05-17 16:40:19,2023-05-21 20:44:16,1
+Add `sf::Window::getFrameTime`,Chris Thrasher,,open,2023-05-16 14:27:53,,1
+Fix 2.6.x failing to compile on gcc 13.1.1 because of missing headers,Shane Tran Whitmire,,closed,2023-05-16 01:50:38,2023-05-16 02:41:02,1
+Fix build failure when using g++ (GCC) 13.1.1,Ted Lyngmo,,closed,2023-05-15 15:13:36,2023-05-15 16:34:35,1
+Use C++ headers,Chris Thrasher,,closed,2023-05-13 21:16:15,2023-05-14 00:55:52,1
+Remove reference to deleted file,Chris Thrasher,,closed,2023-05-13 21:08:18,2023-05-14 00:08:54,1
+Fix broken `sf::swap` overloads,Chris Thrasher,,closed,2023-05-13 04:26:40,2023-05-13 18:20:45,1
+Manage `AAsett*` with `std::unique_ptr`,Chris Thrasher,,closed,2023-05-13 02:39:39,2023-05-14 20:35:49,1
+Use gpg instead of gpgv to validate codecov signature,JS Fauteux,jeanseb.fauteux@gmail.com,closed,2023-05-11 20:07:50,2023-05-11 23:29:32,1
+Create a symlink to force gpgv to use the correct source of trusted keys on mac,JS Fauteux,jeanseb.fauteux@gmail.com,closed,2023-05-11 18:06:29,2023-05-11 18:16:33,1
+Upgrade to CMake 3.22,Chris Thrasher,,closed,2023-05-08 23:31:48,2023-05-13 18:09:09,1
+Raise minimum CMake version to 3.22,OURABIG,,closed,2023-05-01 21:27:00,2023-05-08 21:25:47,3
+Move semantics for AlResource,,,open,2023-04-30 17:55:46,,7
+Modernize memory management of X11 types,Chris Thrasher,,open,2023-04-30 03:04:36,,1
+Fix typo in 'Http.hpp',,,closed,2023-04-29 22:12:54,2023-04-29 22:34:25,1
+Fix macOS Window Resizing Bug,Chris Thrasher,,closed,2023-04-28 20:42:53,2023-04-30 23:52:28,1
+Add `sf::Shape::getGeometricCenter()`,Ted Lyngmo,,closed,2023-04-24 16:38:39,2023-05-15 22:13:40,1
+Add `sf::Shape::getGeometricCenter()`,Ted Lyngmo,,closed,2023-04-24 08:15:05,2023-04-24 21:11:58,1
+Reorder includes hierarchically,Vittorio Romeo,mail@vittorioromeo.com,closed,2023-04-23 23:38:32,2023-04-25 15:25:34,1
+Fix errors and warnings in templates,Vittorio Romeo,mail@vittorioromeo.com,closed,2023-04-23 23:20:58,2023-04-24 10:40:39,1
+Implement 'getFullscreenModes' more concisely,Vittorio Romeo,mail@vittorioromeo.com,closed,2023-04-23 23:17:37,2023-04-24 10:40:47,1
+Split 'System/Utils' into header and source,Vittorio Romeo,mail@vittorioromeo.com,open,2023-04-23 23:13:50,,1
+Fix typo in 'Font.cpp',Vittorio Romeo,mail@vittorioromeo.com,closed,2023-04-23 23:08:54,2023-04-24 10:43:09,1
+"Move semantics for `sf::Window`, `sf::WindowBase` and `sf::GLResource`",alireza,alirezafour@gmail.com,open,2023-04-22 17:37:50,,11
+Implementation of Move for sf::Window and sf::WindowBase,alireza,alirezafour@gmail.com,closed,2023-04-22 16:24:26,2023-04-22 16:27:34,5
+Add tests for `sf::sleep`,Chris Thrasher,,closed,2023-04-19 21:54:19,2023-04-28 21:01:12,2
+Testing stuff,JS Fauteux,jeanseb.fauteux@gmail.com,closed,2023-04-19 17:11:04,2023-04-19 17:14:13,1
+fixed move semantics for sf::Cursor and added test for it.,alireza,alirezafour@gmail.com,closed,2023-04-19 08:17:44,2023-04-22 16:29:06,4
+Add clang-tidy `bugprone-incorrect-roundings` check,Chris Thrasher,,closed,2023-04-16 01:39:21,2023-04-16 16:47:48,1
+Enable clang-tidy `modernize-pass-by-value` check,Chris Thrasher,,closed,2023-04-15 23:34:24,2023-04-24 13:12:54,1
+Simplify 'FontHandles' management,Vittorio Romeo,mail@vittorioromeo.com,closed,2023-04-13 16:25:08,2023-04-19 15:32:49,1
+Add `sf::WindowBase::set{Min|Max}imumSize()`,Shane Tran Whitmire,,closed,2023-04-13 13:09:52,2023-05-12 20:36:07,1
+Add minimum and maximum window size implementation,Shane Tran Whitmire,,closed,2023-04-13 12:15:49,2023-04-13 13:09:09,1
+Support for `std::string_view` in `sf::String`,Khatharr,,open,2023-04-13 04:16:03,,1
+Use `std::byte`,Chris Thrasher,,closed,2023-04-13 02:57:51,2023-05-21 08:21:44,1
+Fixed $GITHUB_WORKSPACE backslashes being escaped by bash when passed to the sh command,,binary1248@hotmail.com,closed,2023-04-13 00:56:59,2023-04-13 15:21:19,1
+Add clang-tidy `bugprone-*` checks,Chris Thrasher,,closed,2023-04-12 19:06:11,2023-04-13 01:53:37,1
+Configure doxygen STRIP_FROM_INC_PATH option,,,closed,2023-04-11 18:36:47,2023-04-11 20:33:57,1
+Assorted Fixes for Testing in CI,Chris Thrasher,,closed,2023-04-11 03:31:06,2023-04-12 16:20:00,4
+Disable Xcode code signing via configuration parameter,Chris Thrasher,,closed,2023-04-10 16:32:16,2023-04-12 07:30:01,1
+WglContext: Caching pixel formats for a massive speed boost in multiple context programs.,,,open,2023-04-10 07:08:43,,1
+Add clang-tidy `performance-*` checks,Chris Thrasher,,closed,2023-04-08 19:18:07,2023-04-10 16:08:14,2
+"Moved most variables in sfml-graphics, GlResource and GlContext out of namespace scope",,binary1248@hotmail.com,open,2023-04-08 13:15:19,,1
+Add OpenGL ES jobs to ci.yml,,binary1248@hotmail.com,closed,2023-04-06 18:14:37,2023-04-12 22:20:29,1
+Remove unnecessary `std::string::c_str()` calls,Chris Thrasher,,closed,2023-04-06 05:19:39,2023-04-06 12:33:50,1
+Clean up namespace usage,Chris Thrasher,,closed,2023-04-06 05:17:27,2023-04-06 14:45:47,3
+Allow for manually triggering CI,Chris Thrasher,,closed,2023-04-06 05:13:23,2023-04-10 23:48:16,1
+Fixed wglGetProcAddress not providing OpenGL 1.1 functions when the context is provided by an Nvidia ICD,,binary1248@hotmail.com,closed,2023-04-06 02:03:02,2023-04-06 06:41:11,1
+"Add 'extern template' to Vector2, Vector3, and Rect",Vittorio Romeo,mail@vittorioromeo.com,open,2023-04-05 20:42:19,,4
+Remove default `sf::Sprite` constructor,Chris Thrasher,,closed,2023-04-05 16:03:25,2023-05-03 19:33:43,1
+Inline `sfml_add_external`,Chris Thrasher,,closed,2023-04-05 04:44:48,2023-04-05 22:16:54,1
+Use structured bindings,Chris Thrasher,,closed,2023-04-04 22:35:47,2023-04-05 15:44:10,1
+Prefer fine-grained headers to module-level ones in examples,Vittorio Romeo,mail@vittorioromeo.com,open,2023-04-04 14:32:41,,1
+Improve PCH by adding more commonly used headers,Vittorio Romeo,mail@vittorioromeo.com,closed,2023-04-04 08:13:59,2023-04-04 21:36:25,1
+Implement move semantics for `sf::Cursor`,Chris Thrasher,,closed,2023-04-02 23:13:09,2023-04-03 07:02:26,1
+Remove bugprone `sf::Text` constructor,Chris Thrasher,,closed,2023-04-02 23:09:57,2023-04-05 15:54:57,2
+Feature/backmerge,Chris Thrasher,,closed,2023-04-01 21:25:48,2023-04-01 22:30:17,4
+Disable stringop-overflow warning when including minimp3 since it produces false positives.,,binary1248@hotmail.com,closed,2023-04-01 00:57:35,2023-04-01 21:21:39,1
+Final Preparation for the SFML 2.6 Release,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,open,2023-03-29 22:09:28,,2
+"Added sf::RenderWindow, sf::Shader and sf::Window tests.",,binary1248@hotmail.com,closed,2023-03-29 01:35:47,2023-04-04 08:27:22,1
+Implement `sf::String` in terms of `std::u32string`,Chris Thrasher,,closed,2023-03-29 01:34:16,2023-04-04 21:47:34,2
+Added sf::Texture tests,,binary1248@hotmail.com,closed,2023-03-29 01:33:31,2023-03-30 20:24:41,1
+Fixed OpenGL entry point loading on Windows,,binary1248@hotmail.com,closed,2023-03-29 01:30:06,2023-04-05 16:09:06,1
+Update Search in the Doxygen Documentation,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2023-03-28 20:10:36,2023-03-28 20:46:04,1
+Fixed GLES unreachable code warning,Zombieschannel,,closed,2023-03-27 20:11:07,2023-04-05 08:00:45,2
+Fix unreachable code warning when using OpenGLES,Zombieschannel,,closed,2023-03-27 20:05:20,2023-03-27 20:06:31,1
+Replaced xvfb-run with manually starting Xvfb and running fluxbox,,binary1248@hotmail.com,closed,2023-03-26 23:51:12,2023-03-28 01:46:08,1
+Fixed GlContext not being activated if it shares the same address as a previously destroyed GlContext.,,binary1248@hotmail.com,closed,2023-03-26 23:30:15,2023-03-28 01:50:18,1
+Add WindowBase::setIMEPreeditPosition,Edgar Su,sjs333@outlook.com,open,2023-03-24 03:42:30,,1
+Revert from providing CODECOV_TOKEN to auto-detect,,binary1248@hotmail.com,closed,2023-03-24 01:21:43,2023-03-24 09:37:51,1
+Fix clang-tidy-16 errors,Chris Thrasher,,closed,2023-03-23 20:15:17,2023-03-29 01:54:07,1
+Add tests for `sf::String`,Chris Thrasher,,closed,2023-03-23 06:48:27,2023-04-04 03:23:44,3
+Fix two issues present in Debian patches,Chris Thrasher,,closed,2023-03-23 04:15:02,2023-03-23 15:57:17,2
+Upgrade to stb_image 2.28,Chris Thrasher,,closed,2023-03-23 04:04:17,2023-03-24 01:11:25,1
+Fixed Codecov uploader being run with the wrong SHA,,binary1248@hotmail.com,closed,2023-03-23 02:02:06,2023-03-23 15:57:59,1
+SFML doesn't work on Android with extractNativeLibs=false (default for minSdkVersion >= 23 with Android Gradle Plugin >= 3.6),Bruno Van de Velde,bruno@texus.me,open,2023-03-21 22:26:53,,1
+Export symbol required to use sfml-activity,Chris Thrasher,,closed,2023-03-21 21:08:21,2023-03-23 03:18:02,1
+Prevent undefined behaviour in context destructors,Steven Pilkington,,closed,2023-03-21 05:49:01,2023-04-04 15:41:40,1
+Reduce TransientContextLock overhead if there is already a context active on the current thread,,binary1248@hotmail.com,closed,2023-03-17 03:11:27,2023-03-24 09:42:02,1
+Manually upload coverage report instead of using codecov-action,,binary1248@hotmail.com,closed,2023-03-16 20:46:06,2023-03-19 22:21:56,1
+Switch to Catch2 v3,Chris Thrasher,,closed,2023-03-15 19:59:54,2023-05-13 18:38:12,1
+Adding support for std::string_view to sf::String,Khatharr,,closed,2023-03-15 17:13:50,2023-04-13 04:16:25,6
+Use 'std::optional' in 'transientContext',Vittorio Romeo,mail@vittorioromeo.com,closed,2023-03-15 00:36:20,2023-03-15 04:24:59,1
+Remove redundant 'reset' calls in 'TransientContext` destructor,Vittorio Romeo,mail@vittorioromeo.com,closed,2023-03-15 00:23:46,2023-03-15 02:26:11,1
+Adding support for std::string_view to sf::String,Khatharr,,closed,2023-03-14 21:58:30,2023-03-15 17:06:57,1
+Don't automatically run tests after build,Chris Thrasher,,closed,2023-03-14 18:19:52,2023-03-15 02:23:17,1
+Add support for using software rendering and improve CI,,binary1248@hotmail.com,closed,2023-03-10 20:23:02,2023-04-06 17:15:56,1
+Switch to using Documentation IP ranges in tests,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2023-03-09 21:54:02,2023-03-09 23:40:01,1
+Remove unreachable code,Chris Thrasher,,closed,2023-03-07 21:49:56,2023-03-07 23:07:03,1
+Make use of CODECOV_TOKEN in ci.yml in order to work around Github Actions API errors that occur,,binary1248@hotmail.com,closed,2023-03-07 01:24:41,2023-03-07 09:03:35,1
+EGL pixel format selection and OpenGL version parsing fixes,,binary1248@hotmail.com,closed,2023-03-07 00:43:56,2023-04-04 20:22:31,1
+Use unity builds to speed up clang-tidy runtime,Chris Thrasher,,closed,2023-03-06 23:21:18,2023-03-14 16:08:24,1
+"Make moving Shapes, swapping Textures and swapping VertexBuffers noexcept",,binary1248@hotmail.com,closed,2023-03-06 01:43:59,2023-03-07 23:32:36,1
+Fix condition for trailing bytes count in UTF-8 decoder.,Jan,,closed,2023-03-05 09:02:04,2023-04-19 21:52:38,1
+Replace `std::rand` with `<random>`,Chris Thrasher,,closed,2023-03-04 05:55:34,2023-03-07 20:23:13,1
+Remove code coverage from build scripts,Chris Thrasher,,closed,2023-02-28 16:17:08,2023-03-15 02:56:26,3
+Remove unused headers and reduce physical dependencies,Vittorio Romeo,mail@vittorioromeo.com,closed,2023-02-20 16:11:09,2023-02-20 22:30:26,1
+Improve test utility header compilation speed,Vittorio Romeo,mail@vittorioromeo.com,closed,2023-02-20 15:50:12,2023-04-13 14:33:50,1
+Fixed Android OpenGL context 0.0 and antialiasing,Zombieschannel,,closed,2023-02-19 21:13:09,2023-04-04 20:22:33,4
+Fix `sf::Rect` docs,Chris Thrasher,,closed,2023-02-19 06:04:37,2023-02-20 00:40:03,1
+Test install interface with frameworks,Chris Thrasher,,closed,2023-02-16 21:35:00,2023-02-17 07:28:58,1
+Allow setting window icon with `sf::Image`,,metaquarx@protonmail.com,closed,2023-02-16 21:13:17,2023-02-21 22:48:34,1
+Add `misc-const-correctness` clang-tidy check,Chris Thrasher,,closed,2023-02-15 17:01:02,2023-05-04 22:22:04,1
+Add getAspectRatio() function to VideoMode,Yevhen Babiichuk (DustDFG),,closed,2023-02-15 13:09:04,2023-03-24 10:25:19,3
+Disable unreliable tests,Chris Thrasher,,closed,2023-02-15 04:47:58,2023-02-15 16:39:11,1
+Add `modernize-use-auto` clang-tidy check,Chris Thrasher,,closed,2023-02-14 22:20:51,2023-02-15 16:42:51,1
+Add getAspectRatio() function to VideoMode,Yevhen Babiichuk (DustDFG),,closed,2023-02-14 18:42:03,2023-02-15 12:58:09,1
+Assume dinput.h is present,Chris Thrasher,,closed,2023-02-13 23:22:54,2023-02-14 14:36:06,1
+Add tests for `sf::VertexBuffer`,Chris Thrasher,,closed,2023-02-13 06:24:06,2023-02-13 18:47:53,1
+Assert extension string is not null,Chris Thrasher,,closed,2023-02-12 19:36:11,2023-02-12 21:03:31,1
+Add tests for `sf::Cursor`,Chris Thrasher,,closed,2023-02-12 04:41:26,2023-02-14 14:34:08,1
+Feature/backmerge,Chris Thrasher,,closed,2023-02-10 04:24:54,2023-02-10 08:33:04,5
+Support installing with static libraries and DRM backend,Chris Thrasher,,closed,2023-02-08 18:47:54,2023-02-10 03:12:43,1
+Explicitly specify required X11 components,,,closed,2023-02-07 21:30:36,2023-02-08 00:21:34,1
+Build sfml-main with position-independent code,Chris Thrasher,,closed,2023-02-06 23:07:27,2023-02-08 21:37:18,1
+Use X11's find module,Chris Thrasher,,closed,2023-02-06 06:02:48,2023-02-06 22:12:59,1
+Update versions in Config.hpp to 2.6.0,Rafał Zawadzki,bluszcz@bluszcz.net,closed,2023-02-05 18:24:58,2023-02-05 20:02:17,1
+Add tests for `sf::WindowBase`,Chris Thrasher,,closed,2023-02-05 04:55:57,2023-02-08 07:22:43,3
+Simplify implementation of `sf::Clock`,Chris Thrasher,,closed,2023-02-03 21:29:28,2023-02-11 21:02:22,5
+Use `std::string_view` for parameter type,Chris Thrasher,,closed,2023-01-31 22:03:45,2023-02-01 00:02:15,1
+changes this UPPER_CASE CMake function names to lower_case.,OURABIG,,closed,2023-01-30 22:33:21,2023-01-30 23:42:17,1
+Don't install CMake on Android,Chris Thrasher,,closed,2023-01-30 21:56:58,2023-01-31 00:27:45,1
+Use Ninja in CI,Chris Thrasher,,closed,2023-01-29 03:10:50,2023-01-29 18:14:10,1
+Switched to generic endian swap,Norm Evangelista,norm.evangelista@gmail.com,open,2023-01-27 01:21:46,,1
+Add more clang-tidy checks,Chris Thrasher,,closed,2023-01-25 18:03:38,2023-01-25 21:53:34,1
+[2124] FIX Window.setSize() while resizing not working,Shane Tran Whitmire,,closed,2023-01-25 03:05:28,2023-04-13 22:24:58,8
+Replaced anonymous enums with constexpr per #2328,Norm Evangelista,norm.evangelista@gmail.com,closed,2023-01-24 16:29:26,2023-01-24 23:15:17,1
+Update copyright year,Chris Thrasher,,closed,2023-01-24 06:20:30,2023-01-24 07:46:31,1
+Test `sf::Drawable`,Jim Marsden,,closed,2023-01-23 19:49:07,2023-01-24 23:27:12,1
+Modernize Scancode Implementation,Chris Thrasher,,closed,2023-01-23 00:20:53,2023-01-25 17:06:04,7
+Replace std::strcmp by std::string_view::operator==,Thibaut PONCHON,thibaut.ponchon@gmail.com,closed,2023-01-21 23:45:06,2023-01-29 19:10:35,1
+Back-merge 2.6.x,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2023-01-21 09:13:27,2023-01-22 18:29:25,28
+Streamlined readability-* clang-tidy checks,Norm Evangelista,norm.evangelista@gmail.com,closed,2023-01-20 19:06:59,2023-01-23 00:00:25,1
+"Added readability-redundant-*, readability-simplify-* checks",Norm Evangelista,norm.evangelista@gmail.com,closed,2023-01-20 00:39:33,2023-01-20 15:31:26,1
+"Added readability-qualified-auto, readability-redundant-access-specifiers",Norm Evangelista,norm.evangelista@gmail.com,closed,2023-01-17 01:10:08,2023-01-19 22:53:41,1
+readability-convert-member-functions-to-static check,Norm Evangelista,norm.evangelista@gmail.com,closed,2023-01-16 21:18:18,2023-01-16 22:29:36,2
+Add clang-tidy portability checks,Chris Thrasher,,closed,2023-01-16 21:02:41,2023-01-16 22:16:47,1
+Added per-character coloring as well as custom underline color.,Zombieschannel,,open,2023-01-16 20:28:42,,17
+"Added readability-container-size-empty, readability-isolate-declaration",Norm Evangelista,norm.evangelista@gmail.com,closed,2023-01-16 00:26:59,2023-01-16 20:45:33,1
+Add more modernize- clang-tidy checks,Chris Thrasher,,closed,2023-01-15 18:59:50,2023-01-18 15:03:11,6
+Simplify options for extra targets,Jonny,,closed,2023-01-15 12:41:09,2023-02-19 05:52:09,2
+Use built-in CMake support for iOS,Jonny,,closed,2023-01-14 22:22:58,2023-04-03 21:36:34,9
+Run clang-tidy on Windows in CI,Chris Thrasher,,closed,2023-01-14 00:59:27,2023-01-14 22:13:02,4
+Analyze DRM backend,Chris Thrasher,,closed,2023-01-13 06:05:05,2023-01-13 21:16:25,1
+"Added modernize-use-equals-default, modernize-use-equals-delete",Norm Evangelista,norm.evangelista@gmail.com,closed,2023-01-12 00:50:28,2023-01-15 01:12:19,1
+Update to year 2023,Nikita,,closed,2023-01-11 13:19:26,2023-01-12 10:38:42,3
+Update date,Nikita,,closed,2023-01-11 12:58:29,2023-01-11 13:07:52,1
+Changed from std::scoped_lock to std::lock_guard,Jim Marsden,,closed,2023-01-11 04:51:51,2023-01-11 22:07:29,1
+WIP - add vulkan hpp headers,Nikita,,closed,2023-01-10 12:20:49,2023-01-11 12:46:00,2
+Mark derived classes as `final`,Nikita,,closed,2023-01-08 08:29:48,2023-01-09 09:40:26,1
+Added modernize-use-nullptr check,Norm Evangelista,norm.evangelista@gmail.com,closed,2023-01-07 22:18:36,2023-01-12 00:36:17,1
+Fixes mostly unimportant typo in documentation of WindowBase,Tverr Bjelke,,closed,2023-01-07 14:19:41,2023-01-25 17:07:16,3
+Added subset of modernize-* to .clang-tidy,Norm Evangelista,norm.evangelista@gmail.com,closed,2023-01-07 00:59:26,2023-01-08 21:31:30,9
+Use nested namespaces,Chris Thrasher,,closed,2023-01-07 00:22:35,2023-01-07 18:28:37,1
+Fix bug where clang-tidy CI job always passes,Chris Thrasher,,closed,2023-01-06 22:21:18,2023-01-07 00:17:58,1
+Improve Object Lifetime Safety,Chris Thrasher,,closed,2023-01-06 17:22:25,2023-01-06 22:46:23,3
+Fix typo in error message,Noé Lopez,,closed,2023-01-06 16:15:52,2023-01-06 17:46:35,1
+Added small set of clang-tidy modernize-* checks,Norm Evangelista,norm.evangelista@gmail.com,closed,2023-01-06 16:12:00,2023-01-07 01:00:45,4
+Prevent constructing `sf::Text` with a temporary `sf::Font`,Chris Thrasher,,closed,2023-01-05 20:25:14,2023-01-06 17:21:01,1
+Removed return EXIT_SUCCESS and cstdlib,Shiv,,closed,2023-01-04 17:38:50,2023-01-23 09:00:48,7
+Enable move semantics for `sf::InputSoundFile` and `sf::OutputSoundFile`,Chris Thrasher,,closed,2023-01-04 17:01:59,2023-01-22 22:50:54,4
+Mark move operators as noexcept,Chris Thrasher,,closed,2023-01-03 21:59:31,2023-01-04 16:49:21,1
+Simplify in-class initializer expressions,Chris Thrasher,,closed,2023-01-02 23:30:03,2023-01-03 21:51:44,1
+Feature/backmerge,Chris Thrasher,,closed,2022-12-30 05:37:30,2022-12-30 16:50:46,7
+Backport macOS + Clang compiler error fix,Chris Thrasher,,closed,2022-12-28 23:13:05,2022-12-29 13:56:53,1
+Update stb_image and Image documentation,,,closed,2022-12-28 16:05:17,2022-12-28 23:08:53,2
+"Remove defaulted or empty, non-virtual destructors #2312",Benjamin Li,benjamintli98@gmail.com,closed,2022-12-27 22:18:34,2023-01-25 18:29:04,3
+Empty Struct to Namespace,Jim Marsden,,closed,2022-12-27 18:30:03,2023-01-01 21:31:27,1
+Update x11 sf::Cursor::Hand to be consistent across OS's,Daniel Petersen,,closed,2022-12-26 22:14:50,2022-12-27 10:32:23,1
+Use = default to define empty destructors #2311,Benjamin Li,benjamintli98@gmail.com,closed,2022-12-25 21:08:00,2022-12-27 10:08:11,2
+[2124] fix. Window.setSize() while resizing causes extraneous behavior,Shane Tran Whitmire,,closed,2022-12-25 03:29:14,2023-01-25 02:24:56,3
+Replaced clamp with std::clamp,Shiv,,closed,2022-12-24 08:50:54,2022-12-27 23:58:49,9
+Use in-class member initializers,Chris Thrasher,,closed,2022-12-22 18:11:45,2023-01-02 23:26:51,1
+Update Catch to latest v1.x,,,closed,2022-12-21 21:56:09,2022-12-22 15:37:51,1
+Rename `Key::Tilde` to `Key::Grave`,,,closed,2022-12-20 21:14:15,2022-12-21 07:02:03,2
+Changed Header Guards to Pragma Once,Jim Marsden,,closed,2022-12-20 18:58:11,2022-12-27 19:08:11,1
+Changed sf::String::InvalidPos from 'inline const' to constexpr,Jim Marsden,,closed,2022-12-19 22:23:21,2022-12-19 23:06:41,1
+Use in-class member initializers,Chris Thrasher,,closed,2022-12-18 19:56:23,2022-12-22 16:36:55,1
+Ensure diagnostic pop occur before end of header guard,Chris Thrasher,,closed,2022-12-18 04:47:08,2022-12-18 23:25:08,1
+Enable testing types which require the presence of a display,Chris Thrasher,,closed,2022-12-16 18:47:27,2023-01-18 23:06:01,4
+Use in-class member initializers,Chris Thrasher,,closed,2022-12-15 22:47:12,2022-12-18 16:11:22,1
+Add -ObjC flag to fix static linking on macOS,Chris Thrasher,,closed,2022-12-15 06:22:03,2022-12-17 22:00:14,1
+Replace c-style casts & fix implicit conversion warnings in DRM code,Zaki Nadhif,,closed,2022-12-14 08:05:56,2022-12-15 20:12:57,1
+Feature/backmerge,Chris Thrasher,,closed,2022-12-14 06:38:09,2022-12-14 17:08:33,8
+Add CI job for Clang on Windows,Chris Thrasher,,closed,2022-12-12 21:01:01,2022-12-14 22:26:09,3
+Fix Clang build on Windows,Chris Thrasher,,closed,2022-12-11 22:22:21,2022-12-12 19:09:52,2
+Enable warnings-as-errors for clang-cl,Chris Thrasher,,closed,2022-12-11 07:56:04,2022-12-11 20:51:15,2
+Rearanged members of Transformable for a smaller object size,,,closed,2022-11-29 00:29:46,2022-11-29 08:28:05,2
+Run all formatting jobs on Ubuntu 22.04,Chris Thrasher,,closed,2022-11-25 18:51:53,2022-11-27 19:39:41,2
+Use enum class instead of plain enum for PrimitiveType,Jonny,,closed,2022-11-24 09:26:15,2022-11-27 19:17:27,4
+Set option warnings as errors to false #2046,Marc,,closed,2022-11-23 15:50:06,2022-11-23 16:21:15,1
+Only run formatting job on linux,Jonny,,closed,2022-11-23 13:09:02,2022-11-27 19:40:55,1
+Retry choco install step up to 10 times,Jonny,,closed,2022-11-22 17:29:07,2022-11-23 07:35:31,2
+Extending Font and Text to support multiple textures,Jonny,,open,2022-11-22 16:24:26,,18
+Fix outdated use of the sf::VideoMode constructor,Christian Ivicevic,mail@christian-ivicevic.com,closed,2022-11-21 22:24:41,2022-11-22 13:55:52,2
+Add `sf::UniqueResource` to simplify the implementation of move semantics,Chris Thrasher,,open,2022-11-21 22:07:40,,5
+Fix sf::View documentation,Intemporel,dev.intemporel@gmail.com,closed,2022-11-21 22:01:51,2023-02-19 06:09:12,1
+Added non-trivial move operations.,Jim Marsden,,closed,2022-11-20 19:37:11,2022-12-15 17:03:54,1
+sf::Texture move constructor and operator ,Jim Marsden,,closed,2022-11-20 05:21:51,2023-03-29 21:48:05,1
+Use in-class member initializers,Chris Thrasher,,closed,2022-11-19 03:16:10,2022-12-15 07:41:19,2
+Feature/text fits within bounds,Adam Parkinson,salamiarmi@gmail.com,open,2022-11-18 05:50:17,,7
+sf::Shader Move Semantics,Jim Marsden,,closed,2022-11-17 03:19:07,2022-11-20 02:52:45,1
+Document that checking XButton1 and XButton2 state on X11 is not supported,,,closed,2022-11-13 14:17:09,2022-11-15 21:36:38,1
+Remove the use of `std::memset`,Chris Thrasher,,closed,2022-11-09 04:48:34,2022-11-15 21:37:38,1
+Use Per Monitor Aware instead of System Aware for DPI scaling on Windows,Bruno Van de Velde,bruno@texus.me,closed,2022-11-05 10:13:10,2022-11-15 21:38:53,1
+Disable certain GCC pragmas when using other compilers,Chris Thrasher,,closed,2022-11-05 03:45:05,2022-11-05 18:52:41,1
+Add drag and drop on X11,,,open,2022-10-30 04:09:17,,8
+Apply warnings to install interface test,Chris Thrasher,,closed,2022-10-27 00:55:26,2022-11-29 07:47:32,1
+Lock 2.6.x branch to macOS 11 images,Chris Thrasher,,closed,2022-10-25 16:04:43,2022-10-25 16:18:46,1
+Back Merge latest 2.6.x Changes,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2022-10-25 12:02:36,2022-10-25 18:10:51,6
+Turn off Codecov annotations,Jan Haller,,closed,2022-10-25 09:24:44,2022-10-28 14:36:51,1
+Enforce variable case,Chris Thrasher,,closed,2022-10-24 19:41:30,2022-12-12 23:10:03,2
+Add DRM sources to sfml-window,Chris Thrasher,,closed,2022-10-24 00:56:45,2022-12-14 04:52:43,3
+Enforce parameter case,Chris Thrasher,,closed,2022-10-23 22:11:15,2022-10-24 10:53:30,1
+Add 32-bits Visual Studio builds to the CI,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2022-10-18 16:58:24,2022-10-19 12:38:42,1
+Start enforcing naming style,Chris Thrasher,,closed,2022-10-18 03:03:45,2022-10-23 15:32:13,1
+Add clang-tidy integration,Chris Thrasher,,closed,2022-10-17 04:39:07,2022-10-18 00:29:56,2
+Update checkout action,Chris Thrasher,,closed,2022-10-16 21:00:26,2022-10-16 22:14:04,2
+Use doctest-provided `main` implementation,Chris Thrasher,,closed,2022-10-16 19:39:22,2022-10-16 20:55:33,1
+Reimplementing `Rect` in terms of position and size,BlackWing,blackwing@vk.com,open,2022-10-16 09:53:35,,1
+Added MultipleRenderTexture,Emanuel,emanueldurso1@gmail.com,closed,2022-10-13 17:31:09,2022-10-16 11:26:32,10
+Fix DRM using the first possible video card without even checking if a monitor is connected,Subs,,closed,2022-10-13 15:10:26,2022-10-19 22:19:31,1
+"[DRM] Fix forecefully switching to the preferred mode, use the current mode rather",Subs,,closed,2022-10-13 14:38:31,2022-10-23 22:16:32,1
+Backmerge 2.6.x to master,Chris Thrasher,,closed,2022-10-13 04:24:44,2022-10-14 14:53:17,21
+Fixes for macOS scancode implementation,,,closed,2022-10-12 21:12:11,2022-12-19 22:36:26,20
+Fix order and remove duplicates of KeyPressed events,,,closed,2022-10-11 22:31:54,2022-10-24 21:14:48,2
+Fix compile on linux with gcc 12.2.0,Radek Dutkiewicz,,closed,2022-10-11 10:27:01,2022-10-11 13:30:23,1
+Rename test files to be unique,Jonny,,closed,2022-10-10 14:43:48,2022-10-23 14:39:12,1
+Don't remove format target unnecessarily,Jonny,,closed,2022-10-10 14:28:56,2023-01-13 21:32:59,1
+"Hide examples, tests, and documentation from projects consuming SFML via `add_subdirectory`",Chris Thrasher,,closed,2022-10-10 04:45:16,2023-01-13 21:28:10,1
+WIP - Replace font load error handling with exceptions,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,open,2022-10-09 15:35:01,,5
+"Revert ""Consolidate redundant gl.h headers""",Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2022-10-09 12:41:27,2023-01-23 09:35:45,1
+Consolidate redundant gl.h headers,Chris Thrasher,,closed,2022-10-09 05:00:13,2022-10-09 11:04:24,1
+More Assorted CMake Fixes,Chris Thrasher,,closed,2022-10-07 23:11:04,2022-10-11 22:23:36,8
+Remove unnecessary static casts,Chris Thrasher,,closed,2022-10-07 23:07:55,2023-01-11 22:30:23,1
+Add '[[nodiscard]]' to 'IpAddress::resolve',Vittorio Romeo,mail@vittorioromeo.com,closed,2022-10-07 11:05:36,2022-10-07 12:37:53,1
+WIP - safer 'std::optional'-based 'sf::Font' API ,Vittorio Romeo,mail@vittorioromeo.com,open,2022-10-06 18:01:25,,4
+Improve static initialization of vectors,Vittorio Romeo,mail@vittorioromeo.com,closed,2022-10-06 17:28:52,2022-10-06 17:58:11,1
+Normalize formatting across CMake files,Vittorio Romeo,mail@vittorioromeo.com,closed,2022-10-06 13:47:16,2022-10-06 18:33:41,1
+WIP - safer 'std::optional'-based 'sf::Image' API,Vittorio Romeo,mail@vittorioromeo.com,open,2022-10-06 13:18:30,,1
+mod,Vagif,,closed,2022-10-04 20:57:58,2022-10-04 20:58:51,1
+modifided,Vagif,,closed,2022-10-04 20:52:00,2022-10-04 20:54:07,1
+Cleanup tests,Chris Thrasher,,closed,2022-10-01 19:38:37,2022-10-01 21:19:53,4
+Fix minor inconsistency in type cast in voip example,,,closed,2022-10-01 15:06:20,2022-10-01 17:51:48,1
+Include InputStream.hpp directly in SoundFileReaderMp3.cpp,,,closed,2022-10-01 15:03:00,2022-10-01 17:50:57,1
+Fix SoundRecorder example code,,,closed,2022-10-01 14:54:48,2022-10-01 17:15:02,1
+Fix typo in variable name in Unix/JoystickImpl.cpp,,,closed,2022-10-01 14:03:43,2022-10-01 17:09:10,1
+Use iterator and correct string insert,Ralph,,closed,2022-09-28 17:51:19,2022-09-29 17:42:32,1
+Acknowledge latest SFML team member,Chris Thrasher,,closed,2022-09-27 22:40:50,2022-09-28 05:30:21,1
+Return of the Testing PRs (`sf::Packet`),Chris Thrasher,,closed,2022-09-27 18:21:58,2022-10-01 18:35:30,3
+Xcode fix,Jonny,,closed,2022-09-26 20:24:01,2022-09-26 21:50:26,2
+Fix Visual Studio 2019 complaints regarding the int64_t type not being in the std namespace,Pierce Brooks,,closed,2022-09-21 22:57:58,2022-09-22 10:26:06,1
+Copy OpenAL DLL into runtime directory alongside other DLLs and EXEs,Chris Thrasher,,closed,2022-09-20 22:06:17,2022-11-15 22:19:10,1
+Test install interface,Chris Thrasher,,closed,2022-09-19 04:45:17,2022-10-15 07:07:49,1
+Test reinterpreting a `sf::Color` as a `std::uint8_t*`,Chris Thrasher,,closed,2022-09-15 19:20:03,2022-10-05 18:26:26,1
+Finally done removing custom fixed width integer aliases ,Chris Thrasher,,closed,2022-09-12 22:39:37,2022-09-13 17:15:03,2
+Almost done removing custom fixed width integer aliases,Chris Thrasher,,closed,2022-09-12 20:29:24,2022-09-12 21:36:56,2
+Time out test for public IP address,Chris Thrasher,,closed,2022-09-12 19:06:08,2022-09-12 21:58:51,2
+Format code,,,closed,2022-09-11 09:28:17,2022-09-15 15:47:49,2
+Continue removing custom fixed width integer aliases,Chris Thrasher,,closed,2022-09-09 16:32:56,2022-09-12 18:36:13,2
+Change Vector2 and Vector3 length function,LDprg,,closed,2022-09-06 07:37:50,2022-09-06 13:00:40,4
+Edit gitignore to ignore clion default output directory,LDprg,,closed,2022-09-05 16:48:06,2022-09-05 20:32:44,1
+Start removing custom fixed width integer aliases,Chris Thrasher,,closed,2022-09-03 20:39:20,2022-09-09 08:28:53,2
+TEST,Tamir Rozenfeld,,closed,2022-08-30 08:06:55,2022-08-30 09:47:29,3
+Treat each test case as a unique test,Chris Thrasher,,closed,2022-08-28 03:02:48,2022-09-10 17:03:26,1
+Use `std::size_t`,Chris Thrasher,,closed,2022-08-21 05:03:35,2022-09-07 20:23:22,1
+Reimplementing sf::Rect in terms of Vector2 position and size,BlackWing,blackwing@vk.com,closed,2022-08-14 09:44:08,2022-10-16 08:09:10,1
+Set warnings with `target_compile_options`,Chris Thrasher,,closed,2022-08-14 03:33:39,2022-08-14 06:00:00,1
+Enable compiler warnings for Android,Chris Thrasher,,closed,2022-08-07 04:37:01,2022-08-12 16:01:36,1
+Assorted CMake fixes,Chris Thrasher,,closed,2022-08-06 19:49:59,2022-08-22 03:26:58,11
+Move defines into a configurable config header,,,open,2022-08-05 22:45:56,,1
+Fix SoundStream::play to restart the sound if it was played before,,,closed,2022-08-02 20:03:44,2022-08-03 21:36:13,1
+Require CMake 3.16 for ObjC and ObjC++ sources,,,closed,2022-08-01 20:45:59,2022-08-03 21:38:18,1
+Update doxygen configuration and enable searchbar,,,closed,2022-07-31 20:55:43,2022-08-03 21:55:43,4
+Test copy and move semantics,Chris Thrasher,,closed,2022-07-27 06:08:44,2022-10-10 17:46:56,1
+Separate test utilities between modules,,,open,2022-07-19 13:42:10,,2
+Remove vendored doctest header,Chris Thrasher,,closed,2022-07-18 23:46:10,2022-07-20 06:57:00,1
+Added config for Android arm64-v8a and x86_64,,,closed,2022-07-18 15:18:02,2022-07-18 15:57:28,1
+Remove unnecessary CMake version checks,Chris Thrasher,,closed,2022-07-18 03:44:37,2022-07-18 10:43:49,1
+Add SpriteBatch,Miron Alexandru,,open,2022-07-17 16:55:14,,1
+Added 64bit libraries for Android,,,closed,2022-07-16 13:53:11,2022-07-19 06:03:16,13
+Update .gitignore for Visual Studio,Miron Alexandru,,closed,2022-07-13 11:42:31,2022-07-13 13:17:42,1
+Simplify how warnings are ignored on Apple platforms,Chris Thrasher,,closed,2022-07-12 06:04:49,2022-08-03 21:41:02,1
+Format .m files,Chris Thrasher,,closed,2022-07-12 05:46:39,2022-07-14 19:47:50,1
+Add tests for SFML/Config.hpp,Chris Thrasher,,closed,2022-07-12 05:10:47,2022-08-03 21:39:38,1
+Fix compilation on Linux with SFML_OPENGL_ES option,,,closed,2022-06-27 21:45:38,2022-06-29 07:02:29,1
+Automate formatting with clang-format,Chris Thrasher,,closed,2022-06-27 16:35:03,2022-07-11 18:04:56,4
+Dynamically load EGL with glad on Linux (DRM),,,closed,2022-06-26 23:06:54,2022-06-27 18:39:31,2
+Use in-class member initializers,Chris Thrasher,,closed,2022-06-26 21:58:21,2022-11-18 01:44:36,1
+Assorted unit testing improvements,Chris Thrasher,,closed,2022-06-26 04:40:35,2022-06-26 22:22:17,3
+Allow implicit construction of `sf::VideoMode`,Chris Thrasher,,closed,2022-06-26 04:38:47,2022-06-26 19:24:38,1
+Reduce the scope of helper class,Chris Thrasher,,closed,2022-06-25 18:08:25,2022-06-26 00:14:54,1
+Add tests for `sf::MemoryInputStream`,Bambo,,closed,2022-06-25 13:12:25,2022-06-28 12:33:22,1
+Improve test coverage of existing tests,Chris Thrasher,,closed,2022-06-24 23:10:37,2022-06-26 13:47:31,2
+Remove trailing whitespace,Chris Thrasher,,closed,2022-06-24 17:16:07,2022-06-25 19:32:56,1
+Remove unused `<string>` include from `Texture.hpp`,Vittorio Romeo,mail@vittorioromeo.com,closed,2022-06-24 01:08:25,2022-06-24 10:59:31,1
+Add empty scancode implementation for Linux (DRM) platform,,,closed,2022-06-23 21:07:15,2022-07-01 22:29:51,0
+Explicitly instantiate floating-point--only `sf::Vector2` and `sf::Vector3` members in a source file,Vittorio Romeo,mail@vittorioromeo.com,closed,2022-06-23 20:42:00,2022-06-24 16:47:28,1
+Fix eglCheck macro usage for assignments,,,closed,2022-06-23 20:22:36,2022-06-24 07:33:49,1
+"`sf::IpAddress` is always valid, resolution is performed via static member function",Vittorio Romeo,mail@vittorioromeo.com,closed,2022-06-23 19:13:16,2022-06-27 22:31:13,1
+Simplify `sf::IpAddress` implementation,Chris Thrasher,,closed,2022-06-23 16:52:38,2022-06-23 18:22:13,2
+Fix incorrect cast when parsing FTP connection port,,,closed,2022-06-23 11:56:22,2022-06-23 14:33:06,1
+Replace 'TcpSocket::send' local buffer with data member,Vittorio Romeo,mail@vittorioromeo.com,closed,2022-06-23 00:19:27,2022-06-23 16:37:02,1
+Clarify Image::copy implementation,,,closed,2022-06-22 22:12:23,2022-06-23 16:03:54,2
+'sf::Image::copy' returns a 'bool' to signal success/failure,Vittorio Romeo,mail@vittorioromeo.com,closed,2022-06-21 13:33:57,2022-06-21 14:40:23,1
+Add tests for `sf::IpAddress`,Chris Thrasher,,closed,2022-06-18 19:43:51,2022-06-23 16:47:24,2
+Improve `sf::Time` interoperability with `<chrono>`,Chris Thrasher,,closed,2022-06-17 00:34:53,2022-09-05 21:35:26,3
+Fix corelation between text setOutlineThickness() and getLocalBounds(),Radek Dutkiewicz,,closed,2022-06-13 16:37:28,2022-10-01 11:53:43,1
+Use scoped enumerations in Network module,Chris Thrasher,,closed,2022-06-12 19:43:34,2022-09-27 15:30:13,1
+Modernize examples,Chris Thrasher,,closed,2022-06-12 18:56:20,2022-06-16 21:56:39,3
+Remove empty destructors,Chris Thrasher,,closed,2022-06-10 06:17:14,2022-06-13 10:01:38,2
+Simplify how vectors are deallocated,Chris Thrasher,,closed,2022-06-10 06:02:30,2022-06-10 14:43:14,1
+Unify float literal usage in tests,Chris Thrasher,,closed,2022-06-08 17:31:30,2022-06-13 13:35:25,1
+Prevent more conflicts between the 'None' Xlib macro and 'WindowStyle::None',Vittorio Romeo,mail@vittorioromeo.com,closed,2022-06-08 10:59:22,2022-06-08 11:44:17,1
+Update Text.cpp,,,closed,2022-06-07 14:38:12,2022-06-07 14:56:11,1
+Add tests for `sf::ConvexShape`,Chris Thrasher,,closed,2022-06-07 14:26:50,2022-06-09 08:05:30,2
+Limit the scope of event object,Chris Thrasher,,closed,2022-06-07 05:21:12,2022-06-08 11:16:40,1
+Add tests for sf::Image,Bambo,,closed,2022-06-06 23:28:37,2022-06-21 13:14:28,2
+Remove implicitly defined `sf::Image` special member functions,Chris Thrasher,,closed,2022-06-06 14:40:00,2022-06-07 21:19:30,1
+SFML/Graphics/Text.cpp: Compare utf32-characters to utf32 character literals consistently,,,closed,2022-06-05 12:14:45,2022-06-10 12:15:13,1
+Disable warnings as errors for clang-cl builds,Bambo,,closed,2022-06-04 18:47:29,2022-06-12 15:40:02,2
+Merge 2.6.x to master,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2022-06-03 15:10:14,2022-06-03 15:59:50,4
+Include '<utility>' for 'std::exchange',Vittorio Romeo,mail@vittorioromeo.com,closed,2022-06-03 14:29:25,2022-06-03 15:57:42,1
+Add tests for `sf::RenderStates`,Chris Thrasher,,closed,2022-06-01 18:27:16,2022-06-07 06:25:53,1
+More Graphics tests,Chris Thrasher,,closed,2022-05-25 14:27:05,2022-06-01 06:09:30,2
+Use wide-string character consistently,,,closed,2022-05-22 12:49:36,2022-06-02 14:09:34,1
+bugfix for #2100: null-dereference in GCC 12.1.0,Andrew King,,closed,2022-05-22 00:26:18,2022-05-25 22:03:08,2
+Assorted Small Build Simplifications,Chris Thrasher,,closed,2022-05-18 03:28:49,2022-05-21 19:35:35,3
+Clean up various uses of `(void)`,Chris Thrasher,,closed,2022-05-17 19:07:59,2022-06-01 06:19:41,3
+Simplify approximate comparisons of SFML types,Chris Thrasher,,closed,2022-05-17 18:54:23,2022-05-25 11:36:13,1
+Fix conversion warning,Chris Thrasher,,closed,2022-05-16 15:54:37,2022-05-16 17:05:35,1
+Fix compiler errors for clang++ & clang-cl on Windows,Bambo,,closed,2022-05-14 11:48:02,2022-06-04 18:11:24,193
+Backmerge 2.6.x to master,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2022-05-10 14:55:05,2022-05-10 21:39:35,2
+Fixes for Windows scancode implementation,,,closed,2022-05-08 11:31:19,2022-06-13 18:32:04,5
+Prefix to struct changes,CosminPerRam,cosmin.p@live.com,closed,2022-05-08 10:03:50,2022-05-08 11:46:00,1
+Fix incorrect cast when loading 16-bit samples from WAV file,,,closed,2022-05-06 13:48:54,2022-05-06 19:07:42,1
+Remove MSVC compiler warnings override,Chris Thrasher,,closed,2022-05-04 19:44:56,2022-05-09 13:38:39,1
+Apply compiler warnings to test utilities,Chris Thrasher,,closed,2022-05-04 17:12:01,2022-05-09 13:38:25,1
+replacing `NULL` with `nullptr` in src/window files,Major GR,,closed,2022-05-04 07:36:35,2022-05-04 22:03:00,1
+try_emplace in Font::loadPage,CosminPerRam,cosmin.p@live.com,closed,2022-05-03 22:48:57,2022-05-04 22:00:36,2
+Remove unnecessary lossy conversions in test utilities,Chris Thrasher,,closed,2022-05-02 16:12:27,2022-05-04 07:03:04,1
+Add clarification of SFML's status of development,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2022-05-01 16:36:42,2022-05-02 06:31:00,1
+Add tests for `sf::CircleShape`,Chris Thrasher,,closed,2022-05-01 05:38:45,2022-05-17 18:30:17,2
+Add extension methods to `Vector3<T>`,Bambo,,closed,2022-04-29 20:57:50,2022-05-16 06:59:43,1
+Add polar coordinate `sf::Vector2<T>` constructor,Chris Thrasher,,closed,2022-04-29 16:03:28,2022-05-17 18:30:03,1
+corrected/clarified the setLoopPoints() documentation,Major GR,,closed,2022-04-26 15:01:35,2022-04-28 18:12:29,1
+Backmerge 2.6.x to master,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2022-04-26 06:38:17,2022-05-02 06:35:40,2
+Add tests for `sf::err`,Chris Thrasher,,closed,2022-04-21 22:42:57,2022-05-02 07:53:04,1
+2.6.x -> master backmerge,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2022-04-21 06:32:55,2022-04-23 10:12:17,4
+Graphics: Avoid VertexBuffer extra resizing,GuillaumeG.,guillaume.guillet.jo@gmail.com,closed,2022-04-14 16:34:40,2022-04-16 14:25:50,1
+Enable MSVC standards conformance,Chris Thrasher,,closed,2022-04-13 19:57:18,2022-04-19 06:33:28,1
+Added community section to README,,,closed,2022-04-13 14:54:27,2022-04-19 07:54:38,1
+Remove remaining use of `this->`,Chris Thrasher,,closed,2022-04-12 17:15:56,2022-04-20 06:29:45,1
+Fix incorrect cast in Cursor::loadFromPixels Unix implementation,,,closed,2022-04-12 13:57:46,2022-04-13 06:49:21,1
+Fix font pages not being created with the desired smoothness,,,closed,2022-04-12 13:40:44,2022-04-21 06:24:41,1
+Update example android to work with ndk-r18b,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,open,2022-04-12 06:38:38,,1
+Fix more compiler warnings,Chris Thrasher,,closed,2022-04-11 22:32:31,2022-05-02 06:39:02,3
+Ensure files end with newline character,Chris Thrasher,,closed,2022-04-11 22:25:11,2022-04-12 06:13:48,1
+Remove iOS 7 workarounds,Chris Thrasher,,closed,2022-04-11 22:15:53,2022-04-12 06:13:18,1
+Add tests for `sf::RectangleShape`,Chris Thrasher,,closed,2022-04-09 00:34:50,2022-04-12 06:15:45,1
+Fix setSmooth(false) not having an effect before first text drawcall,Radek Dutkiewicz,,closed,2022-04-08 23:58:51,2022-04-12 14:11:32,1
+Add `sf::LineShape`,Chris Thrasher,,closed,2022-04-08 16:50:48,2022-12-14 22:45:40,1
+Feature/back merge,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2022-04-07 07:02:39,2022-04-08 14:39:55,8
+Added back missing WINAPI calling convention declaration,,binary1248@hotmail.com,closed,2022-04-06 11:59:12,2022-04-07 06:48:18,1
+Update GitHub Actions VS Workers,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2022-04-05 06:13:23,2022-04-05 07:35:30,2
+Use `sf::Vector2<T>` for numeric parameter pairs,Chris Thrasher,,closed,2022-03-30 04:10:08,2022-05-17 06:33:11,1
+Move `sf::Rect` printer to GraphicsUtil,Chris Thrasher,,closed,2022-03-29 22:01:25,2022-03-30 07:06:09,1
+Honor `OPTIONAL_COMPONENTS` when finding SFML,,,closed,2022-03-27 23:53:20,2022-03-28 22:30:05,1
+Remove empty file,Chris Thrasher,,closed,2022-03-25 15:14:33,2022-03-25 16:03:47,1
+Require all modules are built before building tests,Chris Thrasher,,closed,2022-03-24 18:07:10,2022-04-02 10:18:00,1
+Fix `-Wmissing-braces` warning under clang (for SFML 2.6),nedoxff,,closed,2022-03-16 22:03:57,2022-03-18 07:34:42,1
+Add tests for `sf::Shape`,Chris Thrasher,,closed,2022-03-16 15:39:20,2022-04-08 14:46:51,2
+Use `std::quoted`,Chris Thrasher,,closed,2022-03-15 20:33:12,2022-04-05 20:45:22,1
+Print absolute paths when file not found,Chris Thrasher,,closed,2022-03-15 14:55:05,2022-04-21 06:22:19,1
+Remove redundant quotes when formatting filesystem paths,Chris Thrasher,,closed,2022-03-15 02:02:10,2022-03-15 14:21:46,2
+Fixes compilation error on MacOS,Marwen Azouzi,marwen.azouzi@gmail.com,closed,2022-03-14 08:45:02,2022-03-15 11:52:51,1
+Add warning about XButton1 and 2 on X11.,Elijah Hopp,github.mrzeusthecoder@gmail.com,closed,2022-03-08 14:04:11,2022-06-18 17:33:04,1
+Fix SoundStream play,,,closed,2022-03-07 00:12:41,2022-04-06 10:01:43,2
+Mark external headers as SYSTEM headers,Chris Thrasher,,closed,2022-03-06 17:37:56,2022-03-10 20:26:40,1
+Add tests for sf::VertexArray,Chris Thrasher,,closed,2022-03-06 17:25:21,2022-03-16 08:56:29,1
+Use new sf::Vector2<T> utilities,Chris Thrasher,,closed,2022-03-01 00:13:37,2022-03-03 19:20:10,1
+Use 'ccache' if available,Vittorio Romeo,mail@vittorioromeo.com,closed,2022-02-28 01:50:03,2022-03-03 14:41:08,1
+Use Pitchfork project layout,Chris Thrasher,,closed,2022-02-28 01:43:00,2022-03-10 20:00:20,1
+Simplify CMake build by removing source_group and headers as source files,Chris Thrasher,,closed,2022-02-28 01:12:08,2022-03-31 16:52:35,3
+DRM/KMS Implementation,Radek Dutkiewicz,,closed,2022-02-27 21:51:49,2022-04-26 05:44:15,1
+Add sin/cos/tan helpers for sf::Angle,Chris Thrasher,,closed,2022-02-24 17:07:36,2022-02-24 23:31:35,1
+Add `sf::Span`,,,open,2022-02-21 17:52:14,,11
+Abort infinite looping in SoundStream::streamData,,binary1248@hotmail.com,closed,2022-02-19 02:42:52,2022-04-06 09:50:17,1
+Simplify CI workflow,,,closed,2022-02-18 19:26:55,2022-02-20 16:00:43,1
+Revert accidental filesystem conversion,Chris Thrasher,,closed,2022-02-18 17:37:32,2022-02-18 19:48:54,1
+Build sf::Transformable tests,Chris Thrasher,,closed,2022-02-18 17:24:03,2022-02-18 19:48:30,1
+Remove unused CMake variables,Chris Thrasher,,closed,2022-02-17 19:33:02,2022-02-17 22:24:03,1
+"Minor include cleanup ('Window', 'RenderWindow')",Vittorio Romeo,mail@vittorioromeo.com,closed,2022-02-17 00:29:20,2022-02-17 01:42:32,1
+Use list(APPEND to simplify variable manipulation,Chris Thrasher,,closed,2022-02-17 00:19:53,2022-02-17 13:39:08,1
+Use pre-increment when post-increment is not necessary,Vittorio Romeo,mail@vittorioromeo.com,closed,2022-02-17 00:17:46,2022-02-17 00:39:35,1
+Remove Cygwin workaround,Chris Thrasher,,closed,2022-02-16 22:48:06,2022-02-17 00:02:24,1
+"Add move semantics to 'Font', 'Text', 'Image', and 'String'",Vittorio Romeo,mail@vittorioromeo.com,closed,2022-02-16 14:50:30,2022-02-16 16:29:46,1
+Avoid overuse of 'std::endl',Vittorio Romeo,mail@vittorioromeo.com,closed,2022-02-16 14:35:26,2022-02-16 16:28:40,1
+Add move semantics to 'sf::Packet',Vittorio Romeo,mail@vittorioromeo.com,closed,2022-02-16 02:18:57,2022-02-16 13:50:08,1
+Cleanup `sf::err` includes,Vittorio Romeo,mail@vittorioromeo.com,closed,2022-02-16 02:03:39,2022-02-16 07:45:40,1
+Simplify how tests are built,Chris Thrasher,,closed,2022-02-15 18:28:15,2022-02-16 13:51:29,1
+WIP: Move semantics for `SFML/Audio`,Vittorio Romeo,mail@vittorioromeo.com,open,2022-02-15 16:10:46,,4
+"Add '[[nodiscard]]' in more useful/ambiguous places, fix usages",Vittorio Romeo,mail@vittorioromeo.com,closed,2022-02-15 13:37:57,2022-02-16 16:27:32,1
+Fixes for X11 scancode implementation,,,closed,2022-02-15 13:29:42,2022-03-10 21:56:35,4
+Fixed warnings reported by LGTM and Coverity Scan.,,binary1248@hotmail.com,closed,2022-02-15 02:54:39,2022-02-16 07:26:18,1
+"Update year to 2022 (2.6.x branch, addendum) ",Jan Haller,,closed,2022-02-12 17:32:46,2022-02-12 18:29:09,1
+Update year to 2022 (master branch),Jan Haller,,closed,2022-02-10 22:49:57,2022-02-16 13:52:31,1
+Make `sf::Clock` pausable,Patrick Stritch,,open,2022-02-10 22:23:56,,1
+Adjust .codecov.yml to make coverage have minimal impact for now.,,binary1248@hotmail.com,closed,2022-02-10 19:00:39,2022-02-10 20:05:13,1
+Remove unnecessary includes from public-facing headers,Vittorio Romeo,mail@vittorioromeo.com,closed,2022-02-10 12:58:21,2022-02-10 21:05:50,1
+Fix license detection and add helpful links to external libraries and their licenses,,binary1248@hotmail.com,closed,2022-02-10 03:02:41,2022-02-11 07:29:01,1
+Turn 'sf::Transform' into a 'constexpr' class,Vittorio Romeo,mail@vittorioromeo.com,closed,2022-02-10 01:09:28,2022-02-10 23:51:48,1
+Turn more compile-time constants into 'constexpr' variables,Vittorio Romeo,mail@vittorioromeo.com,closed,2022-02-10 00:55:02,2022-02-15 13:27:11,1
+Added support for coverage reporting.,,binary1248@hotmail.com,closed,2022-02-07 04:12:57,2022-02-10 07:08:48,1
+Remove VS 2017 as GitHub Actions compiler,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2022-02-05 14:40:21,2022-02-05 18:11:16,1
+Fix findIntersection documentation,Chris Thrasher,,closed,2022-02-04 00:24:56,2022-02-04 08:35:34,1
+sf::Image::copy() - Fixed the incorrect alpha value being calculated for semi-transparent pixels on fully transparent pixels,Peter Chapman,peter@conglomo.co.nz,closed,2022-02-02 02:13:35,2022-04-21 06:23:10,1
+Add sf::PrimitiveInfo,Miron Alexandru,,closed,2022-02-02 02:12:03,2022-02-19 18:48:15,1
+added vector dotProduct funtion,Danielle Silfa,,closed,2022-01-31 01:34:04,2022-02-10 17:22:26,1
+Added functionality to Vector2,,,closed,2022-01-30 22:51:31,2022-02-10 17:22:48,1
+added functionality to Vector2 class,,,closed,2022-01-30 21:06:14,2022-02-10 17:22:53,1
+"Vector (2D) Added Functionality: Vector2::fromAngle, Vector2::mag, Vector2::dist, Vector2::dot, Vector2::normalize, Vector2::heading, Vector2::rotate, Vector2::angleBetween",,,closed,2022-01-30 00:23:58,2022-02-10 17:23:01,3
+Addition Vector (2D) Extension: euclDistance,,,closed,2022-01-29 21:34:24,2022-02-10 17:23:03,1
+Fix SFML App Xcode template,G3P,,closed,2022-01-28 20:32:59,2022-01-29 09:26:30,2
+Don't add SFML:: namespace to external targets,Chris Thrasher,,closed,2022-01-27 20:56:06,2022-01-28 07:11:54,1
+"Add Vectors (2D) extensions: Mag, Normalize, Rotate, Cross",,,closed,2022-01-26 15:16:24,2022-02-10 17:23:11,1
+Extension methods for Vector2,Jan Haller,,closed,2022-01-25 22:00:45,2022-02-28 16:18:02,3
+Vector2 enhancements,,,closed,2022-01-25 15:02:57,2022-02-10 17:23:31,4
+Remove unnecessary CMake version requirement,Chris Thrasher,,closed,2022-01-22 04:04:59,2022-01-22 14:51:27,1
+Simplify sf::Transform tests,,,closed,2022-01-21 20:53:39,2022-02-18 11:00:34,1
+Fix runtests target for multi-configuration generators,,,closed,2022-01-21 11:48:20,2022-01-21 20:19:33,1
+Remove GCC 4 workaround,Chris Thrasher,,closed,2022-01-21 06:48:09,2022-01-21 20:19:06,1
+Add tests for sf::Transformable,Chris Thrasher,,closed,2022-01-21 06:32:14,2022-02-17 20:48:30,1
+Use built-in CMake project version functionality,Chris Thrasher,,closed,2022-01-20 05:55:07,2022-01-21 20:09:21,1
+Add support for VS 2022 to the GitHub Actions workflow,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2022-01-18 18:48:21,2022-01-20 09:53:53,1
+Add sf::Angle,Chris Thrasher,,closed,2022-01-14 21:20:45,2022-02-08 22:52:38,1
+Add tests for sf::ContextSettings,Chris Thrasher,,closed,2022-01-12 03:23:08,2022-01-13 22:49:38,1
+Add tests for sf::BlendMode,Chris Thrasher,,closed,2022-01-11 22:08:56,2022-01-20 06:39:20,1
+Reintroduce 'SleepImpl' sleep implementation,Vittorio Romeo,mail@vittorioromeo.com,closed,2022-01-11 00:30:13,2022-01-12 00:01:36,1
+Use std::filesystem::path,Chris Thrasher,,closed,2022-01-10 00:22:57,2022-02-17 00:40:30,6
+Add .gitignore file,Chris Thrasher,,closed,2022-01-09 21:38:51,2022-01-10 09:34:56,1
+Feature/back merge,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2022-01-08 11:30:02,2022-01-08 12:04:54,4
+Fix test and example incompatibility with ARM Macs,Chris Thrasher,,closed,2022-01-08 03:27:02,2022-01-08 18:46:20,1
+Use operator<< for printing during test failure,Chris Thrasher,,closed,2022-01-06 20:32:22,2022-01-07 19:04:55,1
+Allow examples to run from any directory,Chris Thrasher,,closed,2022-01-05 01:54:36,2022-01-06 19:21:02,1
+Define fixed-width integer type aliases in terms of standard fixed-width types,Chris Thrasher,,closed,2022-01-03 04:22:59,2022-01-06 20:02:15,1
+Add tests for sf::Vertex,Chris Thrasher,,closed,2022-01-03 04:02:17,2022-01-06 19:02:10,1
+Add tests for sf::Transform,Chris Thrasher,,closed,2022-01-02 20:56:01,2022-01-08 14:06:13,1
+Update year to 2022 (2.6.x branch),Jan Haller,,closed,2022-01-01 10:28:45,2022-01-02 22:06:32,1
+Fix constructor typo in Unix/X11,Jan Haller,,closed,2022-01-01 09:55:28,2022-01-04 18:21:33,1
+Use std::optional to remove extra sf::Rect::intersects overload,Chris Thrasher,,closed,2021-12-31 23:50:18,2022-01-27 02:55:12,1
+Only build Cocoa example when using Xcode,Chris Thrasher,,closed,2021-12-31 20:08:15,2022-01-04 22:05:24,1
+Remove redundant 4-param sf::Rect<T> constructor,Chris Thrasher,,closed,2021-12-31 19:56:37,2022-01-06 19:04:04,1
+Add SFML:: namespace to targets,Chris Thrasher,,closed,2021-12-30 21:47:09,2022-01-11 21:27:39,1
+Remove redundant doctest formatters,Chris Thrasher,,closed,2021-12-29 03:49:16,2022-01-03 07:27:43,1
+Let tests and examples inherit language requirement from upstream targets,Chris Thrasher,,closed,2021-12-27 04:32:09,2021-12-28 14:53:09,1
+"Remove redundant API taking x,y pair instead of sf::Vector",Chris Thrasher,,closed,2021-12-26 03:23:00,2021-12-26 16:13:19,1
+Prevent crash in Unix `JoystickImpl` with too many file descriptors,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-24 20:24:11,2022-03-12 12:09:12,1
+Set Doxygen 'SEARCHENGINE' to 'YES',Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-24 20:17:41,2022-08-03 21:56:37,3
+Keep test utilities alongside the files that use them,Chris Thrasher,,closed,2021-12-24 18:31:28,2021-12-27 04:24:47,1
+Add tests for 'sf::Color',Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-24 17:04:40,2021-12-27 16:35:06,1
+Make 'Color' constants 'constexpr' and add tests,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-24 16:41:48,2022-02-08 23:32:13,1
+Add tests for sf::Clock,Chris Thrasher,,closed,2021-12-23 23:31:03,2022-01-11 22:49:01,1
+Add tests for sf::VideoMode,Chris Thrasher,,closed,2021-12-23 22:30:47,2021-12-27 18:09:36,1
+Make 'Time' a 'constexpr' class,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-23 20:09:43,2021-12-28 15:52:53,1
+Simplify test directory layout,Chris Thrasher,,closed,2021-12-23 20:06:58,2021-12-24 10:56:58,1
+Add move semantics to 'System' module,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-23 19:58:34,2022-01-03 00:00:56,1
+Drop support for 32-bit architectures,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-23 17:21:18,2021-12-24 13:41:17,1
+Fix null pointer dereference in Font,,,closed,2021-12-22 21:51:36,2021-12-23 16:03:17,1
+Stop configuration when GCC is detected on macOS,Chris Thrasher,,closed,2021-12-22 05:08:30,2022-01-02 22:15:06,1
+Use a smart pointer to manage std::FILE pointer in FileInputStream,,,closed,2021-12-21 21:05:59,2021-12-22 01:35:46,1
+Fix broken OpenGL example,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-21 18:49:10,2021-12-21 19:41:44,1
+Add 'NetworkUtil' for network module tests,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-21 18:35:09,2023-01-25 18:32:49,1
+Manipulate library names on Windows + Clang,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-21 16:33:24,2021-12-22 07:53:04,1
+Add unit tests for sf::Time,Chris Thrasher,,closed,2021-12-21 06:52:03,2021-12-23 19:34:33,1
+Replace Catch with Doctest,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-21 00:01:07,2021-12-24 14:06:32,1
+Feature/backmerge,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2021-12-20 00:10:20,2021-12-20 13:22:57,5
+Don't use 'sf::err' in public example code,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-19 23:30:36,2021-12-20 14:06:27,1
+Only compile Catch main once,Chris Thrasher,,closed,2021-12-19 17:22:40,2021-12-19 22:11:15,1
+Improve compilation times by removing some includes and avoiding heavy dependencies,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-19 16:13:43,2021-12-19 17:13:08,1
+Only compile Catch main once,Chris Thrasher,,closed,2021-12-19 15:34:32,2021-12-19 15:43:17,1
+Remove build logic for unsupported compilers,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-19 15:19:17,2021-12-19 20:51:53,1
+Fix `-Wmissing-braces` warning under clang,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-19 14:27:36,2021-12-19 14:58:30,1
+Use more smart pointers to manage FreeType resources,,,closed,2021-12-16 17:11:36,2021-12-17 19:32:13,1
+Add tests for 'Vector' destructuring and 'constexpr' support,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-16 16:18:41,2021-12-16 21:20:00,1
+Use smart pointers to manage memory,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-16 14:16:35,2021-12-21 18:54:26,1
+Make 'Vertex' a 'constexpr' class,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-16 12:17:10,2021-12-19 14:35:48,1
+Make 'Rect' a 'constexpr' class,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-16 12:10:40,2021-12-18 16:29:42,1
+Fix warnings for clang,Pawel Paruzel,pawelparuzel95@gmail.com,closed,2021-12-16 09:04:02,2021-12-19 23:10:56,3
+Unify toLower implementations,Chris Thrasher,,closed,2021-12-15 23:48:05,2021-12-20 07:29:06,1
+Fix regression in shader example,,,closed,2021-12-15 12:15:47,2021-12-15 14:27:37,1
+Make 'Color' a 'constexpr' class,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-14 21:49:32,2021-12-18 20:34:06,1
+Make 'Vector2' and 'Vector3' 'constexpr' classes,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-14 21:40:18,2021-12-15 16:28:51,1
+"Remove redundant APIs taking '(x, y)' in favour of ones taking 'sf::Vector'",Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-14 19:17:15,2021-12-15 10:22:46,1
+Replace 'sf::NonCopyable' with '= delete',Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-14 19:10:20,2021-12-16 21:39:38,1
+Fix calling convention for SetProcessDpiAwareness,Anton Vasiliev,,closed,2021-12-12 21:24:19,2021-12-12 22:28:57,1
+Update to Catch2 v2.13.7,Chris Thrasher,,closed,2021-12-10 02:11:13,2021-12-21 22:11:16,2
+Reduce compile-time impact of 'windows.h',Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-10 01:33:37,2021-12-16 21:39:08,1
+Add PCH builds via 'SFML_ENABLE_PCH' CMake option,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-09 20:31:11,2022-10-09 12:21:11,1
+X11: fix KeyPressed duplicated with IBus,Edgar Su,sjs333@outlook.com,closed,2021-12-09 20:21:10,2022-10-24 19:20:27,1
+Use 'std::optional' instead of 'std::vector' for temporary 'AudioDevice',Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-09 19:05:49,2021-12-09 22:35:15,1
+Strategic use of '[[nodiscard]]' in 'Window' module,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-09 16:32:06,2021-12-09 19:53:55,1
+Strategic use of '[[nodiscard]]' in 'System' module,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-09 16:22:03,2021-12-14 13:02:05,1
+Strategic use of '[[nodiscard]]' in 'Network' module,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-09 16:18:15,2021-12-09 22:34:58,1
+Strategic use of '[[nodiscard]]' in 'Graphics' module,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-09 14:57:24,2021-12-10 01:27:05,1
+Strategic use of '[[nodiscard]]' in 'Audio' module,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-09 14:09:02,2021-12-14 14:19:38,1
+Remove deprecated 'PrimitiveType::Quads',Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-09 13:43:35,2021-12-09 16:33:03,1
+Replace sf::Time with chrono (draft proposal),Pawel Paruzel,pawelparuzel95@gmail.com,closed,2021-12-09 11:00:30,2021-12-09 12:48:20,2
+Back-merge changes from 2.6.x to master,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2021-12-09 09:18:06,2021-12-09 15:36:38,6
+Mark some non-'void' 'const'-qualified member functions as '[[nodiscard]]',Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-09 02:07:00,2021-12-24 13:41:06,1
+Replace 'BoolType' with 'explicit operator bool',Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-09 01:57:04,2021-12-09 08:03:56,1
+Remove most deprecated APIs and enumerators,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-09 00:53:16,2021-12-09 13:12:04,7
+Use 'auto' where no information is lost,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-08 18:35:53,2021-12-08 19:14:32,1
+"Minor modernization changes: 'nullptr', range-based 'for' loops, etc...",Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-08 17:32:16,2021-12-08 21:41:21,1
+Use 'override' whenever possible instead of 'virtual',Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-08 17:10:43,2021-12-09 08:07:03,1
+Use alias declarations instead of 'typedef',Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-08 17:00:58,2021-12-08 17:58:14,1
+Resolve two C++11 TODOs ('static' initialization synchronization and 'shrink_to_fit'),Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-08 14:57:13,2021-12-08 16:07:15,2
+Use std::vector.data() where appropriate,Anton Vasiliev,,closed,2021-12-07 23:12:16,2021-12-08 16:26:04,1
+[WIP] Implement wrapper for loading libraries on Win32,Anton Vasiliev,,open,2021-12-07 04:10:36,,6
+Fix Vulkan example exceptions,Anton Vasiliev,,closed,2021-12-07 03:13:58,2021-12-08 01:06:38,2
+Update sf::Clock to C++17,Pawel Paruzel,pawelparuzel95@gmail.com,closed,2021-12-06 14:16:09,2021-12-15 11:52:28,2
+Fix wrong cast in sf::Packet,Pawel Paruzel,pawelparuzel95@gmail.com,closed,2021-12-05 22:33:47,2021-12-06 07:06:21,1
+Fix regression in copyToImage,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2021-12-05 21:12:04,2021-12-06 07:08:50,1
+Delegate 'WglContext(WglContext*)' constructor to more general one,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-05 17:15:58,2021-12-05 18:09:36,1
+Let CMake autodetect Apple arch on M1 processor,Pawel Paruzel,pawelparuzel95@gmail.com,closed,2021-12-05 12:39:29,2021-12-06 14:43:59,1
+Fix improper cast inside packet operator,Szymon J.,,closed,2021-12-05 01:59:16,2021-12-05 23:22:43,1
+Add '.gitignore' file,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-04 23:12:14,2021-12-05 01:28:05,1
+"Use 'auto', range-'for', and structured bindings to improve some loops",Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-04 22:53:20,2021-12-08 12:05:53,1
+Replace SFML multithreading primitives with standard C++ ones,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-03 23:00:16,2021-12-14 00:07:30,1
+Change associative containers to their respective 'unordered' version,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-03 19:45:24,2021-12-06 14:01:57,1
+Add .clang-format file,,metaquarx@protonmail.com,closed,2021-12-03 16:36:29,2022-06-27 17:27:54,1
+Use emplacement operations to avoid unnecessary copies/moves,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-03 16:00:44,2021-12-03 18:34:17,1
+Use '[[fallthrough]]' attribute and enable relevant warning,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-03 15:53:48,2021-12-04 11:42:10,1
+Remove 'SFML_DEPRECATED' and replace internal usages with '[[deprecated]]',Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-03 14:54:14,2021-12-03 18:36:48,1
+Use 'nullptr' instead of 'NULL',Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-03 14:46:42,2021-12-03 15:48:32,1
+Use list-initialization to zero-initialize 'JoystickImpl.hpp' structures,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-12-03 14:37:02,2021-12-04 23:12:58,1
+Enable and require C++17 support,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-11-30 18:03:44,2021-12-02 19:13:05,1
+Update SFML version to 3.0.0,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2021-11-30 12:45:34,2021-12-02 19:02:16,1
+Add missing comment,Anton Vasiliev,,closed,2021-11-30 06:30:49,2021-11-30 08:52:36,1
+Update to make compilation possible of 2.4.x on Arch.,Jeremy Laviole,poqudrof@gmail.com,closed,2021-11-25 10:51:46,2021-12-02 15:26:06,1
+MP3 reader support using minimp3,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2021-11-23 09:25:06,2021-12-08 07:19:09,1
+X11: fix XIM input method support,Edgar Su,sjs333@outlook.com,closed,2021-11-21 21:38:04,2021-12-09 08:05:00,1
+Remove some include directives for unused headers,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-11-21 00:30:07,2021-11-21 23:47:11,1
+Fix useless temporary `sf::Lock`,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-11-19 20:39:16,2021-11-19 22:17:15,1
+Proof of concept conversion to C++17 ,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-11-19 20:31:11,2022-01-30 09:40:12,202
+Fix several unused warnings (continued),Vittorio Romeo,mail@vittorioromeo.com,closed,2021-11-19 01:23:47,2021-11-30 10:25:59,12
+Simplify management of `ActivityStates`,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-11-19 00:24:30,2021-11-23 23:34:03,1
+Use correct rpath value for dependencies,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2021-11-13 15:54:02,2021-11-14 17:31:27,1
+Fixed text underline and strike-through missing outline,Corentin Schreiber,,closed,2021-10-20 07:27:17,2021-10-25 20:47:33,1
+Use modern CMake property to handle static runtime linking with MSVC,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2021-10-18 15:49:08,2022-09-30 20:17:04,1
+Fix incorrect glyph rect for text outline,Corentin Schreiber,,closed,2021-10-07 07:09:05,2021-10-18 07:46:35,2
+Silence deprecation warnings on Mac OS X,,,closed,2021-08-30 00:04:31,2022-09-29 22:06:20,1
+Ensure proper nesting of autorelease pools on OS X,,,closed,2021-08-29 20:13:47,2021-09-15 11:15:51,3
+Add support for Visual Studio 2022,Chris Ohk,utilForever@gmail.com,closed,2021-08-22 05:55:27,2021-08-23 20:34:05,1
+Copy logo.png to Resources in Cocoa example,,,closed,2021-08-15 20:57:25,2021-08-16 07:37:59,1
+Idea to improve high DPI handling on OS X,,,closed,2021-08-15 20:53:08,2021-11-18 20:34:09,1
+Process Cocoa events after window close,,,closed,2021-08-08 06:47:29,2021-08-12 21:19:14,2
+Fixed typo in TcpSocket header comment,,,closed,2021-07-14 02:17:49,2021-07-14 08:47:07,1
+Add texture coordinate type to RenderStates,Corentin Schreiber,,open,2021-07-04 09:00:48,,15
+Fixed funcs for safe use in Win32/Win64,Herman Semenov,,closed,2021-06-30 21:21:36,2021-08-18 17:32:59,1
+Add Wayland Support and refactor unix backends,Ella Stanforth,,closed,2021-06-29 13:06:28,2023-01-04 14:24:40,2
+Try more possible names for OpenGLES library.,Casey W,,closed,2021-06-29 01:36:16,2021-08-09 16:16:38,1
+Fixed params to const reference and new operator,Herman Semenov,,closed,2021-06-28 18:28:26,2021-06-29 05:33:21,4
+Add draw batching,,,open,2021-06-13 15:33:24,,5
+MP3 reader support,Lion,,closed,2021-05-10 19:45:27,2021-11-23 09:18:38,0
+Fix configuration conflicts with Clang,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2021-05-03 18:16:28,2021-05-10 10:20:48,1
+Fix `sf::Context::getActiveContext` to stop returning inactive contexts,Guillaume Bertholon,,closed,2021-04-21 15:33:53,2021-04-26 14:31:13,1
+Enable compiler warnings.,,binary1248@hotmail.com,closed,2021-04-19 02:22:39,2021-11-30 10:31:23,1
+Fix several unused warnings,Jan Haller,,closed,2021-04-14 20:38:50,2021-11-22 07:50:36,34
+Fix OpenGL context on Android,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2021-04-14 09:02:57,2021-04-29 19:16:06,1
+Fixed regression introduced in 4fcef89 causing EXT_texture_edge_clamp support to not be considered,,binary1248@hotmail.com,closed,2021-04-14 02:20:58,2021-04-14 09:04:46,1
+Enable support for unity builds,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-04-14 01:59:48,2021-08-12 19:00:16,1
+Add support for SFML unity builds,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-04-13 23:41:53,2021-04-14 02:13:25,1
+Remove standard '<algorithm>' depedency in common headers,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-04-12 00:50:06,2021-04-12 16:38:52,1
+Fix ordering of 'sf::Font' members in 'Font.cpp',Vittorio Romeo,mail@vittorioromeo.com,closed,2021-04-12 00:39:42,2021-04-12 11:28:01,1
+Fix incorrect standard includes in 'InputSoundFile',Vittorio Romeo,mail@vittorioromeo.com,closed,2021-04-12 00:36:40,2021-04-13 08:21:12,1
+windows: add resource.rc files to dll builds,,binary1248@hotmail.com,closed,2021-04-11 01:03:44,2021-04-11 14:02:51,1
+Add missing semicolon in doc example,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2021-04-08 12:17:34,2021-04-08 15:35:06,1
+Fix overflow when using sf::Clock for long time,Evgeny,,closed,2021-03-29 16:44:25,2021-04-15 07:06:42,1
+Support geometry shaders when a OpenGL 3.2+ context is available,,binary1248@hotmail.com,closed,2021-03-27 14:12:44,2021-03-28 17:26:18,2
+Fix '-Wimplicit-fallthrough' warnings by adding a fallthrough comment,Vittorio Romeo,mail@vittorioromeo.com,closed,2021-03-25 03:53:50,2021-03-25 10:39:50,1
+Add support for arm64 on macOS,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2021-03-20 14:27:17,2021-03-23 19:14:59,1
+"MacOS: When initializing an openGL view with an existing window, call finishInit",,,closed,2021-03-19 15:04:52,2021-03-20 21:36:20,1
+Support sRGB color space in RenderTexture,Guillaume Bertholon,,closed,2021-03-10 14:39:32,2021-05-11 14:52:56,2
+Add Min and Max blend modes,Guillaume Bertholon,,closed,2021-03-09 11:23:12,2021-03-23 20:09:54,1
+Change GitHub Actions failure mode,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2021-02-19 10:51:43,2021-02-19 19:48:28,1
+macOS: allow CMAKE_OSX_ARCHITECTURES to be arm64,,,closed,2021-02-08 15:56:21,2021-03-06 09:32:48,1
+Added auto hinting compensation to fix too wide gaps between small glyphs,Radek Dutkiewicz,,closed,2021-01-20 20:33:37,2021-02-10 23:40:30,6
+Changes to text kerning -- auto-hinting compensation,,,closed,2021-01-19 19:22:28,2021-04-14 09:22:06,2
+Fixed copy assign operator in sf::Sound so it checks for self-assignment,Francisco Gallego Salido,fgallegosalido@gmail.com,closed,2021-01-16 17:42:46,2021-01-18 06:50:47,1
+Fixed copy assign operator in sf::Sound so it checks for self-assignment,Francisco Gallego Salido,fgallegosalido@gmail.com,closed,2021-01-16 14:41:20,2021-01-16 17:36:38,2
+Fix for issue #1733,Александр,,closed,2021-01-15 20:38:13,2021-01-17 01:08:06,1
+[Feature] Adding constexpr functionality to the library,Francisco Gallego Salido,fgallegosalido@gmail.com,closed,2021-01-15 13:29:14,2021-12-16 20:04:52,7
+Fix NULL in Android EGL_DEFAULT_DISPLAY,Sevag H,sevagh@protonmail.com,closed,2021-01-14 14:21:40,2021-01-14 15:40:22,1
+Update CMake minimum version to 3.7.2,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2021-01-14 10:57:08,2021-01-16 15:48:41,1
+Fix potential crash when changing cursor - don't release the NSCursor object if it's already been released,Jonny,,closed,2021-01-06 23:28:18,2021-04-13 08:02:16,2
+Remove Travis CI Integration.,Elijah Hopp,github.mrzeusthecoder@gmail.com,closed,2021-01-06 23:06:50,2021-01-12 10:36:00,1
+Update the copyright year to 2021,,,closed,2021-01-06 17:03:45,2021-01-06 19:21:37,1
+Slight increase performance and code refactor,Herman Semenov,,closed,2021-01-03 18:25:43,2021-01-05 19:46:23,1
+Preserve the drop shadow for system cursors on Windows,Ivan Roberto de Oliveira,,closed,2020-12-19 02:21:14,2021-08-12 22:51:01,1
+Use enum class instead of plain enum for PrimitiveType,Jean Tampon,jean.tampon@gmail.com,closed,2020-12-09 16:47:43,2020-12-09 16:51:13,1
+[sprite] don't set default rect before the user provided one,,,closed,2020-12-08 15:40:03,2021-01-14 08:40:22,2
+Thread-safe sf::err(),Jan Haller,,open,2020-12-06 17:10:19,,2
+NetBSD support proposal.,David CARLIER,devnexen@gmail.com,closed,2020-12-05 07:42:21,2020-12-07 15:08:01,1
+Fixed setMouseCursorGrabbed on Linux,,,closed,2020-12-01 21:27:24,2021-01-06 12:12:00,2
+Retain cursor if an unsupported cursor is used,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2020-11-29 20:30:52,2021-01-06 23:46:37,1
+Add apt-get update command for the CI,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2020-11-29 13:40:05,2020-11-29 14:36:14,1
+Fixed joystick POV values not being set properly for devices that are…,,binary1248@hotmail.com,closed,2020-11-29 12:50:40,2020-12-28 16:48:25,1
+Use public domain resources for examples.,Elijah Hopp,github.mrzeusthecoder@gmail.com,closed,2020-11-28 19:54:53,2021-04-02 20:16:22,1
+Add SO_REUSEADDR to socket.,Laura Kirsch,,closed,2020-11-28 09:01:43,2023-01-25 18:26:18,1
+Add Github Actions.,Elijah Hopp,github.mrzeusthecoder@gmail.com,closed,2020-11-19 00:52:13,2020-11-20 08:19:29,1
+Fix audio stream replay for server example,,,closed,2020-10-24 06:57:53,2022-04-19 07:33:44,1
+Update Server.cpp,,,closed,2020-10-24 06:49:19,2020-10-24 06:49:42,1
+Fix warning: control may reach end of non-void function [-Wreturn-type],Raphaël Frantz,,closed,2020-10-23 21:14:07,2021-01-14 08:44:02,1
+Update stb_image (2.16 -> 2.26) and stb_image_write (1.07 -> 1.15),Jan Haller,,closed,2020-10-21 22:19:28,2020-12-06 12:35:01,2
+Update of documentation in Vector implementation based in system module,Mateusz,,closed,2020-10-09 17:33:55,2020-10-10 12:20:18,1
+"OpenAL Audio effects: reverb, chorus, delay",Matt Styles,,open,2020-10-05 13:21:53,,28
+Fix `sf::Music` sometimes failing to loop after seeking,,,closed,2020-10-01 13:16:41,2020-12-03 19:12:07,1
+Update the copyright year to 2020,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2020-09-12 13:30:14,2020-09-12 17:34:36,1
+Add Visual Studio 2019 builds to Travis,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2020-09-12 12:43:08,2020-09-12 17:25:25,1
+replace dead link in Config.hpp file,mateuszczajkowski,,closed,2020-08-31 20:57:43,2020-09-03 19:07:18,1
+Add support for colored cursors in Unix implementation,Corentin Schreiber,,closed,2020-08-20 20:27:42,2020-09-13 18:35:49,10
+Implement smoothing for fonts,Jonny,,closed,2020-08-12 18:42:04,2020-09-20 17:17:12,1
+Use bit-packing for booleans in Packet,Diego Ximénez,dximenez@ucm.es,closed,2020-07-27 00:17:00,2020-09-12 15:40:37,1
+Added support for directional arrow resize cursors on Linux,Bruno Van de Velde,bruno@texus.me,closed,2020-07-25 17:25:04,2020-11-29 20:22:46,1
+Added XFlush call to WindowImplX11::setMouseCursor,Bruno Van de Velde,bruno@texus.me,closed,2020-07-18 08:32:03,2020-07-22 20:45:57,1
+Add move semantics to sf::WindowBase and sf::Window,Deleted user,,closed,2020-07-18 00:28:25,2020-11-30 22:47:54,1
+Copy automatically examples resource folder to binary output location,Modar Nasser,,closed,2020-07-16 16:48:54,2020-08-25 21:04:56,1
+Implementation of copy/move constructors and copy/move operator for sf::Transform,,bogdasar1985@gmail.com,closed,2020-07-16 15:25:25,2020-07-19 17:24:09,2
+Move semantics for sf::WindowBase and sf::Window classes,Deleted user,,closed,2020-07-04 05:27:59,2020-07-17 23:26:20,6
+Added move constructor and move assignment operator for sf::Shader,Raphaël Frantz,,closed,2020-06-12 16:17:06,2022-11-24 12:57:43,1
+Implemented saveToMemory and saveImageToMemory.,Jonny,,closed,2020-06-01 18:39:37,2020-12-03 19:12:28,1
+Adjustable processing interval in SoundStream #1517,Deleted user,,closed,2020-05-28 11:38:25,2020-06-18 15:37:00,1
+Remove link in documentation main page,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2020-05-26 21:38:22,2020-05-26 23:12:52,1
+Update travis config for android SDK changes,Jonny,,closed,2020-05-14 09:55:08,2020-05-14 11:07:35,1
+Added missing documentation about TcpListener::listen and Socket::AnyPort,Quentin Bazin,,closed,2020-05-11 13:03:14,2020-05-16 18:15:18,1
+"Adding a static ""Zero"" position member to sf::Vector[2, 3]<T>",Elijah Hopp,github.mrzeusthecoder@gmail.com,closed,2020-03-17 19:26:01,2020-03-31 00:24:27,2
+Font text multiple textures,Jonny,,closed,2020-02-25 22:18:53,2022-11-22 16:28:26,2
+Added Font::hasGlyph field,Edgar Su,sjs333@outlook.com,closed,2020-02-25 17:42:47,2020-05-20 14:14:10,2
+Added method to get the current read position of sf::Packet,Jonny,,closed,2020-02-04 23:42:26,2020-02-06 21:29:20,2
+SFMLConfigDependencies.cmake.in: Vorbis uppercase (fixes #1636),,,closed,2020-01-22 20:02:55,2020-01-24 07:56:14,1
+Make the process to set a DirectInput device's axis mode more conservative,,binary1248@hotmail.com,closed,2020-01-04 02:09:54,2020-06-18 16:12:37,1
+Force OpenGL states to be reset when RenderTarget detects that a new context has to be tracked.,,binary1248@hotmail.com,closed,2019-12-09 00:12:41,2020-01-02 14:27:22,1
+"Rename FindVorbis -> FindVORBIS, for consistency with exported variab…",Jan Haller,,closed,2019-12-08 09:30:09,2020-01-02 14:28:33,1
+Improve sf::Transform documentation,Jan Haller,,closed,2019-12-07 19:07:21,2020-01-02 14:27:48,1
+Fix CMake scripts to install and find doxygen's generated SFML.tag file,,,closed,2019-11-14 20:28:41,2019-11-19 08:26:51,1
+Changed Doxygen single-line comment format,Mario Liebisch,,closed,2019-11-14 13:08:08,2020-01-02 14:25:58,1
+Add the possibility to get a glyph by its index in sf::Font,João Baptista de Paula e Silva,jbaptistapsilva@yahoo.com.br,open,2019-09-28 16:14:15,,1
+Use non-const reference to Font as self documentation,David Demelier,,closed,2019-09-26 13:46:19,2019-10-11 13:27:07,1
+fix(compilation): clang compilation on windows,Sztergbaum Roman,rmscastle@gmail.com,closed,2019-09-14 13:43:09,2019-10-13 21:21:26,1
+Initialise m_context correctly in SFContext constructors,Jonny,,closed,2019-08-31 15:37:56,2019-09-01 15:40:58,1
+Remove unnecessary glFlush(),,binary1248@hotmail.com,closed,2019-08-30 21:10:20,2019-09-04 13:26:39,1
+Updating window contents during resizes - Win32,,,open,2019-07-19 05:57:03,,1
+Dynamically load EGL and GLES extensions as is done for desktop GL,,binary1248@hotmail.com,closed,2019-07-18 16:22:22,2019-09-12 21:02:54,1
+Erasing window content during resizing and moving and while popups are displayed - Win32,,,open,2019-07-12 08:50:09,,3
+Fixed Win32 requestFocus in multithreaded environment,,,closed,2019-07-12 07:33:28,2021-01-14 08:46:08,1
+Implemented saveToMemory and saveImageToMemory.,Arthur Caputo,,closed,2019-07-05 12:57:30,2020-06-23 18:14:17,1
+Clarify image documentation,Hapaxia,,closed,2019-06-24 23:52:45,2023-05-09 14:03:19,3
+Replacing switch statement by bit manipulation,,,closed,2019-06-10 23:32:42,2019-09-04 13:52:38,1
+Add CodeTriage badge to sfml/sfml,README Bot,,closed,2019-06-05 03:08:25,2019-06-05 08:25:54,1
+Fixed sensors stop receiving data after window is recreated on Android.,Bendegúz Ács,,open,2019-06-03 21:31:45,,8
+Modular rendering backends,,binary1248@hotmail.com,open,2019-05-07 23:30:33,,1
+Remove VBO implementations from drawables,,binary1248@hotmail.com,closed,2019-05-04 14:48:52,2019-09-01 16:20:15,1
+Fixed SIGSEGV after pressing back button on Android,Bendegúz Ács,,closed,2019-04-25 11:22:07,2021-04-29 19:07:09,1
+Compiler flag is not target library,Uilian Ries,uilianries@gmail.com,closed,2019-04-24 17:08:25,2021-01-14 10:25:11,1
+Fixed sometimes failing to read floats and doubles from Packet on Android.,Bendegúz Ács,,closed,2019-04-16 18:41:15,2021-01-14 08:24:44,2
+Fixed CMake configuration issue with EGL and GLES and wrong include header order for EGL,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2019-04-13 16:53:00,2019-09-03 12:21:40,1
+Use GNUInstallDirs module for cmake install paths,Jonny,,closed,2019-04-09 10:12:06,2019-09-01 19:48:11,1
+Fixed unable to build SFML with latest Android NDK,Bendegúz Ács,,closed,2019-04-08 17:26:40,2021-08-12 22:04:19,1
+Fix: Win32 no longer hides cursor when hovering title bar.,Benjamin Porter,benjamin.porter@gmail.com,closed,2019-03-17 05:05:15,2019-05-13 19:25:45,1
+Fixed text rendering artifacts on Radeon cards.,Radek Dutkiewicz,,closed,2019-03-09 04:02:58,2019-10-29 19:15:40,3
+Fixed missing checks for empty vertex arrays when updating the vertex buffers in sf::Text.,,binary1248@hotmail.com,closed,2019-02-20 19:21:07,2019-02-25 21:25:36,1
+Wrong fullscreen resolution fix,Bendegúz Ács,,open,2019-02-20 18:24:31,,8
+Add support for creating Vulkan window surfaces.,,binary1248@hotmail.com,closed,2019-02-15 17:48:34,2019-10-16 19:48:26,1
+Fixed navigation bar not being entirely hidden on Android,Bendegúz Ács,,closed,2019-02-10 18:25:06,2019-09-03 12:21:07,1
+Removed useless cast,Simon Gauvin,gauvinsimon@gmail.com,closed,2019-02-10 16:06:45,2019-02-19 09:10:05,1
+Extending Font and Text to support multiple textures,,,closed,2019-02-07 18:52:03,2019-02-09 06:57:01,1
+Create   quickly need help to finish my project,Nail Galiev,,closed,2019-01-23 19:08:17,2019-01-23 20:02:40,1
+Fix travis android build to use NDK version r18b,Jonny,,closed,2019-01-18 16:23:37,2019-01-19 00:21:24,1
+iOS example feedback fixes,Jonny,,closed,2019-01-18 14:12:48,2019-01-19 00:09:29,1
+Remove usages of std::auto_ptr to get rid of warnings when building with gcc 8.2,Tobias Widlund,widlundtobias@gmail.com,closed,2019-01-18 13:35:25,2019-01-23 14:27:12,1
+update example android to work with ndk-r18b,Mike Weaver,,closed,2019-01-17 00:05:36,2022-04-12 06:26:11,0
+Fix iOS example bundle names,Jonny,,closed,2019-01-16 11:09:39,2019-01-16 11:23:34,1
+Fix OpenGL extensions not loading,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2019-01-15 20:31:06,2019-01-16 23:12:24,1
+Add travis android builds,Jonny,,closed,2019-01-10 15:00:20,2019-01-15 19:25:49,1
+Removed old android cmake toolchain,Jonny,,closed,2019-01-09 15:25:32,2019-01-15 19:19:00,1
+"Fixing issue with already defined targets, silently return",,,closed,2019-01-08 19:36:51,2019-04-13 18:08:42,1
+Android: Set SYSTEM_UI_FLAG_HIDE_NAVIGATION when going to Fullscreen …,,,closed,2019-01-08 07:07:52,2019-01-14 08:36:04,7
+Updated the copyright year to 2019,,,closed,2019-01-06 12:11:28,2019-01-08 07:56:06,1
+NetBSD support,nia,,closed,2019-01-03 10:59:48,2021-01-14 08:32:52,2
+Fixed EGL incorrectly being passed the anti-aliasing level as EGL_SAMPLE_BUFFERS instead of EGL_SAMPLES.,,binary1248@hotmail.com,closed,2018-12-31 01:37:06,2019-01-04 23:55:52,1
+Make sure setActive(false) is called before the surface is destroyed in EglContext.,,binary1248@hotmail.com,closed,2018-12-29 12:39:36,2019-01-04 23:54:12,1
+made the display method a virtual part of the RenderTarget class,Deleted user,,closed,2018-12-28 16:58:41,2022-04-19 07:26:28,1
+Add static builds to travis build matrix and give all jobs names,Jonny,,closed,2018-12-08 10:22:34,2018-12-08 12:27:44,1
+Use travis for windows builds,Jonny,,closed,2018-12-03 15:58:27,2018-12-06 17:45:09,1
+Fixed opengl error 1282(INVALID_OPERATION) on window.setActive(true),Yehor Kashperskyi,Ekashpersky@gmail.com,closed,2018-11-29 22:24:55,2021-04-14 09:16:50,1
+Unit test updates,Jonny,,closed,2018-11-29 10:34:00,2018-11-29 21:52:03,2
+iOS example updates,Jonny,,closed,2018-11-29 00:47:24,2018-12-08 11:56:30,1
+iOS example support,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2018-11-25 23:09:29,2019-01-23 14:24:33,5
+Fixed example documentation to match the code,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2018-11-25 16:24:27,2018-12-03 17:37:47,1
+Allow changing processing interval in SoundStream,,,closed,2018-11-24 21:30:57,2018-11-25 16:39:43,1
+allow for closing sound files,,,closed,2018-11-24 00:53:41,2018-12-03 18:28:26,1
+Use C++11 std::unique_ptr,David Demelier,,closed,2018-11-07 12:37:55,2018-11-07 12:48:21,1
+CMake: don't set a predefined build type,David Demelier,,closed,2018-11-07 12:26:17,2018-11-07 13:26:30,1
+CMake: create SFML_LIB_SUFFIX option,David Demelier,,closed,2018-11-07 12:11:53,2018-11-23 12:04:33,1
+Android: don't force installation prefix,David Demelier,,closed,2018-11-06 12:52:41,2019-09-13 09:20:38,1
+Add support for blend color,,,closed,2018-10-26 23:16:46,2020-02-10 18:31:07,2
+Unix: Filter X visual by X screen,Sven Hesse,,closed,2018-10-26 19:44:35,2018-11-17 18:29:18,1
+Fix cast,Dmitry Marakasov,amdmi3@amdmi3.ru,closed,2018-10-16 15:08:54,2018-12-03 17:43:59,1
+Disabled the JNI part due to compatibility issues,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2018-10-11 19:52:16,2018-10-11 20:27:07,1
+Initial travis and Appveyor configs,Jonny,,closed,2018-10-09 20:34:37,2018-11-17 18:36:47,1
+Fix OpenGL extensions not always loading,,,closed,2018-10-06 19:58:48,2019-01-15 20:32:00,2
+Updated changelog and version for the 2.5.1 release,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2018-10-02 21:29:43,2018-10-15 19:51:27,1
+Fixed the error message when the wrong bitmap font size is selected,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2018-10-01 20:33:18,2018-10-04 20:26:14,1
+Fixed Windows cursor color conversion to be endian safe,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2018-10-01 17:53:25,2018-10-01 20:52:54,1
+Ensure the proper default framebuffer is bound when activating a Rend…,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2018-09-16 11:20:51,2018-10-01 18:33:54,1
+Remove reference to unused CMAKE_OSX_DEPLOYMENT_TARGET in cocoa example,Jonny,,closed,2018-08-27 12:44:31,2018-08-27 19:40:34,1
+Add -ObjC flag to fix static linking on macOS,Jonny,,closed,2018-08-27 10:38:07,2018-10-15 19:08:50,1
+Allow creation of a window without an OpenGL context,,binary1248@hotmail.com,closed,2018-08-26 02:04:40,2019-01-08 07:51:24,1
+Disable autocorrect on iOS for issue #1473,Jonny,,closed,2018-08-23 19:03:10,2018-08-27 21:17:51,1
+Fix magenta screen on iOS (#1471),Jonny,,closed,2018-08-23 19:02:09,2018-09-16 11:21:51,1
+Add support for creating Color from HSVA,Ivan,,closed,2018-08-23 16:19:02,2018-09-02 21:11:56,3
+"Removed incompatible cmake/catch functionality, replaced with standard cmake",Jonny,,closed,2018-08-20 19:12:17,2018-08-20 19:19:37,1
+Use modern cmake testing functionality including catch integration,Jonny,,closed,2018-08-19 18:11:54,2018-08-20 18:32:04,2
+Fix RPATH for installed examples on Linux,Elias Daler,eliasdaler@protonmail.com,closed,2018-08-18 22:54:02,2018-12-03 18:40:16,2
+Window/Unix: Fix compilation with glxext header versions >=20180525,,,closed,2018-08-16 00:36:20,2018-08-28 18:44:17,1
+Add unit testing foundation to SFML,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2018-08-15 21:32:22,2019-02-20 18:12:04,18
+Fallback for fonts were the height is not equal to the width,Maxime Alvarez,,closed,2018-08-15 20:04:16,2018-10-01 20:38:08,9
+Fix audio components linking order,Kwasior,,closed,2018-08-14 13:00:46,2018-08-14 18:59:00,1
+Fix CMP0072 CMake warning - also allow user to set OpenGL_GL_PREFERENCE,Elias Daler,eliasdaler@protonmail.com,closed,2018-08-13 21:12:30,2018-08-14 19:22:47,1
+Removed unnecessary cmake osx deployment target value,Jonny,,closed,2018-08-09 23:09:56,2018-08-13 21:06:14,1
+Fixed the installation of pkg-config files,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2018-08-09 20:38:08,2018-08-13 20:46:57,0
+Windows: Fixed swapped colors for custom cursors,Mario Liebisch,,closed,2018-08-09 11:07:56,2018-09-08 17:09:33,1
+Changed deprecated auto_ptr in AudioDevice to unique_ptr,Mariusz,,closed,2018-08-01 18:49:10,2018-08-02 06:38:26,1
+2.5.x,Minh Vương,,closed,2018-07-31 14:19:59,2018-07-31 15:23:55,16
+Squash duplicated sf::Font glyphs to single chars,Mario Liebisch,,closed,2018-07-29 07:46:27,2018-08-09 21:19:09,1
+ANativeActivity_onCreate is not exported in sfml-main (fixes #1457),Bruno Van de Velde,bruno@texus.me,closed,2018-07-27 18:34:29,2018-07-28 16:11:25,1
+Reduced context locking & unlocking while creating textures,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2018-07-22 19:34:22,2018-08-13 20:31:57,1
+Fixed some #define flag problem with ANDROID,Lio,,closed,2018-07-22 08:11:30,2018-07-28 16:14:10,3
+Fixed two conversion warnings (C4267),,,closed,2018-06-13 19:15:10,2018-07-28 19:35:44,1
+Added support for stencil testing.,,binary1248@hotmail.com,open,2018-06-12 17:58:22,,1
+Fixed two issues with glyph sub-pixel positioning,Radek Dutkiewicz,,closed,2018-06-11 13:46:24,2018-08-09 21:29:33,3
+Added support for scissor testing.,,binary1248@hotmail.com,open,2018-06-10 19:12:33,,1
+Fixed performance issue with reading WAV files,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2018-06-09 09:53:58,2018-07-02 20:34:01,1
+Fixed KeyReleased event not firing when pressing both shift keys on W…,,,open,2018-06-07 08:00:34,,1
+Added IPv6 implementation,Mandresy Nivo RATIARISON,mratiarison41@gmail.com,closed,2018-06-04 13:57:44,2018-06-13 06:46:17,1
+Fixed RenderTexture::display() dereferencing a NULL pointer when being called before RenderTexture::create().,,binary1248@hotmail.com,closed,2018-06-03 17:42:28,2018-06-04 21:16:40,1
+Fixed stale FBOs not being erased from the staleFramebuffers set after they have been deleted.,,binary1248@hotmail.com,closed,2018-06-03 17:33:38,2018-06-04 21:20:18,1
+Allow re-creation of the shared context as a core context,,binary1248@hotmail.com,closed,2018-05-21 15:41:56,2018-10-23 19:58:00,1
+Fix RenderWindow::setActive incorrectly trying to unbind an FBO during deactivation,,binary1248@hotmail.com,closed,2018-05-20 21:47:26,2018-05-28 09:11:12,1
+Fixed RenderTextureImplFBO's destructor,,binary1248@hotmail.com,closed,2018-05-17 23:35:01,2018-05-28 09:08:38,1
+Install CMake config files into lib${LIB_SIFFIX},James Cowgill,,closed,2018-05-16 15:42:04,2018-05-18 20:08:11,1
+Postpone generation of the RenderTarget ID to RenderTarget::initialize(),,binary1248@hotmail.com,closed,2018-05-15 23:36:38,2018-05-18 20:09:30,1
+Fixed the Unix clipboard implementation causing an abort due to internal data races in Xlib.,,binary1248@hotmail.com,closed,2018-05-15 21:33:10,2018-07-24 20:54:20,1
+Updated version number to SFML 2.5.0,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2018-05-06 06:56:03,2018-05-07 21:39:08,1
+Added missing import for memcpy in MainAndroid,Alexander Weinrauch,alexander.weinrauch@gmail.com,closed,2018-05-03 19:40:47,2018-05-06 06:41:54,1
+"Fixed the doxygen file, CSS and some documentation",Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2018-04-28 22:02:12,2018-05-06 06:48:47,6
+Updated the changelog for SFML 2.5,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2018-04-28 11:59:39,2018-05-06 06:50:15,2
+Implement extra cursors on macOS,Marco Antognini,,closed,2018-04-20 06:01:16,2018-08-27 21:14:41,2
+cmake/Macros.cmake: Do not alter default naming,,,closed,2018-04-15 20:32:38,2021-04-14 08:48:08,1
+Make Windows joystick updating more tolerant of certain system setups,,binary1248@hotmail.com,closed,2018-04-15 02:26:21,2018-04-28 11:16:16,1
+Android: Removed libsndfile from extlib build scripts,Mario Liebisch,,closed,2018-04-14 10:12:51,2018-04-28 11:13:03,1
+windows: add resource.rc files to dll builds,,,closed,2018-04-13 11:57:42,2021-04-11 01:04:43,1
+"[iOS] Have OpenGL, Window and Pong examples build and run",Lucas,,closed,2018-04-12 19:25:26,2018-11-25 23:09:43,5
+(iOS) Use default supported rotations when none are specified,Jonny,,closed,2018-04-12 19:09:53,2018-07-28 16:26:46,1
+Fix cmake config for finding dependencies on iOS,Jonny,,closed,2018-04-12 18:50:31,2018-07-28 16:31:45,1
+cmake/Macros.cmake: ex:->examples:,,,closed,2018-04-11 10:04:09,2018-05-18 20:05:24,1
+Implement extra cursors on macOS,Jonny,,closed,2018-04-11 03:53:13,2018-04-20 06:01:36,2
+[iOS] Check that <SFML/Main.hpp> is used,Lucas,,closed,2018-04-08 22:22:46,2018-07-28 16:29:23,1
+[iOS] Modernize toolchain file,Lucas,,closed,2018-04-08 21:28:28,2018-06-04 21:24:35,1
+iOS example did not build on case-sensitive filesystem,Bruno Van de Velde,bruno@texus.me,closed,2018-04-08 07:24:57,2018-04-28 11:13:24,2
+Fixed socket reuse not conforming to documentation,,binary1248@hotmail.com,closed,2018-04-08 02:47:28,2018-04-14 08:21:30,1
+Changed TCP listen backlog from 0 to SOMAXCONN,,binary1248@hotmail.com,closed,2018-04-07 13:21:30,2018-04-14 07:53:29,1
+Fix discrete GPU preference symbols being exported from the wrong place,,binary1248@hotmail.com,closed,2018-04-07 00:28:40,2018-04-28 11:22:47,1
+Update doxygen config and fix menu title on newer doxygen,Marchenko Ivan,Gravechapa@protonmail.com,closed,2018-04-06 23:25:29,2018-04-28 22:03:26,4
+Update doxygen.css,Leonid Olevskii,,closed,2018-04-06 21:36:45,2018-04-28 22:03:08,1
+Added GitHub issue and PR templates,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2018-04-05 23:25:52,2018-04-28 22:11:28,1
+Use the simulator for iOS by default,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2018-04-05 21:04:32,2018-04-05 22:59:18,1
+Initial X11 scancode implementation,Elias Daler,eliasdaler@protonmail.com,closed,2018-03-29 20:44:48,2020-04-15 19:08:38,33
+Add append/overwrite parameter to Ftp::upload.,,binary1248@hotmail.com,closed,2018-03-27 16:38:27,2018-04-05 09:22:40,1
+GlyphQuad x position quantized to pixels,Radek Dutkiewicz,,closed,2018-03-23 13:54:02,2018-08-05 22:46:22,2
+Fixed strict aliasing punning warning when generating the key of a glyph in Font.cpp,,binary1248@hotmail.com,closed,2018-03-21 21:15:45,2018-03-26 22:00:23,1
+Renamed a few key codes,Marco Antognini,,closed,2018-03-21 06:41:45,2018-03-26 21:40:46,1
+Added a VertexBuffer implementation to all Drawables that were rendered via VertexArrays,,binary1248@hotmail.com,closed,2018-03-20 22:18:33,2019-02-19 09:08:12,1
+Android: Updated the example to build with gradle,Mario Liebisch,,closed,2018-03-20 09:36:26,2018-04-14 08:12:04,3
+Fixed OpenGL version string being parsed incorrectly on some platforms,,binary1248@hotmail.com,closed,2018-03-18 09:59:37,2018-04-05 09:33:56,1
+Updated the changelog for 2.5,,,closed,2018-03-16 14:03:35,2018-04-28 12:00:05,2
+windows: add resource.rc files to dll builds,,,closed,2018-03-16 00:44:35,2018-04-13 11:54:54,1
+build: generate and install pkg-config files on mingw,,,closed,2018-03-15 22:03:02,2018-03-20 02:05:34,1
+window: change case of Dbt.h inclusion,,,closed,2018-03-15 08:46:44,2018-03-23 12:42:57,1
+Update Xcode templates,Marco Antognini,,closed,2018-03-14 20:07:50,2018-03-26 22:02:15,1
+Added raw mouse input event to sf::Window,,,open,2018-03-13 10:34:54,,30
+Added method to get the current read position to sf::Packet.,Michał Marszałek,,closed,2018-03-10 18:23:54,2020-02-05 08:31:55,1
+Optimized RenderTexture performance,,binary1248@hotmail.com,closed,2018-02-28 20:52:22,2018-04-14 07:55:47,1
+Add iOS demo,Jonny,,closed,2018-02-27 20:20:17,2018-04-05 09:20:18,1
+Force correct iOS architecture for cmake,Jonny,,closed,2018-02-25 21:16:21,2018-03-12 14:10:33,1
+Find OpenAL correctly on iOS,Jonny,,closed,2018-02-24 18:58:57,2018-03-12 14:12:21,1
+Added support for specifying optional ThreadLocal destructor functions,,binary1248@hotmail.com,closed,2018-02-24 15:37:24,2018-02-28 20:53:46,1
+Drop 32 bit support on iOS,Jonny,,closed,2018-02-24 00:32:10,2018-03-12 14:11:51,2
+Fix CMake warning on macOS since CMake 3.9,Lucas,,closed,2018-02-10 17:14:40,2018-03-12 14:12:11,2
+Turned the header image in readme.md into a link.,,,closed,2018-02-08 15:12:20,2018-02-10 16:17:41,1
+"Prevent switching to fullscreen, if window has sf::Style::None and desktop resolution on windows.",,,open,2018-02-08 10:48:55,,1
+Letter spacing bugfix,Radek Dutkiewicz,,closed,2018-02-06 12:38:26,2018-02-15 20:29:43,5
+Examples: Set startup folder for debugging in Visual Studio,Mario Liebisch,,closed,2018-02-05 21:01:20,2018-04-14 09:04:18,1
+Added joystick example.,,binary1248@hotmail.com,closed,2018-02-03 12:11:43,2018-04-05 22:08:41,1
+Return correct key code for delete/backspace on android.,,,closed,2018-01-29 21:36:05,2018-02-15 20:22:57,1
+Use -stdlib=libc++ on macOS,Lucas,,closed,2018-01-29 21:13:26,2018-02-10 13:45:28,1
+Fix memory leak in sf::Text.,,,closed,2018-01-29 18:37:40,2018-02-10 13:45:55,1
+Back to the future,,,closed,2018-01-29 18:11:41,2018-02-10 13:53:31,1
+Fixed Win32 modifier keys handling,,,closed,2018-01-26 15:57:37,2018-01-29 16:55:49,1
+Generate shape outline vertices only if necessary.,,,closed,2018-01-26 14:40:29,2018-02-10 13:44:43,1
+Correct docstring in SoundFileReader::seek,Sérgio Agostinho,,closed,2018-01-25 20:51:38,2018-01-29 16:52:48,1
+"Added example demonstrating sf::VertexBuffer, sf::Shader and sf::Thread usage",,binary1248@hotmail.com,closed,2018-01-25 20:26:21,2018-04-05 23:29:47,1
+Fix Opus audio sample rate to 48kHz,Sérgio Agostinho,,closed,2018-01-25 14:48:53,2018-01-25 15:43:08,10
+Android: Removed custom toolchain + NDK updates,Mario Liebisch,,closed,2018-01-25 14:27:02,2018-02-11 19:16:48,2
+Install extlibs on iOS if needed,Jonny,,closed,2018-01-25 00:45:45,2018-02-15 20:10:09,1
+Don't need to find vorbisfile or vorbisenc on iOS,Jonny,,closed,2018-01-24 23:35:35,2018-01-29 16:54:26,1
+Fix for broken text when the font is reloaded.,,,closed,2018-01-15 16:44:47,2018-01-24 23:21:10,1
+Require CMake 3.5.1,Lucas,,closed,2018-01-11 22:38:01,2018-02-17 18:59:49,3
+Worked around render target bug on macOS,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2018-01-10 21:46:48,2018-01-24 23:25:37,1
+Added Exclamation mark/Paragraph (!/§) key handling,Deleted user,,closed,2018-01-08 16:12:31,2023-01-22 23:49:53,2
+Restore fullscreen of a non-visible Unix window,Alec Iverson,adiverso93@gmail.com,closed,2018-01-07 18:31:10,2018-01-29 16:50:44,1
+Enable audio component build on iOS,Jonny,,closed,2018-01-04 22:27:16,2018-01-09 21:05:01,1
+Replace auto_ptr with unique_ptr to fix build errors when using the C++17 standard,Steve Robinson,,closed,2018-01-02 00:34:24,2018-01-02 01:27:18,1
+Replace FindSFML.cmake with SFMLConfig.cmake,Lucas,,closed,2017-12-30 12:37:06,2018-03-26 22:05:12,4
+Fix launch of cocoa example on macOS,Lucas,,closed,2017-12-29 16:39:31,2018-01-24 23:24:24,2
+Extending Font and Text to support multiple textures,,,closed,2017-12-29 14:31:21,2020-03-02 11:35:28,1
+Fixed small joystick movement getting lost due to the set axes threshold,Mario Liebisch,,closed,2017-12-28 09:01:52,2018-03-23 12:35:02,1
+pushing upstream openbsd support from package.,David CARLIER,devnexen@gmail.com,closed,2017-12-26 21:35:23,2018-04-14 08:15:42,3
+Added Tagfile generation and search,Emilien Bauer,,closed,2017-12-26 09:18:39,2018-01-25 21:02:56,1
+Added support for interfacing with joysticks via DirectInput when it is available.,,binary1248@hotmail.com,closed,2017-12-21 22:37:55,2018-02-10 13:48:37,1
+Fixed various type conversion/comparison warnings.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2017-12-07 13:52:23,2018-01-02 19:02:17,1
+Fixed crash with application messing hardware detection,Marco Antognini,,closed,2017-11-28 15:13:30,2017-12-06 16:59:14,1
+Fixed typo in sf::Music documentation,Marco Antognini,,closed,2017-11-22 18:26:01,2017-12-06 16:57:14,1
+Fix copying textures being broken when the FBO implementation is used,,binary1248@hotmail.com,closed,2017-11-19 00:36:44,2017-12-06 15:43:46,1
+Added 'SFML Community' to the author list.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2017-11-13 15:11:07,2017-12-07 12:18:38,1
+Adding support for the Android example to compile with Gradle,,,closed,2017-10-31 10:44:20,2018-01-30 20:27:11,7
+"Fixed a ""used-before"" init of a global  mutex",D. Fleury,,closed,2017-10-29 08:05:02,2018-01-25 20:16:59,1
+Change a character,Maru,marukrap@gmail.com,closed,2017-10-23 22:10:50,2017-12-06 15:59:04,1
+Added sf::VertexBuffer class,,binary1248@hotmail.com,closed,2017-10-21 22:49:14,2018-01-24 23:29:50,1
+First argument of alcCaptureOpenDevice #1304,Soczu,soczynskik@gmail.com,closed,2017-10-16 14:04:09,2017-10-19 12:41:37,1
+Enable comparing sf::Transform and optimize resetting OpenGL back to the identity matrix,,binary1248@hotmail.com,closed,2017-10-01 16:23:46,2017-10-12 20:15:20,1
+Fix OpenGL texture coordinate pointer not being updated,,binary1248@hotmail.com,closed,2017-09-29 20:58:25,2017-10-12 18:39:15,1
+Added support for extensible format PCM wave files.,Tyson Nottingham,,closed,2017-09-29 00:35:55,2017-10-12 17:59:03,1
+Initial Windows scancode implementation,Jonny,,closed,2017-09-28 19:48:05,2020-01-28 15:54:30,4
+Fix X11 key repeat handling not filtering out events from other windows,,binary1248@hotmail.com,closed,2017-09-25 11:42:50,2017-09-28 17:33:46,1
+Caps lock detection,pixelherodev,noam@pingthings.io,closed,2017-09-23 03:48:58,2017-09-27 14:39:53,2
+Android build support for newest NDK release,Alexander Weinrauch,alexander.weinrauch@gmail.com,closed,2017-09-18 16:33:08,2018-01-25 14:23:40,2
+sf::RenderTexture stencil and multisampling support,,binary1248@hotmail.com,closed,2017-09-17 15:10:59,2018-03-26 21:55:52,1
+Fixed Wave file writer writing wrong header values,Mario Liebisch,,closed,2017-09-09 14:27:59,2017-10-12 18:02:55,1
+Removed dependency to libjpeg,Laurent Gomila,laurent.gom@gmail.com,closed,2017-09-08 07:40:47,2017-09-28 18:17:26,1
+Removed unused variable.,,,closed,2017-09-07 01:15:28,2017-09-28 17:15:19,1
+Fix iOS build error when using @import in ClipboardImpl.mm,Tucker Lein,self@tuckerle.in,closed,2017-08-30 03:37:47,2017-09-05 21:23:51,1
+Updated stb_image to v2.16 and stb_image_write to v1.07.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2017-08-28 11:55:39,2017-09-06 08:21:14,1
+Use a CMake toolchain file for iOS build,Tucker Lein,self@tuckerle.in,closed,2017-08-25 05:17:57,2018-01-09 21:08:13,2
+fix gcc 5 bug,,edukaj@qubicaamf.com,closed,2017-08-24 08:11:01,2017-08-28 10:24:13,1
+"Window/Unix: fix SFML issue #1228, getPosition() returns incorrect results on Linux",Luca Longinotti,l@longi.li,closed,2017-08-21 15:45:44,2017-09-05 21:19:24,1
+Fix Deadlock in Android Main Cleanup,Jeff Swenson,,closed,2017-08-19 17:42:59,2018-08-28 18:33:18,1
+Applied ZeroMemory to DEVMODE struct in Win32 to prevent Uninitialized…,Anthony,,closed,2017-08-11 19:47:06,2017-09-05 22:04:31,1
+Bugfix: ALCheck.hpp #include issue for compiling iOS,Misha Krieger-Raynauld,,closed,2017-08-08 14:03:29,2018-02-24 19:51:56,1
+Remove unused/leftover openForWriting function in InputSoundFile.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2017-08-05 22:33:45,2017-08-25 14:28:39,1
+Updated OpenAL Soft to 1.18.1 for Windows.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2017-08-03 17:56:45,2017-08-28 11:38:14,1
+Feature: Opus as additional audio codec,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,open,2017-08-02 13:47:44,,14
+Fix an issue when sf::Clock is constructed in a global scope leading to crashes,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2017-08-01 18:16:32,2017-08-02 13:20:43,1
+Fixed typo in Event description.,Jure Slak,jure.slak@gmail.com,closed,2017-07-27 22:28:45,2017-08-01 15:14:41,1
+Fixed wrong condition for building network support,Innokentiy Alaytsev,alaitsev@gmail.com,closed,2017-07-19 07:22:24,2017-07-25 22:46:31,1
+Added support for (some) Hat/POV axis,Marco Antognini,,closed,2017-07-01 11:22:08,2017-12-06 17:00:23,1
+Fixed potential buffer overrun in Win32 OpenGL error handling,Mario Liebisch,,closed,2017-06-22 16:42:49,2019-01-23 14:28:15,1
+fix warnings C26496,Igor Zhukov,fsb4000@yandex.ru,closed,2017-06-16 02:37:17,2017-10-11 09:32:50,1
+Dual monitor fix,Bloodsword,,closed,2017-06-05 11:04:48,2018-09-08 17:03:22,1
+Do not install extlibs if SFML_USE_SYSTEM_DEPS is true.,,,closed,2017-06-02 08:56:08,2017-07-10 15:09:57,1
+Scancode,Marco Antognini,,closed,2017-05-26 09:37:12,2023-01-20 15:33:00,27
+Improved method used to filter KeyRelease in X11,Bruno Van de Velde,bruno@texus.me,closed,2017-05-08 09:10:01,2017-09-25 14:15:19,1
+implemented Event::FilesDropped for Windows,,fytch@protonmail.com,open,2017-04-30 13:58:40,,1
+Clipboard Support,Marco Antognini,,closed,2017-04-26 19:55:12,2017-08-03 14:30:05,6
+Fixed slight memory leak in sf::Font,Dermoumi S.,,closed,2017-04-07 08:56:52,2017-04-25 13:15:47,2
+Improve cmake script for macOS,Marco Antognini,,closed,2017-04-05 22:02:39,2017-07-26 02:05:56,1
+Bump macOS requirements for unstable,Marco Antognini,,closed,2017-04-05 21:40:39,2017-04-06 08:29:46,17
+Fixed typo in assert in Texture::update,Bruno Van de Velde,bruno@texus.me,closed,2017-03-20 00:32:06,2017-03-22 00:37:13,1
+Updated the binary libs from exlibs/libs-ios,Paul Silisteanu,,closed,2017-03-18 18:34:03,2017-04-25 13:02:19,1
+Bump the required CMake version to 3.1.0 and enforce compiler C++14 support.,,binary1248@hotmail.com,closed,2017-03-18 12:22:05,2017-03-18 22:26:19,3
+Cmake policy CMP0042 is only available on cmake version >3.0,Jonny,,closed,2017-03-17 15:10:46,2017-03-22 01:18:37,1
+Clipboard Support,Ricardo Antonio Tejada,ricardo.a.tejada@gmail.com,closed,2017-03-15 08:15:04,2017-04-26 19:56:12,15
+Clipboard Support,Ricardo Antonio Tejada,ricardo.a.tejada@gmail.com,closed,2017-03-15 08:09:32,2017-03-15 08:12:04,24
+Corrected documentation,,fytch@protonmail.com,closed,2017-02-23 17:38:03,2017-02-28 11:31:08,1
+"Markdown'd readme, changelog, contributing and license files.",Stefan Schindler,,closed,2017-02-22 17:06:09,2017-03-22 02:10:12,1
+Removed time-based poll for joysticks and replaced with manual update,Jonny,,closed,2017-02-22 11:54:46,2017-03-02 12:39:49,1
+Added CFBundleSupportedPlatforms key-value,Marco Antognini,,closed,2017-02-20 17:13:17,2017-02-27 23:57:11,1
+Fixed window menu not working on OS X,Marco Antognini,,closed,2017-02-20 15:24:57,2017-03-07 15:42:55,1
+SFML 2.4.2 release,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2017-02-07 21:25:46,2017-02-10 14:17:42,2
+Fixed playing some wav files,Mikko P,,closed,2017-02-07 09:01:12,2017-02-07 09:18:08,1
+Make context disabling via wglMakeCurrent more tolerant of broken drivers,,binary1248@hotmail.com,closed,2017-01-25 00:02:03,2017-02-02 19:29:15,1
+Added functionality to allow polymorphism with sf::SoundSource,Jonny,,closed,2017-01-23 16:15:20,2018-01-24 23:32:07,2
+Fixed GLX extensions being loaded too late,,binary1248@hotmail.com,closed,2017-01-18 19:58:32,2017-01-23 15:45:48,1
+Adding values to usageToVirtualCode,,,closed,2017-01-18 11:53:37,2017-02-20 15:47:21,2
+2.4.x,Anish Bhusal,bhusal.anish12@gmail.com,closed,2017-01-15 11:45:26,2017-01-15 12:56:26,18
+Fixed #1091 by reverting 7f0f89,Jonny,,closed,2017-01-09 11:52:51,2017-02-21 10:51:31,1
+Fixed bug in sf::Text when applying an outline color/thickness,Matteo Assenza,,closed,2016-12-16 15:54:08,2018-07-28 22:51:06,8
+Update and rename readme.txt to readme.md,Deleted user,,closed,2016-12-03 17:17:17,2016-12-03 17:37:16,1
+packaging support improvements,Rafael Kitover,rkitover@gmail.com,closed,2016-11-30 12:29:05,2017-02-28 09:04:49,1
+Replaced TransientContextLock implementation with a more elaborate one ,,binary1248@hotmail.com,closed,2016-11-27 17:34:33,2017-01-27 01:34:44,1
+Fix wrong types passed to XChangeProperty,,binary1248@hotmail.com,closed,2016-11-26 14:55:52,2017-01-27 11:08:42,1
+fixed sf::Image::create,,fytch@protonmail.com,closed,2016-11-11 10:57:18,2016-11-22 16:53:12,1
+Incremented SFML version number and added changes to the changelog.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2016-10-21 15:18:27,2016-11-03 18:02:13,1
+Addressed Seeking Quirks in FLAC Reader,Austin Kramer,,closed,2016-10-14 05:27:27,2017-01-05 11:39:45,1
+Added protected d-tor to sf::NonCopyable to prevent possible resource leaks,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2016-10-13 21:43:03,2016-11-08 07:22:03,1
+"""Removal addition + 0 in Shape.cpp""", Valchap,,closed,2016-10-12 12:17:44,2016-10-12 14:56:01,1
+Add sfml include directory to target interface,Robin Heinemann,,closed,2016-10-08 16:53:07,2018-03-27 19:57:12,2
+"Added missing setActive virtual method to sf::RenderTarget, added set…",,binary1248@hotmail.com,closed,2016-10-06 21:48:07,2016-10-13 15:00:35,1
+Fixed stack overflow in SoundStream::fillAndPushBuffer() when the underlying stream fails.,Austin Kramer,,closed,2016-09-24 21:41:11,2016-11-08 07:29:33,1
+Added some simple messaging when trying to build under Cygwin,Mario Liebisch,,closed,2016-09-22 13:36:48,2016-10-04 07:32:17,1
+Clarify documentation on Rect::contains function bounds,Mischa Alff,,closed,2016-09-17 15:42:16,2016-10-01 11:21:06,2
+Fixed inconsistency between doc and impl on OS X for the grab feature,Marco Antognini,,closed,2016-09-16 07:25:32,2016-10-01 10:23:21,1
+Feature/more keys,Aoife Hughes,,closed,2016-09-09 12:16:25,2022-07-06 12:48:35,3
+Add a function to detect overlap between a rect and a circle. ,Noah Zuo,,closed,2016-09-09 10:44:24,2016-09-09 11:29:48,3
+123,Aleksey Dronov,cuteboibutt@protonmail.com,closed,2016-09-02 16:21:52,2016-09-02 16:22:07,11
+issue 1139,Georgy Shepelev,,closed,2016-08-29 13:56:14,2016-09-03 09:13:30,1
+Converted Unix Window implementation from XCB back to Xlib.,,binary1248@hotmail.com,closed,2016-08-24 11:38:37,2016-09-29 07:25:00,1
+Change readme to markdown file,Alex Thorne,alex@thorne.dev,closed,2016-08-22 20:42:29,2016-08-22 22:00:20,1
+Fixed possible hang when setting visibility if external window source…,,binary1248@hotmail.com,closed,2016-08-21 12:05:15,2016-08-23 13:28:52,1
+Fixed leak of XVisualInfo objects during GlxContext creation.,,binary1248@hotmail.com,closed,2016-08-20 12:22:25,2016-08-23 11:10:14,1
+Updated sf::Window documentation,Hapaxia,,closed,2016-08-16 14:24:36,2016-09-13 16:43:33,1
+Changed uniform error message,Hapaxia,,closed,2016-08-13 11:39:40,2016-08-15 18:29:45,1
+Define SFML_OS_FREEBSD when compiling for kFreeBSD,James Cowgill,,closed,2016-08-11 20:57:02,2016-08-15 15:18:28,1
+Add support for looping audio from positions other than the beginning.,Matthew Fioravante,fmatthew5876@gmail.com,closed,2016-08-09 02:42:50,2018-01-15 16:57:01,1
+Final changes for 2.4.0,Marco Antognini,,closed,2016-08-05 15:05:27,2016-08-07 18:43:47,4
+Update copyright dates,Marco Antognini,,closed,2016-08-05 11:40:47,2016-08-06 16:59:37,1
+UdpSocket.hpp typo in comment for void unbind(),,,closed,2016-08-01 16:03:14,2016-08-13 11:46:40,1
+GPU local texture data copying,,binary1248@hotmail.com,closed,2016-07-31 12:30:51,2017-03-07 13:58:33,1
+Fixed inconsistent seek behavior in SoundStream,Austin Kramer,,closed,2016-07-30 19:34:03,2016-10-13 21:12:33,1
+Correctly add XCB components if no components are requested,Manu Sánchez,,closed,2016-07-27 10:56:03,2016-08-13 10:30:51,1
+Android: Readded support for libc++ and use it as the standard STL,Mario Liebisch,,closed,2016-07-23 11:00:38,2016-08-05 14:19:59,1
+Added CPack definitions and an NSIS template for easy packaging,Mario Liebisch,,closed,2016-07-21 13:44:42,2021-05-20 11:53:00,1
+Fixed current Android compilation issues,Mario Liebisch,,closed,2016-07-14 20:13:36,2016-07-21 10:35:37,1
+"Deleted unnecessary ""public"" in Socket.hpp",Miguel Chacon,miachm3@gmail.com,closed,2016-07-08 22:18:32,2016-07-09 07:02:33,1
+Fix the cursor not always grabbed again correctly after a focus gain,Victor Levasseur,,closed,2016-06-21 16:12:46,2016-06-22 08:16:35,1
+Remove trailing whitespaces,Ruslan Baratov,x@ruslo.dev,closed,2016-06-20 15:27:36,2016-06-21 07:24:25,1
+Propagate library dependencies,Ruslan Baratov,x@ruslo.dev,closed,2016-06-20 15:07:12,2016-06-21 07:24:20,1
+Set CMake minimum version to 2.8.12,Ruslan Baratov,x@ruslo.dev,closed,2016-06-20 13:41:26,2016-06-21 07:24:16,1
+No need to check *_FOUND because REQUIRED already specified,Ruslan Baratov,x@ruslo.dev,closed,2016-06-20 13:39:13,2016-06-21 07:24:04,1
+Updated/fixed string comparisons in Config.cmake,Mario Liebisch,,closed,2016-06-20 12:13:32,2016-07-17 21:22:08,1
+Ftp::getDirectoryListing typo fix,,,closed,2016-06-17 23:26:36,2016-06-17 23:38:17,1
+Fixed small typos in the xcode template,Jane Lewis,inquisitivepenguin@protonmail.com,closed,2016-06-17 13:27:15,2016-07-04 09:06:35,2
+Fixed some typos,Marco Antognini,,closed,2016-06-14 21:15:10,2016-07-04 08:51:14,1
+Added Cmake flag to enable/disable building certain audio features,Sam Izzo / bananaboy,sam@horsedrawngames.com,closed,2016-06-07 05:43:11,2018-08-13 21:34:37,3
+Added Cmake flag to enable/disable building the networking library.,Sam Izzo / bananaboy,sam@horsedrawngames.com,closed,2016-06-07 05:41:49,2016-06-07 06:17:01,1
+Changed primitive types to be grammatically correct.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2016-06-05 21:10:23,2016-06-11 22:11:10,1
+Declare play/pause/stop functions in sf::SoundSource,Jonny,,closed,2016-06-03 12:09:31,2017-01-02 15:37:26,0
+Added missing sRgb getter and setter to RenderTexture.,,binary1248@hotmail.com,closed,2016-05-30 21:02:43,2021-05-11 15:21:44,1
+Change comment chars in FindSFML.cmake to #,András Kucsma,,closed,2016-05-28 15:52:57,2016-06-05 18:22:55,1
+Fixed not being able to set the window icon properly on some Unix window managers,,binary1248@hotmail.com,closed,2016-05-10 00:10:43,2016-08-13 10:13:13,1
+Fixed FTP directory listing blocking forever,,binary1248@hotmail.com,closed,2016-05-08 20:20:57,2016-06-04 22:06:58,1
+Include gl2ext.h when building on Android,Sami Kyöstilä,sami.kyostila@unrealvoodoo.org,closed,2016-04-17 16:31:07,2016-07-14 20:14:16,1
+Line construct,Michael Truell,,closed,2016-04-17 15:18:27,2016-04-17 15:57:23,1
+Force OPENAL_LIBRARY for ANDROID on OSX,Enrique Llorente Pastora,ellorent@redhat.com,closed,2016-04-10 11:34:24,2016-04-17 09:07:05,1
+Merge pull request #1 from LaurentGomila/master,Deleted user,,closed,2016-04-03 08:01:30,2016-04-03 08:05:14,1
+Feature: Opus as additional audio codec,Ferdinand Thiessen,,closed,2016-04-01 23:10:51,2017-08-02 13:51:42,8
+Added Unicode Support,,,closed,2016-03-27 16:16:43,2016-03-27 19:54:10,1
+Added Transformable::setScale(float factor) and Transformable::scale(float factor),Wes,willygoat95@gmail.com,closed,2016-03-23 22:17:56,2016-03-24 06:35:32,3
+"Extend sf::ftp::upload() function with ""append"" parameter",,,closed,2016-03-18 15:24:54,2018-03-27 16:38:46,5
+Added missing <iterator> include in String.hpp,Marco Antognini,,closed,2016-03-07 16:58:58,2016-03-10 09:07:26,1
+Missing include <iterator> in String.inl,,,closed,2016-03-07 16:35:31,2016-03-07 16:53:44,186
+Fixes a bug where vorbis can't handle large buffers.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2016-03-06 12:24:58,2016-04-22 17:19:15,1
+Add readCurrentReadPosition in sf::Packet,Michał Marszałek,,closed,2016-03-02 17:25:39,2016-11-15 12:37:23,70
+Feature/more keys,James Rank,james.ranky@googlemail.com,closed,2016-02-28 20:32:41,2016-05-08 21:26:26,3
+Fixed issues reported by Coverity Scan static analysis,,binary1248@hotmail.com,closed,2016-02-23 02:11:48,2016-03-09 07:20:04,1
+Fixed font stroker not being null initialized and not being copied from font assignment,Cleroth,its@cleroth.com,closed,2016-02-18 16:37:45,2016-02-18 16:56:37,1
+Android: No longer try to free the native activity when toggling the virtual keyboard,Mario Liebisch,,closed,2016-02-16 18:25:29,2016-03-01 16:13:49,1
+Initialize Font::m_stroker,Bruno Van de Velde,bruno@texus.me,closed,2016-02-10 11:58:58,2016-03-04 08:21:03,2
+Trying to load a non-existing font file crashes an Android app,Michał Marszałek,,closed,2016-02-08 17:11:56,2016-07-21 08:42:19,1
+Update OpenAL-soft for OS X to version 1.17.2,Marco Antognini,,closed,2016-02-07 22:22:49,2016-04-14 10:21:09,1
+Fixed mapCoordsToPixel twitching occasionally when zoom is less than 1.f,Cleroth,its@cleroth.com,closed,2016-02-04 17:11:01,2018-06-10 19:42:52,3
+Removes rescaling of window size on handling iOS device orientation change,Louis Langholtz,,closed,2016-01-26 21:27:18,2016-09-13 18:27:10,1
+Added getPosition() and getSize() to sf::Rect<T>.,Stefan Schindler,,closed,2016-01-22 20:33:38,2019-09-03 07:45:25,1
+Exporting some Glsl utility functions due to linking issues. (#1044),Stefan Schindler,,closed,2016-01-22 20:22:58,2016-03-01 09:11:34,1
+"OS X improvement: warnings + bugfix + refactoring, the lot!",Marco Antognini,,closed,2016-01-18 10:49:56,2016-04-14 12:38:03,7
+Fixed seeking in multi channel FLAC files.,,,closed,2016-01-17 13:29:43,2016-02-22 22:45:43,1
+Android: Copy the selected EGL context's settings to SFML,Mario Liebisch,,closed,2016-01-07 19:03:31,2016-02-22 17:34:28,1
+Create and install PDB debug symbols alongside binaries,Jan Haller,,closed,2015-12-30 19:44:02,2016-03-03 20:24:59,2
+Update external frameworks' plist file,Trygve,trygve@metaphalanges.net,closed,2015-12-29 15:27:04,2017-02-20 17:16:51,2
+Bugfix: Use the mouse button constant instead of 0 to avoid a compiler error on OSX,Glenn Smith,couleeapps@gmail.com,closed,2015-12-28 20:27:55,2016-02-19 19:59:15,1
+Extending Font and Text to support multiple textures (no more discarded glyphs),,,closed,2015-12-28 17:57:59,2017-12-29 14:49:38,3
+Mac External Frameworks Info.plist Update for AppStore Validation,Trygve,trygve@metaphalanges.net,closed,2015-12-28 00:53:14,2015-12-29 15:37:42,16
+vorbisfile info.plist update[DISREGARD],Trygve,trygve@metaphalanges.net,closed,2015-12-27 17:03:35,2015-12-27 19:41:22,1
+vorbisenc info.plist update[DISREGARD],Trygve,trygve@metaphalanges.net,closed,2015-12-27 17:02:26,2015-12-27 19:41:10,1
+vorbis info.plist update[DISREGARD],Trygve,trygve@metaphalanges.net,closed,2015-12-27 17:01:16,2015-12-27 19:43:17,1
+ogg info.plist update[DISREGARD],Trygve,trygve@metaphalanges.net,closed,2015-12-27 16:59:58,2015-12-27 19:43:24,1
+openAL info.plist update[DISREGARD],Trygve,trygve@metaphalanges.net,closed,2015-12-27 16:59:16,2015-12-27 19:43:31,1
+flac info.plist update[DISREGARD],Trygve,trygve@metaphalanges.net,closed,2015-12-27 16:56:58,2015-12-27 19:40:42,1
+update Info.plist file for Issue #1020[DISREGARD],Trygve,trygve@metaphalanges.net,closed,2015-12-27 16:52:16,2015-12-28 10:16:00,1
+Fixed modifiers causing sf::Keyboard::Unknown being returned,,binary1248@hotmail.com,closed,2015-12-24 20:07:22,2016-05-16 20:15:43,1
+Made WAV file reader no longer assume that data chunk goes till end of file to prevent reading trailing metadata as samples.,Błażej Roszkowski,blazej.roszkowski@gmail.com,closed,2015-12-09 10:21:00,2016-02-22 19:09:47,1
+Skip glTexCoordPointer() call if not needed (performance optimization),,,closed,2015-12-04 13:03:30,2017-04-04 11:21:07,1
+Added the missing -s postfix for the RelWithDebInfo config.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2015-12-04 12:31:30,2015-12-31 12:20:07,1
+OSX: Tilde and Dash Fix,Trygve,trygve@metaphalanges.net,closed,2015-12-03 01:28:57,2015-12-29 02:06:11,1
+Threading issue in sf::SoundRecorder,,,closed,2015-11-29 15:23:25,2016-04-10 22:02:02,1
+Implemented stereo audio recording.,,,closed,2015-11-29 14:57:11,2016-05-08 21:32:05,1
+Fixed some initialization issues reported by Cppcheck.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2015-11-20 14:43:41,2015-12-02 23:26:57,1
+Windows: Removed thread affinity changes in sf::Clock,Mario Liebisch,,closed,2015-11-19 13:46:00,2016-11-22 16:41:48,1
+Android: Added sf::getNativeActivity(),Mario Liebisch,,closed,2015-11-18 16:39:44,2016-04-22 15:20:40,1
+Removed internal OpenGL contexts,,binary1248@hotmail.com,closed,2015-11-14 14:05:39,2016-10-06 06:28:19,1
+Rewrite RenderWindow::capture,,binary1248@hotmail.com,closed,2015-11-12 21:09:38,2016-02-19 19:53:42,1
+Add methods to get and set shader attribute locations,,,open,2015-11-03 14:13:39,,2
+Add a lightweight logger frontend,Henrik Gaßmann,,closed,2015-11-01 22:40:23,2018-03-26 22:46:25,2
+Fixed encoding of UTF-16,Marco Antognini,,closed,2015-10-30 07:26:17,2015-11-02 10:39:14,1
+"Implemented sf::Image::saveToVectorPng (jpg, bmp, tga also) + Update stbi_image_write.h",,,closed,2015-10-22 14:59:41,2020-12-06 09:02:47,2
+Fixed crash when resizing a window to a zero-height/width size,Marco Antognini,,closed,2015-10-10 14:01:31,2015-10-19 15:26:02,1
+New API to set shader uniforms,Jan Haller,,closed,2015-10-05 09:41:40,2015-11-01 23:18:53,1
+Add support for sRGB capable framebuffers.,,binary1248@hotmail.com,closed,2015-10-01 08:21:02,2016-03-11 07:11:00,1
+Fixed PDB warnings by switching from /Zi to /Z7 for Visual Studio.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2015-09-29 17:55:37,2016-03-03 20:28:12,1
+Fixed small typo in RenderTexture::setActive() \brief,Alec Iverson,adiverso93@gmail.com,closed,2015-09-29 17:09:54,2015-09-30 06:19:26,1
+Add support for getting and setting multiple HTTP fields.,,binary1248@hotmail.com,open,2015-09-27 06:14:50,,1
+Update Xcode template material,Marco Antognini,,closed,2015-09-25 17:05:25,2015-09-30 06:31:02,1
+Implemented support for mipmap generation,,binary1248@hotmail.com,closed,2015-09-23 15:09:08,2016-05-06 15:56:30,1
+Added support for VS 2015.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2015-09-23 12:45:23,2015-09-30 06:49:40,1
+Deprecation macro,Jan Haller,,closed,2015-09-19 13:31:14,2015-10-20 18:05:02,1
+Linux: added initial multi-touch support,Tom Rouillard,,open,2015-09-16 13:34:33,,2
+Fixed documentation for MemoryInputStream and FileInputStream,Marco Antognini,,closed,2015-09-13 09:58:50,2015-09-18 06:49:30,1
+Improved memory management on OS X,Marco Antognini,,closed,2015-09-08 08:57:03,2015-09-27 16:53:31,1
+Updated platform-specific handle documentation,Marco Antognini,,closed,2015-09-06 11:04:36,2015-11-20 11:59:44,1
+Added support for 24-bit .wav files.,,,closed,2015-08-31 19:57:45,2015-09-20 21:15:11,1
+Fix typo in comment,Renaud Durlin,,closed,2015-08-30 21:16:20,2015-09-30 06:20:20,1
+"Android: Accept touch events from ""multiple"" devices",Mario Liebisch,,closed,2015-08-26 07:36:47,2015-09-18 08:11:37,17
+Preparations for SFML 2.3.2,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2015-08-24 16:06:50,2015-09-10 15:18:51,1
+Linuxfadeoutfix,Anthony,,closed,2015-08-17 14:15:10,2015-08-17 14:15:36,29
+Fix _NET_WM_PING messages not being replied to properly.,,binary1248@hotmail.com,closed,2015-08-16 11:02:52,2015-08-19 22:59:59,1
+Feature/blend mode reverse subtract,Maxime Barbier,maxime.barbier1991@gmail.com,closed,2015-08-15 15:57:40,2015-12-03 09:16:16,1
+Fixing #935: Secure function against random data return.,Ferdinand Thiessen,,closed,2015-08-13 22:18:52,2015-08-24 11:51:21,1
+Fixed XK_* inconsistency in InpuImpl.cpp,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2015-08-11 09:00:08,2015-08-13 19:13:58,1
+Prevent crashes on android when trying to open a resource that does not exists.,,,closed,2015-08-09 07:47:17,2015-08-09 18:57:12,3
+Changed PrimitiveTypes to match GL naming.,Harrison Miller,,closed,2015-08-09 01:25:51,2016-06-05 21:10:48,3
+Make OpenGL extension loader generation more automated.,,binary1248@hotmail.com,closed,2015-08-07 02:32:05,2015-09-21 18:57:34,1
+Revert to Xlib event handling,,binary1248@hotmail.com,closed,2015-07-31 13:23:36,2015-08-12 17:45:29,1
+Added four new CMake options,James Gangur,,closed,2015-07-28 13:47:15,2015-07-29 03:01:10,1
+Added CONTRIBUTING guidelines,Marco Antognini,,closed,2015-07-24 20:34:26,2015-08-17 18:06:20,7
+Fixed image file extension detection,Mario Liebisch,,closed,2015-07-23 07:55:28,2015-08-12 19:41:51,5
+Updated ImageLoader::saveImageToFile to support .jpeg,,,closed,2015-07-23 07:36:06,2015-07-23 08:22:06,1
+Added a method to set and get additional spacing between characters.,,,closed,2015-07-21 17:15:20,2018-01-25 20:59:32,5
+Fixed a typo of the example in the font header.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2015-07-16 13:53:06,2015-08-24 11:39:23,1
+Outline vertices are only updated if there is an outline.,Tyler Ellis,,closed,2015-07-15 03:35:47,2016-11-08 08:59:15,2
+convert FLAC name to upper case,,,closed,2015-07-13 16:50:38,2015-08-04 07:57:28,1
+Fixed sf::Keyboard::RAlt events,,binary1248@hotmail.com,closed,2015-07-13 16:49:27,2015-08-20 18:54:08,2
+Robust alCheck and glCheck macros,Jan Haller,,closed,2015-06-27 15:17:35,2015-08-24 11:09:10,2
+Fix clear bug on RenderTextures,,,closed,2015-06-26 11:35:02,2015-08-04 08:16:50,1
+Added 2.3.1 changes to changelog.,,binary1248@hotmail.com,closed,2015-06-22 09:49:48,2015-06-27 11:41:17,1
+Windows: Implemented touch inputs and events,Mario Liebisch,,open,2015-06-19 10:45:23,,5
+Fixed vector default constructor,Rodrigue Van Brande,rodriguevb@gmail.com,closed,2015-06-14 19:36:15,2015-06-14 19:47:27,1
+Fix keypad keys not being detected on Linux,Andrew Mickelson,andrew.mickelson@gmail.com,closed,2015-06-13 07:05:01,2015-07-13 17:11:07,1
+Increased version to 2.3.1 and updated the changelog.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2015-06-11 10:38:44,2015-07-02 21:29:04,1
+Android: Updated the JNI/event handling code,Mario Liebisch,,closed,2015-06-06 19:52:25,2015-06-11 10:35:37,1
+Windows: Fixed mouse event coordinates for multi-screen setups,Mario Liebisch,,closed,2015-06-03 11:48:22,2015-06-03 12:29:03,1
+Fix FindSFML.cmake can't find SFML 2.1,Alexander Ankudinov,,closed,2015-06-02 11:36:02,2015-08-22 21:29:36,1
+Fix undefined behavior in ewmhSupported(),,binary1248@hotmail.com,closed,2015-05-28 23:19:59,2015-06-04 19:31:58,1
+"Added Vector3u, Vector2d and Vector3d types",Thiago Perrotta,tbperrotta@gmail.com,closed,2015-05-24 04:23:29,2015-06-27 13:29:52,1
+Remap Unix keyboard when user changes layout,,binary1248@hotmail.com,closed,2015-05-23 17:36:06,2015-06-04 19:30:59,1
+Remap Unix keyboard when user changes layout,,binary1248@hotmail.com,closed,2015-05-23 17:33:54,2015-05-23 17:35:02,10
+Clarified lifetime requirements of underlying resources for Music and Font,Jan Haller,,closed,2015-05-23 13:17:41,2015-06-04 19:29:33,1
+Update Image.cpp,,,closed,2015-05-17 13:51:43,2015-06-27 14:26:07,4
+Fix function name in short example snippet in RenderStates.hpp,Juhani Numminen,,closed,2015-05-16 05:56:50,2015-05-22 17:36:10,1
+Removed unnecessary sf:: prefixes,Jan Haller,,closed,2015-05-13 12:30:51,2015-05-20 15:52:59,1
+Android: Fixed audio files not loading (and possibly crashing),Mario Liebisch,,closed,2015-05-12 08:42:11,2015-05-22 17:35:35,1
+Add support for geometry shaders,,binary1248@hotmail.com,closed,2015-05-11 01:11:16,2016-02-19 16:29:33,2
+Added support for pbuffers on Windows and Unix.,,binary1248@hotmail.com,closed,2015-05-11 01:09:01,2015-09-29 06:47:48,1
+Improve OpenGL context creation,,binary1248@hotmail.com,closed,2015-05-11 01:02:30,2015-09-22 07:34:34,1
+Whitelisted SHAPE events on Unix systems,,binary1248@hotmail.com,closed,2015-05-11 00:51:15,2015-05-22 17:35:09,1
+Fixed texture edge clamp extension not being detected properly,,binary1248@hotmail.com,closed,2015-05-11 00:50:31,2015-05-22 17:34:45,1
+Corrected typo.,,binary1248@hotmail.com,closed,2015-05-11 00:49:06,2015-05-22 17:34:10,1
+Only spawn Resized event when window size changes.,Stefan Schindler,,closed,2015-05-08 09:31:06,2015-05-22 17:33:02,1
+"Clarified semantics of Shape::getGlobalBounds(), improved related documentation",Jan Haller,,closed,2015-05-03 12:54:09,2015-05-03 19:51:48,1
+Added missing GLEXT defines to the OpenGL ES block in GLExtensions.hpp.,,binary1248@hotmail.com,closed,2015-04-30 11:35:44,2015-05-01 11:08:42,1
+Fixed inconsistency between sf::Touch::getPosition and touch events.,Casey W,,closed,2015-04-29 15:56:23,2015-05-01 10:25:40,1
+Add unit tests for Rect.hpp,Zachary Mulgrew,,closed,2015-04-28 04:29:24,2015-04-28 18:25:37,1
+Fixed Unix key repeat not being disabled,,binary1248@hotmail.com,closed,2015-04-19 23:38:24,2015-04-21 20:21:08,1
+Add checks for software OpenGL,,binary1248@hotmail.com,closed,2015-04-18 19:37:07,2015-04-21 20:39:49,1
+Multi-GPU preference,,binary1248@hotmail.com,closed,2015-04-18 19:34:57,2015-09-18 09:04:14,1
+Some more OpenGL stuff,,binary1248@hotmail.com,closed,2015-04-16 14:31:19,2015-04-18 19:37:29,1
+Made FileInputStream non copyable,Marco Antognini,,closed,2015-04-13 08:18:03,2015-04-14 23:45:32,1
+Added an assignment operator to SoundSource,Marco Antognini,,closed,2015-04-13 08:06:58,2015-09-27 17:33:27,1
+Fixed warning about switches,Marco Antognini,,closed,2015-04-12 15:21:05,2015-04-14 23:31:02,1
+Fixed pixel format selection,,binary1248@hotmail.com,closed,2015-04-08 07:26:07,2015-04-14 22:37:01,0
+Fixed getting relative mouse position on Unix,,binary1248@hotmail.com,closed,2015-04-07 09:03:46,2015-04-08 07:38:13,1
+Fixed GL_ARB_compatibility not being detected,,binary1248@hotmail.com,closed,2015-04-04 15:09:23,2015-04-08 07:35:59,1
+Bumped back the sfml-graphics OpenGL version requirement to 1.1.,,binary1248@hotmail.com,closed,2015-04-03 00:30:47,2015-04-16 13:28:41,1
+Fix whitespace,,binary1248@hotmail.com,closed,2015-04-01 02:10:40,2015-04-15 00:08:33,1
+Check Android API level,Tiaan Louw,tiaanl@gmail.com,closed,2015-03-31 21:31:20,2015-05-22 17:31:46,1
+Make sure the window still exists before we access the dimensions on it,Tiaan Louw,tiaanl@gmail.com,closed,2015-03-31 19:47:14,2015-05-22 17:29:56,1
+Removed XCB dependencies,,binary1248@hotmail.com,closed,2015-03-31 03:43:34,2015-04-05 23:08:13,2
+Increased version to 2.3 and updated the changelog.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2015-03-30 09:34:39,2015-05-07 08:32:06,1
+Added missing includes in the general headers.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2015-03-30 09:24:31,2015-04-02 16:55:34,1
+Added optional argument on which address to bind (socket).,,binary1248@hotmail.com,closed,2015-03-29 20:00:45,2015-10-14 10:14:46,1
+Switched to the stdio FILE* API for handling streams to provide the expected behavior to Vorbis.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2015-03-28 22:57:33,2015-04-01 11:37:47,1
+Fix Shift+Key events on X11.,,,closed,2015-03-27 07:33:29,2015-03-28 20:47:50,1
+Added support for clipping masks (Implements #1),Zachariah Brown,,closed,2015-03-26 23:47:22,2022-11-22 14:25:32,1
+Add CMake options to install examples and documentation separately.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2015-03-26 10:40:20,2015-04-13 09:34:16,1
+Added support for clipping masks (Implements #1),Zachariah Brown,,closed,2015-03-24 23:29:54,2015-03-26 23:44:29,12
+Added support for outlined text,Zachariah Brown,,closed,2015-03-24 13:07:36,2015-12-31 10:12:11,1
+FindSFML: Missing dependency and wrong library path,Jan Haller,,closed,2015-03-23 14:44:55,2015-03-31 19:01:58,2
+Fixed Unix joystick stuff,,binary1248@hotmail.com,closed,2015-03-23 13:19:32,2015-03-31 19:07:52,2
+Combined separate horizontal/vertical mouse wheel event types,Jan Haller,,closed,2015-03-23 08:33:48,2015-04-06 22:45:09,1
+Fix for the destructor of SoundBuffer. ,,,closed,2015-03-22 07:43:33,2015-03-31 18:58:07,1
+Added support for 32-bits samples in WAV files,Laurent Gomila,laurent.gom@gmail.com,closed,2015-03-21 12:46:45,2015-03-25 22:00:13,1
+Added X11 back to the linker list for FreeBSD,Zachariah Brown,,closed,2015-03-19 23:52:57,2015-03-25 21:31:07,1
+Fix freetype.framework install name id,Marco Antognini,,closed,2015-03-19 15:09:06,2015-03-21 09:22:03,1
+Bugfix/541 osx openal threadsafety,Lucas,,closed,2015-03-16 22:35:59,2015-03-25 21:51:16,1
+Fixed potential buffer overflow in SoundFileReaderWav,Laurent Gomila,laurent.gom@gmail.com,closed,2015-03-15 13:45:21,2015-03-16 09:33:33,1
+Added methods to set the cursor type/image,,binary1248@hotmail.com,closed,2015-03-15 05:52:10,2017-07-18 10:04:30,5
+XCB fixes,,binary1248@hotmail.com,closed,2015-03-14 05:49:26,2015-03-29 20:35:46,8
+Fixed the issue where trying to open a stream didin't reset the stream first.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2015-03-12 10:34:17,2015-03-14 10:05:55,1
+Fixed broken symlinks in frameworks,Marco Antognini,,closed,2015-03-11 08:05:43,2015-03-12 10:00:01,1
+Fixed the paths to the FreeType headers.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2015-03-11 07:52:45,2015-03-21 09:31:17,1
+FLAC SoundStream fix,,binary1248@hotmail.com,closed,2015-03-11 01:45:19,2015-03-12 09:55:51,1
+Added a FLAC file to the Sound example to cover all three supported formats.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2015-03-09 23:46:27,2015-03-28 21:54:28,1
+Refactor XCB stuff,,binary1248@hotmail.com,closed,2015-03-06 17:24:12,2015-03-12 10:03:36,2
+Changed the SOVERSION to major.minor.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2015-02-28 10:57:59,2015-03-12 10:10:21,1
+Added export to Joystick::Identification,Marco Antognini,,closed,2015-02-28 07:31:26,2015-02-28 11:31:07,1
+Mouse scrolling stuff,,binary1248@hotmail.com,closed,2015-02-27 20:34:17,2015-03-16 09:40:46,1
+Correct Joystick::Identification fix,Pierre-Alexandre Pousset,,closed,2015-02-27 18:19:56,2015-02-28 07:31:36,2
+Fixed an issue in Joystick::Identification,Pierre-Alexandre Pousset,,closed,2015-02-27 17:49:55,2015-02-27 18:15:31,1
+Remove non-ASCII symbols,Oleh Prypin,,closed,2015-02-26 22:27:19,2015-03-10 11:49:43,1
+Updated copyright year and Laurent's email address,Zachariah Brown,,closed,2015-02-25 17:40:45,2015-03-02 18:50:34,1
+Updated FreeType to version 2.5.5.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2015-02-24 22:52:03,2015-03-10 12:26:41,1
+Added CMake variables to select the modules to be built,Mario Liebisch,,closed,2015-02-21 13:49:37,2017-04-25 12:48:29,1
+Fixed two trivial XCB related bugs.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2015-02-11 13:07:51,2015-02-20 23:07:08,1
+Added a way for partial sends over non-blocking TcpSockets to be handled properly.,,binary1248@hotmail.com,closed,2015-02-06 20:27:39,2015-03-02 10:28:56,1
+Moved stb_image into the extlibs directory.,,binary1248@hotmail.com,closed,2015-02-06 17:37:50,2015-02-10 22:33:24,1
+Fixed missing pthread dependency,Mark Dresselhaus,,closed,2015-02-06 00:21:55,2015-02-10 22:36:07,1
+Fix for GitHub's language detection,,binary1248@hotmail.com,closed,2015-02-05 02:53:26,2015-02-06 10:17:51,1
+Fixed an issue in InputImpl::getSFOpenGLViewFromSFMLWindow (see issue #782),Itssherman,snorboergrasmaaier@gmail.com,closed,2015-02-03 15:20:13,2015-02-23 11:21:09,1
+Android: Updated toolchain file and dependencies,Mario Liebisch,,closed,2015-01-30 19:35:29,2015-03-04 08:10:29,1
+Relaxed requirements on iterator type of sf::Utf<8>::decode,Laurent Gomila,laurent.gom@gmail.com,closed,2015-01-28 21:16:18,2016-01-08 08:02:36,1
+Added a GlTexture abstract class. This class is used by sf::Shader instead of sf::Texture.,Julien De Loor,,closed,2015-01-27 16:52:19,2015-01-27 18:00:54,1
+fixes reversed logic in wgl core profile creation,Jan Dvorak,snoutmate@gmail.com,closed,2015-01-23 18:55:56,2015-01-23 19:07:20,1
+XCB setMouseCursor,Greg Williamson,,closed,2015-01-21 20:43:49,2015-03-15 05:52:36,1
+Adjusted WindowImplX11.,Stefan Schindler,,closed,2015-01-13 15:14:42,2015-03-14 05:50:49,1
+OpenGL improvements,,binary1248@hotmail.com,closed,2015-01-13 01:02:48,2015-03-26 09:05:57,12
+Update stb_image to v2.02,Jeffrey Clark,,closed,2015-01-12 15:06:30,2015-02-28 11:22:35,2
+Update WindowImplX11.cpp,Błażej Roszkowski,blazej.roszkowski@gmail.com,closed,2015-01-10 22:22:11,2015-01-11 20:47:07,1
+Font Dirtyness Counter,Błażej Roszkowski,blazej.roszkowski@gmail.com,closed,2015-01-08 18:29:27,2018-01-15 23:28:36,1
+Fix GLX context creation,,binary1248@hotmail.com,closed,2015-01-08 18:14:55,2015-02-06 14:00:06,1
+Relaxed cmake installation rules regarding OS X framework dependencies,Marco Antognini,,closed,2015-01-08 16:35:47,2015-02-12 11:20:09,1
+Only link sfml-main for the GUI examples in release mode.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2015-01-07 12:03:48,2015-03-28 21:48:38,1
+Fixed typo in JoystickImpl.cpp to prevent crash on OS X,Marco Antognini,,closed,2015-01-06 23:33:23,2015-01-10 22:51:30,1
+Improved the documentation of SFML-specific statuses in sf::Ftp,Laurent Gomila,laurent.gom@gmail.com,closed,2015-01-03 22:52:41,2015-01-04 23:04:59,1
+Remove dependecy toward libsndfile on all OS,Marco Antognini,,closed,2014-12-22 20:32:18,2015-03-09 23:06:58,21
+Added sending a resize event when the scaling factor changes on OS X,Joel Hoover (Old Account),,closed,2014-12-22 19:42:17,2015-02-10 22:40:25,1
+Reduced lock contention when playing and immediately querying the status of a SoundStream.,,binary1248@hotmail.com,closed,2014-12-21 16:03:41,2014-12-26 19:19:23,1
+Hide CMake success message in quiet mode,Danijar Hafner,mail@danijar.com,closed,2014-12-19 22:52:38,2014-12-24 12:32:19,1
+Added an .editorconfig file,Mario Liebisch,,closed,2014-12-13 11:27:19,2015-02-06 10:12:26,1
+Fixed the namespace and class icon issue and updated the Doxygen file.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2014-12-12 17:01:26,2014-12-27 20:08:41,2
+iOS fixes,,,closed,2014-12-09 20:33:33,2015-02-10 22:49:49,3
+Fixed Window::getPosition() which was took the border into account twice...,robobuggy,,closed,2014-12-09 20:17:09,2015-03-14 10:24:26,3
+Updated the version to 2.2 and added the changelog.txt.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2014-12-02 19:55:52,2014-12-08 16:29:35,3
+Construct joystick pathnames correctly,Ellen Poe,ellen.h.poe@gmail.com,closed,2014-11-27 02:03:26,2014-11-30 19:24:02,1
+Replaced unsigned int with std::size_t for array indices/sizes,Jan Haller,,closed,2014-11-17 17:11:07,2014-12-28 22:41:51,1
+"Fix some typos, improve some sentence and remove extra spaces",Marco Antognini,,closed,2014-11-17 16:34:58,2014-11-19 09:12:13,4
+Examples adjustments.,Stefan Schindler,,closed,2014-11-17 09:27:57,2014-11-17 22:16:55,1
+Fixes CMake issues with udev (#734),Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2014-11-10 13:47:16,2014-11-10 22:57:57,1
+Added implementation of Window::hasFocus() on iOS,Laurent Gomila,laurent.gom@gmail.com,closed,2014-11-07 21:32:00,2014-11-11 16:03:14,1
+Added static_cast for sf::Uint8 (fixes #731).,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2014-10-29 08:41:08,2014-11-03 10:02:56,1
+Fixed right click not detected on OS X with trackpads,Marco Antognini,,closed,2014-10-25 11:24:24,2014-11-03 09:28:35,1
+Updated FindSFML to add UDev to SFML's dependencies,Mario Liebisch,,closed,2014-10-23 11:12:55,2014-11-06 07:38:51,1
+[Android] Implemented `sf::Window::hasFocus()`,Mario Liebisch,,closed,2014-10-13 16:00:06,2014-10-29 08:34:58,1
+Added a new constructor that takes single Uint32 to Color,Stefan Schindler,,closed,2014-10-13 10:02:40,2015-02-23 11:14:01,2
+Added missing WINVER to fix a compilation error with the TDM-2 compiler.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2014-10-12 16:44:41,2014-10-12 18:30:53,1
+Prevent showing garbage from uninitialized padding in sf::Texture,,,closed,2014-10-12 14:45:00,2014-10-13 05:49:26,1
+Added a wrapper class for angles,Mario Liebisch,,closed,2014-10-12 11:37:54,2022-01-15 09:10:53,2
+Clipboard Support,Mischa Alff,,closed,2014-10-07 15:23:03,2017-03-30 08:28:22,6
+Fixed documentation warnings,Marco Antognini,,closed,2014-10-07 10:01:36,2014-10-09 06:37:30,1
+Improve flexibility of dependencies' locations on OS X,Marco Antognini,,closed,2014-10-07 09:50:08,2014-10-09 07:12:04,2
+Added .gitattributes file for proper line endings.,Stefan Schindler,,closed,2014-10-05 23:40:40,2014-10-15 08:41:09,1
+Added support for 64-bit integers in sf::Packet,Laurent Gomila,laurent.gom@gmail.com,closed,2014-10-02 21:12:03,2014-10-06 11:51:53,1
+Added a project template for Android,Mario Liebisch,,closed,2014-10-02 10:08:59,2016-07-31 13:57:55,1
+Source code formatting.,Stefan Schindler,,closed,2014-09-30 06:32:34,2014-10-05 23:38:11,1
+Joystick fixes/update for non-MSVC compilers,Mario Liebisch,,closed,2014-09-25 11:07:39,2014-10-02 15:55:53,1
+Fix for OpenGL context leak,,binary1248@hotmail.com,closed,2014-09-24 23:45:46,2014-10-01 23:24:00,3
+Improved cursor hiding on OS X,Marco Antognini,,closed,2014-09-24 06:35:32,2014-09-24 23:21:07,1
+Fix for error truncating registry key names,,binary1248@hotmail.com,closed,2014-09-24 01:00:28,2014-09-24 21:47:33,1
+Added support for OS X 10.10,Marco Antognini,,closed,2014-09-21 05:45:36,2014-09-22 07:31:33,1
+Bugfix/osx memory footprint,Marco Antognini,,closed,2014-09-14 11:21:10,2014-09-24 08:42:59,1
+Update from Original,Alec Iverson,adiverso93@gmail.com,closed,2014-09-12 00:29:38,2014-09-12 00:29:44,4
+Replace Xlib by XCB (#200),Stefan Schindler,,closed,2014-08-28 06:57:05,2015-01-07 09:37:10,8
+More fixes for text rendering,,binary1248@hotmail.com,closed,2014-08-28 02:00:13,2014-10-02 21:39:47,1
+bug fix: compilation error in VS2013 64bit,Lee Zhen Yong,bruceoutdoors@gmail.com,closed,2014-08-23 12:33:29,2014-08-23 13:00:37,1
+bug fix: compilation error in VS2013,Lee Zhen Yong,bruceoutdoors@gmail.com,closed,2014-08-23 01:39:46,2014-08-23 12:20:43,2
+Bugfix/joystick,,binary1248@hotmail.com,closed,2014-08-20 18:33:40,2014-09-23 08:47:12,2
+C++11/14 compatibility,,,closed,2014-08-19 18:05:49,2014-08-19 20:57:28,1
+FindSFML.cmake cache fix,,binary1248@hotmail.com,closed,2014-08-19 14:37:12,2014-08-26 06:29:47,1
+Fixed errors with the previous changes to socket selector.,,binary1248@hotmail.com,closed,2014-08-18 18:46:29,2014-08-18 19:49:17,2
+Added a strikethrough text style to sf::Text. Fixes issue #243.,,binary1248@hotmail.com,closed,2014-08-18 18:40:05,2014-08-19 21:10:22,1
+Fixed Windows DPI scaling causing strange window behavior (#679).,,binary1248@hotmail.com,closed,2014-08-18 17:05:51,2014-08-19 20:40:33,2
+Added optional argument on which address to bind (socket).,,,closed,2014-08-09 11:32:35,2015-03-29 20:01:04,9
+No space before exclamation mark.,Arnold Dumas,,closed,2014-08-03 18:51:36,2014-08-03 20:47:23,2
+Fix a bug in the font system.,STU,s+github@stu.scot,closed,2014-07-20 14:00:15,2014-08-12 09:13:56,1
+Fixed Texture::getMaximumSize() breaking context management,,,closed,2014-07-18 23:14:47,2014-08-19 20:20:15,4
+Use WM_STATE_FULLSCREEN for fullscreen under X11,Daniel Evans,,closed,2014-07-18 19:06:22,2015-03-14 06:22:07,1
+Create Request.hpp,Jan Kowalski,jankowalski25@gazeta.pl,closed,2014-07-16 18:02:26,2014-07-17 21:39:44,2
+Create Response.hpp,Jan Kowalski,jankowalski25@gazeta.pl,closed,2014-07-16 18:02:24,2014-07-16 18:57:17,2
+Move request and response to other files,Jan Kowalski,jankowalski25@gazeta.pl,closed,2014-07-16 18:02:06,2014-07-16 18:57:19,2
+[Android] Don't try to display without a surface,Mario Liebisch,,closed,2014-07-05 16:44:18,2014-07-08 16:03:42,1
+Improve standard library compatibility.,Danny,,closed,2014-06-26 02:17:06,2014-08-21 14:48:52,19
+[Android] Rewrote key event handling,Mario Liebisch,,closed,2014-06-21 18:18:48,2014-07-24 10:20:18,1
+[Android] Don't add library postfixes,Mario Liebisch,,closed,2014-06-21 07:14:40,2014-06-21 19:16:53,1
+[Android] Fixed redundant touch moved events,Mario Liebisch,,closed,2014-06-20 21:41:50,2014-06-21 18:18:41,1
+[Android] Fixed the app crashing on rotation,Mario Liebisch,,closed,2014-06-20 18:07:46,2014-06-21 18:07:57,1
+Added function to free hidden internal GL context to avoid memory leak,Zachariah Brown,,closed,2014-06-19 22:45:57,2014-09-24 23:46:06,11
+[Android] Added missing sensor event generation,Mario Liebisch,,closed,2014-06-15 13:07:36,2014-06-20 21:58:15,1
+[Win32] Fixed Unicode inconsistency,Mario Liebisch,,closed,2014-06-15 10:50:35,2014-06-20 22:18:08,1
+typo in comments of Context.hpp,Patrick,,closed,2014-06-13 16:31:52,2014-06-20 20:19:39,1
+Added loop point support to sf::Music,Austin Kramer,,closed,2014-06-11 01:28:21,2017-09-05 21:14:18,1
+Check socket descriptor limit. #153,Stefan Schindler,,closed,2014-06-09 21:49:48,2014-06-11 12:35:38,1
+Fixed `TouchBegan` reporting wrong coordinates,Mario Liebisch,,closed,2014-06-09 07:27:22,2014-06-10 08:16:21,1
+Added another place to search for libs in the FindSFML CMake module,Dylan Jones,,closed,2014-06-07 21:35:43,2014-06-07 22:00:12,1
+Add complex text layout to sf::Text,Afief Halumi,,closed,2014-06-03 20:03:59,2014-10-02 08:36:10,11
+Made sensors disabled by default,Mario Liebisch,,closed,2014-05-28 15:55:37,2014-06-07 15:18:37,1
+Improve OS X Implementation: performance and events handling,Marco Antognini,,closed,2014-05-26 13:57:28,2014-06-04 10:21:03,3
+Output error message when XOpenDisplay() fails,Jan Haller,,closed,2014-05-26 07:41:28,2014-05-28 10:14:12,1
+Fix minor potential leaks on OS X and Dead Store in sf::Ftp,Marco Antognini,,closed,2014-05-25 23:09:20,2014-05-28 09:20:43,2
+Feature/grab mouse,Marco Antognini,,closed,2014-05-25 22:57:38,2016-07-18 09:20:12,5
+Methods to request and check window focus,Jan Haller,,closed,2014-05-24 14:34:40,2014-10-09 12:59:21,8
+Fix application crash when calling Shader::isAvailable() #608.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2014-05-23 08:46:40,2014-05-23 09:09:57,1
+add HTTP support for PUT and DELETE,,binary1248@hotmail.com,closed,2014-05-22 08:49:02,2014-05-22 09:02:08,1
+Fix Shader::isAvailable() breaking context management if called too early,,binary1248@hotmail.com,closed,2014-05-19 06:46:02,2014-05-22 09:57:03,1
+Fix OpenAL context management,,binary1248@hotmail.com,closed,2014-05-18 18:02:57,2015-01-01 16:14:59,2
+OS X impl update,Marco Antognini,,closed,2014-05-17 13:14:45,2014-05-23 07:53:27,10
+Added support for geometry shaders,Mario Liebisch,,closed,2014-05-15 13:52:47,2015-05-12 11:43:39,2
+Fixed issue where the viewport's width and/or height could be off by 1 pixel,Remco van Oosterhout,,closed,2014-05-14 14:34:05,2014-05-27 07:16:31,1
+#595 Fix build of the SFML target on OS X with Xcode,Lucas,,closed,2014-05-12 22:26:50,2014-05-13 12:55:31,1
+Bugfix/text underline,,binary1248@hotmail.com,closed,2014-05-12 14:25:22,2014-06-11 22:51:54,2
+Bugfix/soundstream,,binary1248@hotmail.com,closed,2014-05-12 14:24:51,2014-07-07 07:48:59,3
+Make sure texture unit 0 is active when reseting RenderTarget states (#5...,,binary1248@hotmail.com,closed,2014-05-12 14:24:32,2014-05-26 21:11:20,1
+Fixed FTP download and upload file sizes being limited by available RAM ...,,binary1248@hotmail.com,closed,2014-05-12 14:24:13,2014-07-07 07:48:59,1
+Fixed soundbuffer contents not being able to be updated when still attac...,,binary1248@hotmail.com,closed,2014-05-12 14:23:58,2014-05-26 21:41:44,1
+Removed vertical tab support from Text (#442).,,binary1248@hotmail.com,closed,2014-05-12 14:22:49,2014-05-13 08:42:01,1
+Removed Travis CI config.,Stefan Schindler,,closed,2014-05-12 07:01:01,2014-05-12 07:09:31,1
+Adding default arguments to the default constructors for CircleShape and RectangleShape.,Kern Handa,,closed,2014-05-11 16:07:43,2014-05-11 17:10:23,1
+"Updated glext, removed glxext.",Stefan Schindler,,closed,2014-05-09 14:33:55,2014-05-13 13:17:35,1
+Fixed building for OpenGL ES 1.1 platforms,Mario Liebisch,,closed,2014-04-28 19:35:13,2014-05-27 08:54:00,1
+Fix Config.hpp so SFML compiles on Debian kFreeBSD,James Cowgill,,closed,2014-04-25 15:40:49,2014-04-25 16:19:40,1
+Freebsd fixes,Dmitry Marakasov,amdmi3@amdmi3.ru,closed,2014-04-25 13:46:51,2014-04-25 14:28:14,3
+Fix text being rendered with a vertical offset when the font's ascent doesn't match it's size.,,binary1248@hotmail.com,closed,2014-04-22 20:24:56,2014-04-22 20:41:25,1
+Fixed various linux compile errors in EglContext,James Cowgill,,closed,2014-04-21 14:18:32,2014-04-21 14:31:24,1
+Fixed missing JoystickImpl member on Android,Mario Liebisch,,closed,2014-04-15 16:39:58,2014-04-20 05:40:02,1
+Support for scan codes,Nathan Lapel,nathanlapel@gmail.com,closed,2014-04-11 17:08:09,2014-08-20 19:32:44,5
+Fixed disabling key repeat on Linux,Alexandre Bodelot,alexandre.bodelot@gmail.com,closed,2014-04-07 17:38:16,2014-04-07 18:17:40,1
+"Show only 1 once the message ""Parameter not found""",rafoudiablol,,closed,2014-04-06 20:04:49,2014-06-11 12:44:39,1
+Fix typos and missing Joystick::,,,closed,2014-03-29 20:30:22,2014-04-06 17:26:41,1
+"Image::flipVertically(), Image::flipHorizontally() optimizations.",Sergey A.,,closed,2014-03-18 14:42:50,2014-03-30 10:15:11,1
+Make classes which use Transformable and Drawable virtually inherited,NightShadow,,closed,2014-03-18 11:03:56,2014-03-18 11:53:35,1
+Fixed some more warnings,Mario Liebisch,,closed,2014-03-18 09:23:30,2014-04-15 16:14:25,0
+Fixed several issues,Mario Liebisch,,closed,2014-03-11 18:53:42,2014-03-11 19:53:30,1
+Adjust CMake module to provide correct deps on OSX,Jonathan David Page,jonathan@sleepingcyb.org,closed,2014-03-11 02:29:43,2014-04-23 09:08:19,1
+Allow the creation of simple waveform sounds,Mario Liebisch,,closed,2014-03-08 12:42:34,2014-03-09 14:45:47,2
+Add accessors for listener's up-vector,,,closed,2014-03-07 16:54:16,2014-03-09 12:26:34,1
+Implemented a more flexible blending system (fixes #298),Joel Hoover (Old Account),,closed,2014-03-05 22:21:26,2014-03-09 13:34:05,1
+Changed tabs to spaces in various files,Joel Hoover (Old Account),,closed,2014-02-28 20:52:04,2014-03-01 16:48:24,1
+"Adds name, manufacturer ID and product ID for joysticks.",Sean Monahan,hello@seanmonahan.org,closed,2014-02-02 03:57:46,2014-03-09 11:45:54,1
+Added window methods to request and to check focus,,,closed,2014-01-12 16:20:49,2014-05-24 14:36:14,5
+Fix compiler errors in linux egl implementation,James Cowgill,,closed,2014-01-12 13:54:39,2014-04-21 07:51:55,62
+Enable Texture Unit 0 in resetGLStates,Colin Duquesnoy,colin.duquesnoy@gmail.com,closed,2014-01-06 12:41:53,2014-05-27 09:01:12,2
+Added cast operators to the Vector2 and Vector3 classes,Alex Mikhalev,,closed,2013-12-26 05:12:24,2013-12-26 08:40:15,1
+Added .gitignore,Alex Mikhalev,,closed,2013-12-25 22:50:50,2013-12-26 08:38:50,1
+Fixed potential memory leak in sf::Font,Dermoumi S.,,closed,2013-12-15 19:08:09,2014-02-15 17:25:19,1
+Allow specification of Color for Text in constructor,Kamran Vighio Kamran,,closed,2013-12-14 21:05:29,2014-01-28 10:56:31,1
+Made main() with const char** work as well.,Casey W,,closed,2013-12-04 18:58:53,2013-12-04 20:11:24,1
+Add toUtfXString methods to sf::String,,,closed,2013-12-04 11:22:31,2013-12-04 21:55:12,1
+Add mipmaps to sf::Texture,,,closed,2013-11-29 15:58:59,2015-09-23 15:09:50,1
+fix a few typos in comments,,,closed,2013-11-26 22:04:14,2013-11-27 06:33:14,1
+Fix 'instanciate' typo; correct is 'instantiate',Val Markovic,,closed,2013-11-26 21:04:39,2013-11-26 21:12:47,1
+Allow sf::Window to become a topmost window,Mario Liebisch,,closed,2013-11-10 18:04:55,2014-08-21 07:07:50,1
+Link everything static instead of just the runtime libraries.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2013-10-21 05:57:36,2014-03-04 12:58:04,2
+Added a non-blocking poll() function to Thread.,Gareth Webb,gareth.webb@umbralsoftware.co.uk,closed,2013-10-18 13:37:02,2013-10-22 11:31:40,2
+Added support for VS 2013 and TDM compilers.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2013-10-15 13:49:20,2013-10-15 14:37:39,1
+Fixed VS 2005 CMake issue and added support for TDM and VS 2013 compilers.,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2013-10-15 00:31:40,2013-10-15 13:56:32,1
+Add class for rendering complex text,Afief Halumi,,closed,2013-10-10 18:48:53,2014-05-31 22:07:23,5
+Timer fix,,binary1248@hotmail.com,closed,2013-10-07 02:21:27,2013-10-07 07:45:16,2
+Added support for selecting the audio capture device (fixes #220),,,closed,2013-09-19 00:20:21,2013-10-11 14:39:08,1
+Added static function sf::GlResource::releaseThreadResources();,,,closed,2013-09-11 17:50:27,2013-09-12 04:37:58,1
+Fixed underline and VTab bug (closes #442),,,closed,2013-09-05 19:39:07,2014-05-22 12:40:53,1
+Fix weird behaviour of g++ 4.7.3-1ubuntu10 and implement sf::Rect<T>::contains(const Rect<T>&),Mislav Blažević,mislav.blazevic5@gmail.com,closed,2013-08-30 22:29:26,2013-10-02 20:40:31,3
+Fixed mouse clicks not activating windows (Win32),Mario Liebisch,,closed,2013-08-28 09:38:21,2013-09-25 05:36:37,1
+Added operator for division of two sf::Time objects,Jan Haller,,closed,2013-08-21 10:24:28,2013-08-21 11:43:08,1
+Fixed underline and VTab bug (closes #442),,,closed,2013-08-09 14:02:50,2013-09-05 19:34:37,3
+Update Shader.cpp,Błażej Roszkowski,blazej.roszkowski@gmail.com,closed,2013-07-24 15:10:46,2013-09-14 06:58:44,3
+Added support for geometry shaders (implements #428),Artur Jamro,,closed,2013-07-18 17:07:07,2014-07-13 08:03:43,2
+Fix some memory errors,Emmanuel ATSE,,closed,2013-07-18 03:40:53,2013-07-19 11:37:48,3
+Modulo operators for sf::Time (fixes #429),,,closed,2013-07-17 10:30:16,2013-08-12 05:46:21,2
+Add support for fullscreen on Linux without grabbing the keyboard and mouse (allow alt-tab !),Colin GILLE,,closed,2013-07-14 13:11:28,2015-03-14 06:06:31,5
+Make use of extlibs optional,Linus Heckemann,git@sphalerite.org,closed,2013-07-10 18:00:33,2014-05-29 07:49:12,2
+Added .travis.yml file,Vincent Heuken,me@vincentheuken.com,closed,2013-07-10 06:54:20,2013-07-10 06:59:17,1
+Add support for fullscreen on Linux without grabbing the keyboard and mouse (allow alt-tab !),Colin GILLE,,closed,2013-07-07 00:05:49,2013-07-19 09:08:03,8
+Don't reimplement std::copy() in Utf.inl.,Christian Neumüller,,closed,2013-06-23 23:01:21,2013-06-24 05:53:35,1
+Improve Wide char <-> sf::String/sf::Utf <-> ANSI conversions.,Christian Neumüller,,closed,2013-06-15 17:48:13,2015-11-29 17:34:36,3
+Fix for TCP packet data corruption when in non-blocking mode,,binary1248@hotmail.com,closed,2013-06-06 19:17:39,2013-06-17 16:45:49,3
+[Mac OS X][Keyboard] Few improvements and bug fixes.,,,closed,2013-06-03 21:34:49,2013-06-29 19:59:14,8
+Trapping/Clipping the Mouse Cursor,Mario Liebisch,,closed,2013-05-21 22:26:43,2014-05-19 20:51:04,1
+audiobuffer reload fix number 2,Joshua Reisenauer,,closed,2013-05-09 21:19:42,2014-05-26 21:47:31,11
+Support high DPI displays on OS X,Michael Bradshaw,,closed,2013-05-08 15:10:34,2014-04-21 16:13:32,4
+Update Config.hpp,rafoudiablol,,closed,2013-04-28 18:15:11,2014-03-31 19:47:37,2
+Removed lines of spaces,,,closed,2013-04-25 09:39:50,2013-04-25 09:55:52,1
+Support for debug contexts (Win32 and Linux only),Daniel Evans,,closed,2013-04-06 12:13:44,2014-08-20 17:38:05,1
+fix getPosition() function in Linux Window implementation,Jarrett,,closed,2013-03-30 21:04:04,2013-05-18 19:04:42,3
+Fix program crashing because of SIGPIPE.,Guilherme Bernal,guilherme@cubos.io,closed,2013-03-19 19:21:52,2013-03-19 20:05:21,1
+RactangeShape setSize and constructer alternatives,Andrew,andydjackson@gmail.com,closed,2013-03-19 18:43:30,2013-03-19 20:02:16,2
+applied audiobuffer reload fix.,Joshua Reisenauer,,closed,2013-03-15 21:51:43,2013-05-09 20:59:21,2
+Added repeating to sf::RenderTexture,,,closed,2013-03-06 17:24:30,2013-03-06 21:54:57,1
+Strikethrough text style,,,closed,2013-03-06 12:04:35,2014-08-18 18:40:41,3
+Cache shader uniform lookup,Tim Mutton,hello@timmutton.com.au,closed,2013-02-20 09:31:42,2013-06-18 09:53:43,9
+64bit integers in sf::Packet (second attempt),"Alexander ""Ananace"" Olofsson",ace@haxalot.com,closed,2013-02-19 10:58:36,2014-08-21 06:14:48,1
+Support for MinGW x64 compilers,Lukas Dürrenberger,eXpl0it3r@sfml-dev.org,closed,2013-02-18 11:06:26,2013-02-19 13:19:14,1
+substr and replace methods for sf::String,Alexandre Bodelot,alexandre.bodelot@gmail.com,closed,2013-02-16 21:48:03,2014-02-09 21:28:12,5
+Strikethrough text style,,,closed,2013-02-14 18:06:07,2013-03-06 12:01:46,1
+Unicode window title support.,Shiz,hi@shiz.me,closed,2013-02-12 12:38:38,2013-02-12 18:56:05,3
+"Adding support for 64-bit integers to sf::Packet, should fix #208","Alexander ""Ananace"" Olofsson",ace@haxalot.com,closed,2013-02-01 19:27:10,2013-02-19 10:41:38,6
+"Alternative fix for #271, no slowdown",,,closed,2013-01-22 08:14:57,2014-07-08 11:38:01,1
+I fixed the file extensions for the markdown files.,Deleted user,,closed,2013-01-15 22:33:40,2013-01-16 06:49:36,1
+Added support  for chunked http transfers,Mario Liebisch,,closed,2013-01-13 11:52:09,2013-10-24 09:57:04,1
+Fixed missing SFML-specific CMake option prefix.,Klaim (Joël Lamotte),,closed,2013-01-06 17:03:50,2014-05-22 10:21:46,11
+"update Doxygen file, fixes warnings about deprecated variables",Patrick,,closed,2012-12-30 04:17:02,2012-12-30 17:20:23,1
+Fixed https protocol detection (security),Jonathan De Wachter,dewachter.jonathan@gmail.com,closed,2012-12-19 17:25:39,2012-12-19 21:22:59,1
+Added support for chunked http transfers,Mario Liebisch,,closed,2012-12-11 18:17:31,2013-01-13 11:43:32,0
+Reducing GPU two way communication overhead by removing glGet calls,Deleted user,,closed,2012-12-05 18:27:55,2012-12-06 09:20:07,5
+Replace Xlib with XCB for linux sfml-window,Lukas W,,closed,2012-11-25 14:06:06,2014-08-28 07:00:32,4
+Speedup for debugging: don't create std::string on every call to glCheckError,Christian Forfang,,closed,2012-11-17 20:08:39,2012-11-17 21:40:43,1
+Caching of GLSL uniform locations (via Parameter objects),James Helferty,,closed,2012-11-17 00:26:53,2013-06-18 09:53:39,2
+add HTTP support for PUT and DELETE,Patrick,,closed,2012-11-02 02:16:44,2014-05-22 08:49:44,1
+"Fix for ""that"" sf::Font texture bug (now with your naming convention)",TÖRÖK Attila,torokati44@gmail.com,closed,2012-10-26 10:32:58,2012-10-26 13:50:48,2
+sf::Font texture corruption bug fixed,TÖRÖK Attila,torokati44@gmail.com,closed,2012-10-25 23:42:57,2012-10-26 06:04:59,1
+Improves fullscreen support on OS X by adding proper display mode … switching.,Beverly Fields,,closed,2012-10-09 00:39:03,2013-01-23 20:54:45,5
+Fix whitespace-measurement issues with Text,Nuno Silva,,closed,2012-10-08 18:50:48,2012-10-08 21:49:23,1
+Brings sf::Window getPosition and setPosition closer to parity on OS X.,Beverly Fields,,closed,2012-10-05 16:39:39,2013-01-23 21:17:20,1
+Makes joystick button ordering predictable.,Beverly Fields,,closed,2012-10-05 16:33:47,2013-01-23 21:15:09,1
+Fix for unpredictable joystick ordering on OS X.,Beverly Fields,,closed,2012-10-05 14:40:02,2012-10-05 16:02:12,2
+Fixes a crash caused when creating a fullscreen window on linux,,,closed,2012-09-20 21:47:48,2012-09-21 12:26:40,1
+[Intel RenderTexture] Test version of single call to XOpenDisplay,,,closed,2012-09-16 01:31:21,2012-09-21 12:26:29,1
+Added Strintg constructor to generate a String using iterators over a range of integer,Robert Hildebrandt,,closed,2012-08-21 20:21:01,2014-03-09 13:37:46,2
+Added dependencies to pkg-config,Deleted user,,closed,2012-08-02 16:11:34,2012-08-02 16:28:24,1
+Use glDeleteRenderbuffersEXT to delete m_depthBuffer,,binary1248@hotmail.com,closed,2012-07-31 00:20:26,2012-07-31 06:01:59,1
+X11: Resizing window doesn't resize content,Andreas W,wass.andreas@gmail.com,closed,2012-07-24 12:31:27,2014-06-11 06:08:25,8
+Settings passed via sf::ContextSettings not used in glXChooseFBConfig,Andreas W,wass.andreas@gmail.com,closed,2012-07-23 21:09:15,2013-07-10 06:51:23,5
+Proper intersections for negative sizes in sf::Rect.,,,closed,2012-07-07 15:02:53,2013-05-11 20:55:09,1
+Fix behavior of sf::Event::Resized,,,closed,2012-07-06 16:55:39,2012-07-07 15:04:45,1
+Better behavior of sf::Event::Resized,,,closed,2012-07-05 17:46:47,2012-07-06 14:26:06,0
+Fixes the incorrect conversion from degrees to radians.  ,Chase LaCas,rclacas@gmail.com,closed,2012-06-29 04:23:53,2012-07-01 20:44:35,1
+Made CMake look for mscgen instead of using a static path,Mario Liebisch,,closed,2012-06-17 09:23:17,2012-06-17 10:49:54,2
+Update src/SFML/Network/TcpSocket.cpp,Joshua Flynn,,closed,2012-05-06 17:36:46,2013-08-09 14:09:46,1
+fix for static builds with mingw-w64 compilers,Baruch,,closed,2012-05-01 20:06:34,2013-02-17 16:28:12,2
+Reduce joystick connection polling to once per second,Rémi Gillig,remigillig@gmail.com,closed,2012-04-17 22:22:23,2012-05-13 20:00:27,1
+Fix OpenAL-Soft crash on exit,Mathias Kærlev,matpow2@gmail.com,closed,2012-04-12 15:22:33,2012-04-12 17:14:16,1
+Workaround for the default font crash (issue #59),Christian Neumüller,,closed,2012-04-09 20:16:57,2012-04-10 12:23:02,3
+Xcode 4.3 fix.,Wynter Woods,zerotri@gmail.com,closed,2012-03-07 08:03:37,2012-03-09 10:47:18,1
+Unicode window title (Only implemented in X11 so far),,contact@jookia.org,closed,2012-02-16 04:21:25,2012-02-16 14:45:22,4
+Fixed static linking issue on Unix.,,contact@jookia.org,closed,2012-02-15 05:29:55,2012-02-15 07:02:07,1
+Implements Window::GetPosition,Preston Alvarado,,closed,2012-02-10 03:10:28,2012-03-07 22:21:29,3
+Rounded rectangle shape,Rémi Bèges,remi.beges@gmail.com,closed,2012-01-20 12:25:07,2013-05-09 16:07:59,2
+Add support for pkg-config,John Bartholomew,jpa.bartholomew@gmail.com,closed,2012-01-02 04:20:31,2012-01-10 22:13:16,1
+Added subtraction and division operators for sf::Color.,Deleted user,,closed,2012-01-01 18:51:02,2013-08-09 12:56:44,3
+You know you gotta love that C++11,Peter Atashian,,closed,2011-12-31 01:29:08,2011-12-31 10:17:56,1
+Fix for issue #119,Alex Belanger,nitrix@nitrix.me,closed,2011-12-07 05:24:37,2011-12-10 03:39:16,1
+Explicit use signed char for included font data to enable cross-compile,Thomas Knepper,thknepper@gmx.de,closed,2011-11-29 21:21:24,2011-11-30 06:38:54,1
+Forgot to update the internal attributes myWidth and myHeight,Jonathan De Wachter,dewachter.jonathan@gmail.com,closed,2011-11-24 22:56:56,2011-11-25 06:53:08,1
+Make sf::Ftp::SendCommand public,Casey W,,closed,2011-11-05 12:48:33,2011-11-11 17:46:40,1
+Support of vertex shaders in sf::Shader class,Kévin Guilloy,,closed,2011-09-30 16:26:01,2011-09-30 17:11:36,1
+Fix missing opengl-header while cross-compiling,Thomas Knepper,thknepper@gmx.de,closed,2011-09-28 20:07:39,2011-09-29 09:40:34,1
+added sf::Image::IsEqual method,Robert Hildebrandt,,closed,2011-09-19 14:50:54,2011-09-19 14:54:41,1
+sf::String constructor for iterators,Stefan Schindler,,closed,2011-08-23 07:02:55,2011-08-23 14:53:37,1
+Fix readme markdown formatting & change file extension for github automagic formatting,Elisée Maurer,,closed,2011-08-10 12:17:50,2011-08-10 12:54:22,3
+CMake Variables,Martin Foot,martin@mfoot.com,closed,2011-08-07 13:36:12,2011-08-07 16:57:43,1
+SFML_FIND_COMPONENTS fix/default behaviour,Stefan Schindler,,closed,2011-06-26 13:17:57,2011-07-02 20:22:57,1
