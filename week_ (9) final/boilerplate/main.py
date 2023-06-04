@@ -1,36 +1,43 @@
-# Install PyGithub via: $ pip install PyGithub
 from github import Github
+import csv
 
-# First create a Github instance:
+g = Github("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")
 
-# using an access token
-g = Github("your access token here")
+repo_owner = 'kunjgit'
+repo_name = 'GameZone'
 
-# You can get the access token by going to github.com:
-# Click on your avatar -> Settings -> Developer settings -> Personal access tokens 
-# -> Tokens (classic) -> Generate new token
-
-# Specify the repository details
-repo_owner = 'gungui98'
-repo_name = 'python-datascience-course'
-
-# Get the repository object
 repo = g.get_repo(f"{repo_owner}/{repo_name}")
 
-# Get all open pull requests
-open_prs = repo.get_pulls(state='open')
+pulls = repo.get_pulls(state='all')
 
-# Get all closed pull requests
-closed_prs = repo.get_pulls(state='closed')
-
-# Print the open pull requests
-print("Open Pull Requests:")
-for pr in open_prs:
-    print(f"#{pr.number}: {pr.title}")
-    print(f"Created at: {pr.created_at}") # Print the time when the pull request was open
-    print(f"Updated at: {pr.updated_at}") # Print the time when the pull request was last updated
-    print(f"Additions: {pr.additions}") # Print the number of additions in the pull requests 
-    print(f"Commits: {pr.commits}") # Print the number of commits in the pull request
-
-# For more reference, check out the PyGithub documentation: https://pygithub.readthedocs.io/en/latest/introduction.html
-# Or simply ask ChatGPT for help =)))
+commits = []
+for pull in pulls:
+    for commit in pull.get_commits():
+        commits.append(commit)
+        
+commit_data = []
+for commit in commits:
+    commit_id=commit.sha
+    author_name=commit.commit.author.name
+    author_email=commit.commit.author.email
+    message=commit.commit.message
+    date_of_commit=commit.commit.author.date
+    num_files_changed=len(commit.files)
+    files_changed=[]
+    for file in commit.files:
+        files_changed.append([file.filename])
+    commit_data.append([commit_id,
+                        author_name,
+                        author_email,
+                        message,
+                        date_of_commit,num_files_changed,
+                       files_changed])
+df = pd.DataFrame(commit_data, columns=['commit_id',
+                                        'author_name',
+                                        'author_email',
+                                        'message',
+                                        'date_of_commit',
+                                        'num_files_changed','files_changed'
+                                        ])
+df=df.set_index('commit_id')
+df.to_csv('commit_data.csv')
