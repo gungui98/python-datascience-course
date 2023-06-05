@@ -6,7 +6,7 @@ import commits
 # First create a Github instance:
 
 # using an access token
-token = "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"
+token = "insert_token_here"
 g = Github(token)
 
 # You can get the access token by going to github.com:
