@@ -4,7 +4,7 @@ from github import Github
 # First create a Github instance:
 
 # using an access token
-g = Github("your access token here")
+g = Github("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")
 
 # You can get the access token by going to github.com:
 # Click on your avatar -> Settings -> Developer settings -> Personal access tokens 
