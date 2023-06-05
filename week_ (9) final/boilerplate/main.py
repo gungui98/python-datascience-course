@@ -5,7 +5,7 @@ import csv
 # First create a Github instance:
 
 # using an access token
-g = Github("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")
+g = Github("")
 
 # You can get the access token by going to github.com:
 # Click on your avatar -> Settings -> Developer settings -> Personal access tokens 
