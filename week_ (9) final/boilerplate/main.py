@@ -1,10 +1,13 @@
 # Install PyGithub via: $ pip install PyGithub
 from github import Github
-
+import pandas as pd
+import pull_requests 
+import commits
 # First create a Github instance:
 
 # using an access token
-g = Github("your access token here")
+token = "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"
+g = Github(token)
 
 # You can get the access token by going to github.com:
 # Click on your avatar -> Settings -> Developer settings -> Personal access tokens 
@@ -13,24 +16,25 @@ g = Github("your access token here")
 # Specify the repository details
 repo_owner = 'gungui98'
 repo_name = 'python-datascience-course'
-
 # Get the repository object
 repo = g.get_repo(f"{repo_owner}/{repo_name}")
 
-# Get all open pull requests
-open_prs = repo.get_pulls(state='open')
+#DEBUG
+CREATE_pr = False
+CREATE_cm = True
+#Pull request
+if CREATE_pr:
+    pull_requests.extract_project_PRs(repo, g)
 
-# Get all closed pull requests
-closed_prs = repo.get_pulls(state='closed')
+if CREATE_cm:
+    # Print the open pull requests
+    print("Open Pull Requests:")
 
-# Print the open pull requests
-print("Open Pull Requests:")
-for pr in open_prs:
-    print(f"#{pr.number}: {pr.title}")
-    print(f"Created at: {pr.created_at}") # Print the time when the pull request was open
-    print(f"Updated at: {pr.updated_at}") # Print the time when the pull request was last updated
-    print(f"Additions: {pr.additions}") # Print the number of additions in the pull requests 
-    print(f"Commits: {pr.commits}") # Print the number of commits in the pull request
+    df_pr = pd.read_csv('C:/Users/Admin/Desktop/project/python-datascience-course/week_ (9) final/boilerplate/data/pr_data.csv')
+    cnt = 0
+    for i in df_pr['contributor']:
+        cnt += 1
+        commits.extract_project_commits(i, token, cnt)
 
 # For more reference, check out the PyGithub documentation: https://pygithub.readthedocs.io/en/latest/introduction.html
 # Or simply ask ChatGPT for help =)))
