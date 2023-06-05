@@ -32,7 +32,7 @@ def draw_bar_plot():
     # Draw bar plot
     fig = plt.figure(figsize = (10, 10))
     order = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
-    pic = sns.barplot(data = df_bar, x = 'Year', hue = 'Month', y = 'value', errorbar = None, hue_order = order, palette = 'tab10')
+    pic = sns.barplot(data = df_bar, x = 'Year', hue = 'Month', y = 'value', ci = None, hue_order = order, palette = 'tab10')
     pic.set(xlabel = 'Years', ylabel = 'Average Page Views')
     plt.legend(title = 'Month', loc = "upper left")
 
