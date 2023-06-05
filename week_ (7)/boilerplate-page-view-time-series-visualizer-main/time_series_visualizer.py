@@ -32,7 +32,7 @@ def draw_bar_plot():
     # Draw bar plot
     fig = plt.figure(figsize = (10, 10))
     order = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
-    pic = sns.barplot(data = df_bar, x = 'Year', hue = 'Month', y = 'value', ci = None, hue_order = order, palette = 'tab10')
+    pic = sns.barplot(data = df_bar, x = 'Year', hue = 'Month', y = 'value', errorbar = None, hue_order = order, palette = 'tab10')
     pic.set(xlabel = 'Years', ylabel = 'Average Page Views')
     plt.legend(title = 'Month', loc = "upper left")
 
@@ -45,6 +45,8 @@ def draw_box_plot():
     df_box = df.copy()
     df_box.reset_index(inplace = True)
     df_box['year'] = [d.year for d in df_box.date]
+    df_box['month'] = [int(d.strftime('%m')) for d in df_box.date]
+    df_box = df_box.sort_values('month')
     df_box['month'] = [d.strftime('%b') for d in df_box.date]
 
     # Draw box plots (using Seaborn)
